@@ -70,6 +70,7 @@
 - [[https://web.stanford.edu/class/cs357/lectures/lec9.pdf][SMT Solver]]
 
 Optional: Shankar, [[http://fm.csl.sri.com/SSFT18/speaklogicV8.pdf][Speaking Logic]]
+
 *Tool*: Z3
 
 ** Topic 8: Type Systems
