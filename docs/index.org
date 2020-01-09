@@ -1,0 +1,96 @@
+#+TITLE:     CSCE 990 (Spring 2020): Software Verification
+
+#+AUTHOR:    ThanhVu H. Nguyen
+#+EMAIL:     tnguyen@cse.unl.edu
+#+OPTIONS: num:nil 
+#+OPTIONS: html-postamble:nil
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="worg.css"/>
+
+#+begin_src
+Meetings: MWF 10:30AM - 11:20PM,  LPH 124
+
+Instructor: ThanhVu Nguyen
+Email: tnguyen @ unl.edu
+Office Hours: Tues 2:00PM - 4:00PM, Avery 364
+#+end_src
+
+
+* [[./schedule.html][CLASS SCHEDULE]]
+
+* Description
+This special topics course is a research seminar in *software verification*. 
+The course will focus on active research areas in programming languages and software engineering, but the specific topics will be largely determined by a combination of instructor fiat and the interests of the students.
+
+
+* Requirements and Grading
+You will be evaluated based on discussion and writting summaries on reading assignments, and completing a final project.
+
+** Reading
+
+We will read papers covering various topics including model checking, symbolic and concolic executions (e.g., for test case generation), constraint solving (e.g., SMT solvers), interactive theorem proving, type inference/checking, automatic debugging, invariant generation (dynamic vs static analyses), automatic program repair, program synthesis (e.g., syntax-guided synthesis), verifying concurrent programs.
+
+On average, we will discuss **three papers** a week (~50 minutes to each paper). You are responsible for reading at least **two papers** in advance for any given discussion.
+
+*** Discussion
+
+At the beginning of each paper discussion I will choose up to *three students* at random. Each student will give a *five-minute* presentation about the paper.  This presentation must includes:
+
+1. the problem (what is it? why is it interesting)
+1. existing approaches (what are they? their limitations)
+1. the proposed technical approach (also talk about the strengths of approach and how it addresses weaknesses of existing works)
+1. limitations of the proposed approach and lists ways in which it might be improved.
+
+You can also include other information, such as your opinion about the work, or its relation to other work you may know.
+The goals of this approach are to encourage all participants to read the material thoroughly in advance, to provide jumping-off points for detailed discussions, and to allow me to evaluate participation.
+
+In addition, these students will help initiate and engage discussions about the paper.
+
+*** Writing Summaries
+One of the chosen students is responsible to write a summary of the paper.
+The writing will focus on using *examples* to demonstrate the presented points above.
+That is, you will use concrete examples (can be those taken directly from the paper) to demonstrate the problem, limitations of existing works, and the technical approach. 
+
+The writing will be in *Markdown* (so that you can use code snippets effectively).   You must submit it this writing by the end of each week (*11:50 PM Sunday*).
+
+
+
+** Project
+By the end of the 3th week, submit a project proposal (1-2 page) that explains what you want to do and what you expect to learn from the project (i.e., why is it interesting to you?).
+
+In addition, include:
+
+1. A survey of the work in selected topic (e.g., read 3 papers thoroughly and 3 other papers superficially).
+1. A work schedule. Make sure to budget time for writing a short project paper describing the project described below.
+
+*** Report
+Submit a project report (5-7 pages) during dead week (*11:50 PM Sunday*).
+
+You will write the report as if you were submitting to a conference such as PLDI or FSE (e.g., using LaTeX templates for these conferences and including all the usual sections such as Introduction, Body, Related Work, Conclusion).
+Turn in the complete PDF as well as your LaTeX source.
+
+
+
+
+* Course Policy
+
+- It is CSE Department policy that all students in CSE courses are expected to regularly check their email so they do not miss important announcements.
+
+- All homework assignments, quizzes, exams, etc. must be your own work. No direct collaboration with fellow students, past or current, is allowed unless otherwise stated. The Computer Science & Engineering department has an [[https://cse.unl.edu/academic-integrity-policy][Academic Integrity Policy]]. All students enrolled in any computer science course are bound by this policy. You are expected to read, understand, and follow this policy. Violations will be dealt with on a case by case basis and may result in a failing assignment or a failing grade for the course itself.
+
+- The CSE Department has an [[https://cse.unl.edu/contact-form][anonymous contact form]] that you may use to voice your concerns about any problems in the course or department if you do not wish to be identified.
+
+- Consider the [[http://cse.unl.edu/src][Student Resource Center]] in Avery 12 for additional help (e.g., TA's, tutorings, etc)
+
+- Students with disabilities are encouraged to contact the instructor for a confidential discussion of their individual needs for academic accommodation. It is the policy of the University of Nebraska-Lincoln to provide flexible and individualized accommodations to students with documented disabilities that may affect their ability to fully participate in course activities or to meet course requirements. To receive accommodation services, students must be registered with the Services for Students with Disabilities (SSD) office, 132 Canfield Administration, 472-3787 voice or TTY.
+
+
+* Acknowledgements
+Thanks [[https://web.eecs.umich.edu/~weimerw/][Westley Weimer]] for letting me reuse and adapt course materials from his graduate PL seminar courses.
+
+
+
+
+-----
+
+
+
