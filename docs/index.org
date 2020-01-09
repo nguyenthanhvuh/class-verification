@@ -58,6 +58,7 @@ The writing will be in *Markdown* (so that you can use code snippets effectively
 
 
 ** Project
+*** Proposal
 By the end of the 3th week, submit a project proposal (1-2 page) that explains what you want to do and what you expect to learn from the project (i.e., why is it interesting to you?).
 
 In addition, include:
@@ -92,8 +93,6 @@ Thanks [[https://web.eecs.umich.edu/~weimerw/][Westley Weimer]] for letting me r
 
 
 
-
------
 
 
 
