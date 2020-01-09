@@ -4,7 +4,7 @@
 #+EMAIL:     tnguyen@cse.unl.edu
 #+OPTIONS: num:nil 
 #+OPTIONS: html-postamble:nil
-#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="worg.css"/>
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="https://cse.unl.edu/~tnguyen/css/worg.css"/>
 
 #+begin_src
 Meetings: MWF 10:30AM - 11:20PM,  LPH 124
