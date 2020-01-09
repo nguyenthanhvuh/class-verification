@@ -41,7 +41,7 @@
 *Tool*: Java Symbolic PathFinder (SE for Java), KLEE (SE for C)
 
 
-**# Topic 5: Dynamic analysis, Invariant Generation
+** Topic 5: Dynamic analysis, Invariant Generation
 
 1. Ernst et al., [[https://ece.uwaterloo.ca/~agurfink/ece653w17/assets/pdf/W12-Daikon.pdf][Daikon: Dynamically Discovering Likely Program Invariants]]. **Note**: Just read the slides.
 1. Nguyen et al., [[https://cse.unl.edu/~tnguyen/Pub/symtraces_pres.pdf][SymInfer: Inferring Program Invariants using Symbolic States]]. **Note**: Just read the slides.
@@ -94,3 +94,4 @@ Optional:
 - Build System: https://www.cs.odu.edu/~zeil/cs350/f18/Public/make/index.html
 - Call graphs etc: http://web.cs.iastate.edu/~weile/cs513x/4.ControlFlowAnalysis.pdf
 - Dependency Graph/Slicing: http://web.cs.iastate.edu/~weile/cs513x/5.DependencySlicing.pdf
+  

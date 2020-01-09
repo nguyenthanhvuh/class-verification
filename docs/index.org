@@ -8,7 +8,6 @@
 
 #+begin_src
 Meetings: MWF 10:30AM - 11:20PM,  LPH 124
-
 Instructor: ThanhVu Nguyen
 Email: tnguyen @ unl.edu
 Office Hours: Tues 2:00PM - 4:00PM, Avery 364
@@ -27,30 +26,34 @@ You will be evaluated based on discussion and writting summaries on reading assi
 
 ** Reading
 
-We will read papers covering various topics including model checking, symbolic and concolic executions (e.g., for test case generation), constraint solving (e.g., SMT solvers), interactive theorem proving, type inference/checking, automatic debugging, invariant generation (dynamic vs static analyses), automatic program repair, program synthesis (e.g., syntax-guided synthesis), verifying concurrent programs.
+We will read papers covering various topics including model checking, symbolic and concolic executions, 
+constraint solving (e.g., SMT solvers), interactive theorem proving, type inference/checking, automatic debugging, invariant generation (dynamic vs static analyses), automatic program repair, program synthesis (e.g., syntax-guided synthesis), verifying concurrent programs.
 
-On average, we will discuss **three papers** a week (~50 minutes to each paper). You are responsible for reading at least **two papers** in advance for any given discussion.
+On average, we will discuss **three papers** a week (~50 minutes to each paper). 
+You are responsible for reading at least **two papers** in advance for any given discussion.
 
 *** Discussion
 
-At the beginning of each paper discussion I will choose up to *three students* at random. Each student will give a *five-minute* presentation about the paper.  This presentation must includes:
+At the beginning of each paper discussion I will choose up to *three students* at random. 
+Each student will give a *five-minute* presentation about the paper.  
+This presentation must includes:
 
-1. the problem (what is it? why is it interesting)
-1. existing approaches (what are they? their limitations)
-1. the proposed technical approach (also talk about the strengths of approach and how it addresses weaknesses of existing works)
+1. the problem (what is it? why is it interesting?)
+1. existing approaches (what are they? what are their limitations?)
+1. the proposed technical approach (also talk about the strengths of approach and how the approach addresses the weaknesses of existing works)
 1. limitations of the proposed approach and lists ways in which it might be improved.
 
 You can also include other information, such as your opinion about the work, or its relation to other work you may know.
 The goals of this approach are to encourage all participants to read the material thoroughly in advance, to provide jumping-off points for detailed discussions, and to allow me to evaluate participation.
 
-In addition, these students will help initiate and engage discussions about the paper.
+In addition, these students will help engage discussions about the paper.
 
 *** Writing Summaries
 One of the chosen students is responsible to write a summary of the paper.
 The writing will focus on using *examples* to demonstrate the presented points above.
-That is, you will use concrete examples (can be those taken directly from the paper) to demonstrate the problem, limitations of existing works, and the technical approach. 
+That is, you will use concrete examples (e.g., those from the paper) to demonstrate the problem, limitations of existing works, and the technical approach. 
 
-The writing will be in *Markdown* (so that you can use code snippets effectively).   You must submit it this writing by the end of each week (*11:50 PM Sunday*).
+The writing will be in *Markdown* (so that you can use code snippets effectively).   You must submit it this writing by the end of each week (*11:59 PM Sunday*).
 
 
 
@@ -63,7 +66,7 @@ In addition, include:
 1. A work schedule. Make sure to budget time for writing a short project paper describing the project described below.
 
 *** Report
-Submit a project report (5-7 pages) during dead week (*11:50 PM Sunday*).
+Submit a project report (5-7 pages) during dead week (*11:59 PM Sunday*).
 
 You will write the report as if you were submitting to a conference such as PLDI or FSE (e.g., using LaTeX templates for these conferences and including all the usual sections such as Introduction, Body, Related Work, Conclusion).
 Turn in the complete PDF as well as your LaTeX source.
