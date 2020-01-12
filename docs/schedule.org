@@ -9,7 +9,15 @@
 
 * Announcements
 
-* Schedule
+| Date   | Summary                      | HW |
+|--------+------------------------------+----|
+| T 1/14 | Syllabus                     |    |
+| T 2/11 | No Class (Instructor travel) |    |
+
+
+
+
+* Reading List
 
 ** Topic 1: Intro
 
@@ -96,3 +104,5 @@ Optional:
 - Call graphs etc: http://web.cs.iastate.edu/~weile/cs513x/4.ControlFlowAnalysis.pdf
 - Dependency Graph/Slicing: http://web.cs.iastate.edu/~weile/cs513x/5.DependencySlicing.pdf
   
+
+
