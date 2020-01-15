@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>CSCE990 Software Verification - PROJECTS</title>
+<!-- 2017-11-06 Mon 15:43 -->
+<meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta  name="generator" content="Org-mode" />
+<meta  name="author" content="ThanhVu H. Nguyen" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { color: green; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  pre.src-sh:before    { content: 'sh'; }
+  pre.src-bash:before  { content: 'sh'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-R:before     { content: 'R'; }
+  pre.src-perl:before  { content: 'Perl'; }
+  pre.src-java:before  { content: 'Java'; }
+  pre.src-sql:before   { content: 'SQL'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.right  { text-align: center;  }
+  th.left   { text-align: center;   }
+  th.center { text-align: center; }
+  td.right  { text-align: right;  }
+  td.left   { text-align: left;   }
+  td.center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara:nth-child(2) { display: inline; }
+  .footpara { display: block; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  /*]]>*/-->
+</style>
+<link rel="stylesheet" type="text/css" href="http://thomasf.github.io/solarized-css/solarized-light.css"/>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2013 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">CSCE990 Software Verification - PROJECTS</h1>
+
+
+<div id="outline-container-sec-1" class="outline-2">
+<h2 id="sec-1">Project Guidelines</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+All students are expected to select and complete a project that explores more deeply a topic covered in the course (or a related topic which we didn't cover). 
+</p>
+
+<p>
+The main goal of the project is for you to learn and understand topic in depth.
+The goal is not to force you all to produce novel results in one semester. 
+Course projects like this often lead to collaborations that eventually yield exciting research. 
+In the hopefully-likely event that you end up enjoying your project, come see me about taking it further (say, to publication).
+</p>
+</div>
+
+
+<div id="outline-container-sec-1-1" class="outline-3">
+<h3 id="sec-1-1">Project Proposal</h3>
+<div class="outline-text-3" id="text-1-1">
+<p>
+By the end of the 4th week, submit a <b>project proposal</b> (one to two pages). 
+The proposal should explain what you expect to learn from the project (i.e., why is it interesting to you?) and should include a work schedule. 
+Make sure to budget time for writing a short project paper (5 pages) describing the project and/or for preparing a short (10 minute) project presentation during the last week of classes. 
+The purpose of the proposal is for me to give you feedback on its feasibility.
+</p>
+</div>
+</div>
+
+
+<div id="outline-container-sec-1-2" class="outline-3">
+<h3 id="sec-1-2">Project Scale</h3>
+<div class="outline-text-3" id="text-1-2">
+<p>
+20-30 should suffice (so if you actually put in about 2 hours a week, you would end up with pretty good project).
+But don't attempt to do everything in "one long weekend", it will not work.
+</p>
+
+<p>
+You are welcome to tackle a more ambitious project. 
+Such a project should have "stages" so that you have something to show at the end of the semester. 
+I (or your advisor) can provide extra guidance on such projects.
+</p>
+
+<p>
+If you have a great idea and need help, feel free to work as a pair. 
+However, given the scope of most projects, I think they are better done alone. 
+Notably, the grading for a two-person project will actually require "twice as much work" rather than the standard "1.5-times as much work". 
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-2" class="outline-2">
+<h2 id="sec-2">Project Kinds</h2>
+<div class="outline-text-2" id="text-2">
+<p>
+There are two main kinds of projects: (i) a survey of the work in some area related to program verification, or (ii) a research project that involves creating something new.
+</p>
+</div>
+
+<div id="outline-container-sec-2-1" class="outline-3">
+<h3 id="sec-2-1">Survey Projects</h3>
+<div class="outline-text-3" id="text-2-1">
+<p>
+Pick an area that you are interested in.
+Read at least <b>six papers</b> thoroughly and at least <b>six other</b> papers "superficially". 
+I can provide some paper suggestions but you should do most of the work in tracking the relevant papers. 
+</p>
+
+<p>
+Write a paper on what you have learned.  
+It should answer the following questions:
+</p>
+<ol class="org-ol">
+<li>What are the basic problems?
+</li>
+<li>What are the basic approaches to solving them?
+</li>
+<li>What are the main achievements to date? 
+</li>
+<li>What are the open problems?
+</li>
+<li>What further research or experiments do you propose in this area? Why?
+</li>
+</ol>
+
+<p>
+Keep the scope narrow enough so that you can learn something well and write something interesting.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-2-2" class="outline-3">
+<h3 id="sec-2-2">Research Projects</h3>
+<div class="outline-text-3" id="text-2-2">
+<p>
+These projects often involve finding some existing problem (or define a new one) and propose a technique to solve it.
+The technique can be either a new one or an improved/extended version of an existing one.
+</p>
+
+<p>
+These projects are the hardest because they always involve some survey work and often involve some implementation. 
+You can always start with a survey project and then turn it into a research one: if you have good ideas one-third of the way in, implement them. 
+If not, read many more papers. In any event, you still have to write the paper. 
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-3" class="outline-2">
+<h2 id="sec-3">Project Paper</h2>
+<div class="outline-text-2" id="text-3">
+<p>
+You will write your project paper as if you were submitting to a conference such as PLDI or ICSE (e.g., using LaTex templates for these conferences). Turn in the complete 5-page PDF as well as your LaTeX source.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-4" class="outline-2">
+<h2 id="sec-4">Project Status Update</h2>
+<div class="outline-text-2" id="text-4">
+<p>
+The Status Update is a short email (less than a page) that explains what you have done so far and what you plan to do next..
+It is due at the end of every month after your proposal is approved.
+This allows me to help if you are stuck.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-5" class="outline-2">
+<h2 id="sec-5">Bonus: Project Presentation</h2>
+<div class="outline-text-2" id="text-5">
+<p>
+You can choose whether to give a 10-presentation of your project.
+If you give a project presentation, I take that into account when evaluating and grading your final project (e.g., delivering a good presentation counts as some amount of work done, so I expect a bit less from the writeup). 
+By contrast, if you turn in only the final project writeup, you should ensure that it contains enough information for me to assess your work done.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-6" class="outline-2">
+<h2 id="sec-6">Project Ideas</h2>
+<div class="outline-text-2" id="text-6">
+<p>
+I encourage you to define your own project. 
+In case you do not have any ideas, here are some starting suggestions.
+</p>
+</div>
+
+<div id="outline-container-sec-6-1" class="outline-3">
+<h3 id="sec-6-1">Suggestions For Survey Projects</h3>
+<div class="outline-text-3" id="text-6-1">
+<p>
+Survey Topic        Description
+</p>
+
+<p>
+Constructs for Concurrency        See Chapter 14 in Winskel for leads. You must go significantly beyond the simple pi calculus (which we'll probably cover in class).
+</p>
+
+<p>
+Formal PL Semantics and Databases        Start with Arasu and Widom's A Denotational Semantics for Continuous Queries over Streams and Relations or Widom's A Denotational Semantics for the Starburst Production Rule Language for a veiw from the DB side. Then check out Goldsmith et al.'s Relational Queries Over Program Traces for a PL perspective. You might well grow this into an implementation project that checks embedded SQL statements (in, e.g., Java programs) against a formal model of your own devising.
+</p>
+
+<p>
+Axiomatic semantics for parallel languages        See Apt and Olderog's Verification of Sequential and Concurrent Programs.
+</p>
+
+<p>
+Region-Based Memory Management        Is it possible to have a type-safe language where the programmer has some control over the memory deallocation? Regions offer one possible approach. Start with the seminal paper by Talpin and then take a look at Cyclone.
+Constraint-based program analysis        Start with Alex Aiken's talk on the topic. The read more of the literature.
+</p>
+
+<p>
+Refinement Types        A method to refine types for the purpose of allowing the type checker to perform more extensive tests. For example we might want to refine the type of lists into two subtypes, the list of even length and those of odd length (or non-empty lists and possibly-empty lists). With such information a compiler can unroll loops involving lists. Start here.
+</p>
+
+<p>
+Implementation choices for polymoprhism        Care must be taken when implementing polymorphic languages so that the representation size of all types are the same. This is sub-optimal and interesting schemes have been devised. Start with the overview in Greg Morrisett's thesis Compiling with Types.
+</p>
+
+<p>
+Monads        Monads are a discipline for simulating the effects of imperative programming in logic or purely functional programming languages. Don't forget Haskell!
+Continuation-passing style semantics        Continuation passing style is a form of operational semantics using continuations. You can start with Duba et al. paper Typing First-Class Continuations in ML from POPL '91 and Filinski's Linear Continuations in POPL '92.
+Semantics of finalizers        Java has the notion of a finalizer, a function that is invoked when an object is garbage collected. This has some interesting consequences, mostly having to do with the ordering of finalizers. See the section from the Java Reference Manual: 12.6 Finalization of Class Instances.
+Languages with multiple inheritance        Java has multiple inheritance of specifications and C++ has also multiple inheritance of implementation. Explore the implications. A starting point might be Cardelli's paper A Semantics of Multiple Inheritance in Lecture Notes in Computer Science, vol 173, 1984, pp 51&#x2013;67.
+Suggestions For Implementation Projects
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-6-2" class="outline-3">
+<h3 id="sec-6-2">Implementation project topics can also serve as survey project topics.</h3>
+<div class="outline-text-3" id="text-6-2">
+<p>
+Implementation Topic        Description
+Receiver class analysis with abstract interpretation        Design and implement an analysis to infer the run-time subclass of a value statically declared to have an abstract class. This can be used in compilers for object-oriented languages to optimize the run-time method dispatch.
+Range analysis with abstract interpretation        Design and implement an analysis to infer ranges for integer variables. The results of such analyses can be used to optimize array-bounds checking in type-safe languages such as Java, Modula-3 and ML.
+Implementation choices for exceptions        Read about the implementation of exceptions in C++, ML and Java. Try these implementations on a small fragment of lambda-calculus with exceptions.
+Semantics for Dijkstra's guarded-command language        The guarded-command language is a very simple nondeterministic language. It is described in Winskel Chapter 14 and also in Dijkstra's book A Discipline of Programming. A verification condition generator for a GCL might be interesting.
+Suggestions For Research Projects
+</p>
+
+<p>
+Domain-Specific Language Bug-Finding        Choose a DSL for which a large number of "programs" are available (e.g., UnrealScript, Excel Spreadsheets, Infinity Engine Scripting). Troll around in the DSL communities until you find common mistakes or complaints. Write a bug-finding tool that locates mistakes in such programs. This can be as "simple" as FindBugs or as complex as BLAST. Aim for a data-flow analysis of some sort.
+Domain-Specific Language Modeling        Choose a DSL (as above) with non-trivial semantics. Common mistakes and complaints can point you toward areas of complexity. Come up with a formal type system or operational semantics (as appropriate) to capture the essence of some feature. For example, you might look at type qualifiers like "transient" and "travel" in UnrealScript and then build up an operational semantics model (possibly by extending or translating to the pi calculus) that describes them. You might use Mosterman and Vangheluwe's Towards and Executable Denotational Semantics for Causal Block Diagrams (which nominally centers on embedded control systems) as an entry-point into the literature.
+Language-Based Security Analysis        Using program analyses to spot certain classes of security errors is an approach that has been rapidly gaining in popularity. You might get started with David Wagner's work (e.g., type qualifiers and format string vulnerabilities, model checking linux for security violations), then talk to Dave Evans, then pick one of the top 20 security vulnerabilities, then write a program analysis for detecting it. Pay special attention to false positives and false negatives.
+TinyOS and nesC projects.        Quite a few such projects were suggested by David Gay. TinyOS is particularly appropriate if you like operating systems, embedded systems or networking.
+Custom Memory management.        Have you ever wondered why type-safe languages let you almost everything except manage your memory? Have you noticed that virtually all large software systems (e.g. Apache, Linux, gcc) have their own customized allocators? Apparently it pays off to have an allocator that exploits the details of the particular strategy for allocation and deallocation that your application uses. All of this is not available to users of type-safe languages. Can we design a mechanism that allows type-safe user-specified memory management?
+There are two things that are unsafe about manual memory management: you have a buffer of elements of type char and you carve it out into pieces which are then treated as having some other types; and (much more serious) in the presence of manual deallocation you have the risk of deallocating too early and thus having dangling pointers. Deallocating too late is also bad but technically not unsafe.
+</p>
+
+<p>
+Memory management analysis.        Scott McPeak has implemented an extension to the Boehm-Weiser garbage collector to monitor the execution of a program. Periodically, the program is paused and all allocated blocks are scanned for pointers. Then a graph is constructed with the nodes being the blocks and the edges the pointers between them. You will see that there is a lot of structure in these graphs: you can recognize linked lists, doubly linked lists and even leaked structures. Build an analysis tool that examines this graph (which also contains allocation sites) and tries to predict structural invariants for the data structures at various points in the program. Ambitious: Then, take these invariants and try to verify statically that they are preserved on all executions.
+Type-safe polymorphism in C.        In the C programming language you must use void* with a lot of unsafe casting to implement polymorphic functions (functions that can operate on object of different types). In Java there are two mechanisms. Generics (in the most recent versions) allow you to implement parametric polymorphism (e.g., a list data structure in which all elements are known to be of the same type). Java also has subtype polymorphism (a function that can operate on Object, can be invoked with an object of any type). Parametric polymorphism has the advantage that it does not require run-time checking. This project would explore extensions of the C programming language with support for polymorphism. We want these extensions to be minimal and preferably to not break compatibility with existing programs (e.g., a module compiled with your extended compiler can still be linked with a library module that has been compiled with standard compilers).
+Specifying pointer-based data-structures.        Programmers have a simple but effective vocabulary to communicate invariants about many common data structures (an array of circular lists, a tree with the leaves linked in a circular list). Unfortunately, we do not know of a similarly effective mechanism to communicate these invariants to a tool that can enforce them. Types are probably too weak for this. Full-blown specifications are too hard to use. George Necula has some work in this direction but I think that a lot more can be done.
+</p>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>

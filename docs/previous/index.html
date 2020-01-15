@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>CSCE 990: Software Verification</title>
+<!-- 2017-08-09 Wed 16:24 -->
+<meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta  name="generator" content="Org-mode" />
+<meta  name="author" content="ThanhVu H. Nguyen" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { color: green; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  pre.src-sh:before    { content: 'sh'; }
+  pre.src-bash:before  { content: 'sh'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-R:before     { content: 'R'; }
+  pre.src-perl:before  { content: 'Perl'; }
+  pre.src-java:before  { content: 'Java'; }
+  pre.src-sql:before   { content: 'SQL'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.right  { text-align: center;  }
+  th.left   { text-align: center;   }
+  th.center { text-align: center; }
+  td.right  { text-align: right;  }
+  td.left   { text-align: left;   }
+  td.center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara:nth-child(2) { display: inline; }
+  .footpara { display: block; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  /*]]>*/-->
+</style>
+<link rel="stylesheet" type="text/css" href="../../Pub/solarized-light.css"/>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2013 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">CSCE 990: Software Verification</h1>
+<pre class="example">
+Instructor: ThanhVu (Vu) Nguyen
+Meetings: Tues and Thurs, Room: Burnett 202, 11:00AM - 12:15PM
+
+Email: tnguyen at cse.unl.edu
+Office: 359 Avery Hall
+Office Hours: Thursdays 12:30 PM - 1:30 PM and by appointment
+</pre>
+
+
+<div id="outline-container-sec-1" class="outline-2">
+<h2 id="sec-1">Announcements:</h2>
+<div class="outline-text-2" id="text-1">
+</div><div id="outline-container-sec-1-1" class="outline-3">
+<h3 id="sec-1-1">First Class Meeting</h3>
+<div class="outline-text-3" id="text-1-1">
+<p>
+The first meeting will take place on Tuesday 8/22 (at the usual time and place: 11AM in Burnett 202). 
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-2" class="outline-2">
+<h2 id="sec-2">Overview</h2>
+<div class="outline-text-2" id="text-2">
+<p>
+This special topics course is a research seminar in software verification. 
+The course will focus on active research areas in programming languages and software engineering, but the specific topics will be largely determined by a combination of instructor fiat and the interests of the students.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-3" class="outline-2">
+<h2 id="sec-3">Requirements and Grading</h2>
+<div class="outline-text-2" id="text-3">
+<p>
+You will be evaluated based on reading &amp; discussion and completing a final project.
+</p>
+</div>
+
+<div id="outline-container-sec-3-1" class="outline-3">
+<h3 id="sec-3-1">Reading</h3>
+<div class="outline-text-3" id="text-3-1">
+<p>
+We will read papers covering various topics including model checking, symbolic and concolic executions (e.g., for test case generation), constraint solving (e.g., SMT solvers), interactive theorem proving, type inference/checking, automatic debugging, invariant generation (dynamic vs static analyses), automatic program repair, program synthesis (e.g., syntax-guided synthesis), verifying concurrent programs.
+</p>
+
+<p>
+On average, we will discuss <b>three papers</b> a week (~50 minutes to each paper) from the list below. 
+You are responsible for reading at least <b>two papers</b> in advance for any given discussion.
+</p>
+
+<p>
+At the beginning of <b>each paper</b> discussion I will choose up to <b>three students</b> at random. 
+Each student will give a <b>five-minute</b> presentation that at least 
+</p>
+<ol class="org-ol">
+<li>summarizes the work, 
+</li>
+<li>lists its strengths, and 
+</li>
+<li>lists ways in which it might be improved.
+</li>
+</ol>
+<p>
+You can also include other information, such as your opinion about the work, or its relation to other work you may know.
+</p>
+
+<p>
+The goals of this approach are to encourage all participants to read the material thoroughly in advance, to provide jumping-off points for detailed discussions, and to allow me to evaluate participation.
+</p>
+
+
+<p>
+<b>Tools</b>: Usually each research paper has an implementation tool. 
+I will take into account when evaluating if you try out the tool and discuss some interesting things that it can or cannot do (e.g., try the the tool on some small but nontrivial examples).
+This will help you understand the readings better and give you ideas on how to use existing tools in your own work.
+</p>
+</div>
+
+<div id="outline-container-sec-3-1-1" class="outline-4">
+<h4 id="sec-3-1-1"><a href="./reading.html">Reading List</a></h4>
+</div>
+</div>
+
+
+<div id="outline-container-sec-3-2" class="outline-3">
+<h3 id="sec-3-2">Project</h3>
+<div class="outline-text-3" id="text-3-2">
+<p>
+You are expected to select and complete a research project that explores more deeply a topic covered in the course (or a related topic which we didn't cover). 
+Examples including developing a new or improved technique to solve an existing problem, or applying an existing technique/tool to a new problem.
+This kind of research project typically involves some survey work, some implementation, and some evaluation.
+</p>
+
+<p>
+Several things to keep in mind:
+</p>
+<ul class="org-ul">
+<li>I do not expect very fancy project. The goal of the project is to allow you to customize the content of the course to your own interests. The goal is not to force you to produce novel results in one semester.
+</li>
+<li>25-30 hours should suffice (so if you actually put in about 2 hours a week, you would have a good project).
+</li>
+<li>But don't attempt to do everything in the last week, it will not work!
+</li>
+<li>You are welcome to tackle a more ambitious project. Such a project should have "stages" so that you have something to show at the end of the semester. I (or your advisor) can provide extra guidance on such projects.
+</li>
+<li>If you have a great idea and need help, feel free to work as a pair. However, given the scope of most projects, I think they are better done alone. Notably, the grading for a two-person project will actually require "twice as much work" rather than the standard "1.5-times as much work". 
+</li>
+<li>I encourage you to define your own project. In case you do not have any ideas or want to try something new, I can give you some project ideas.
+</li>
+</ul>
+
+
+<p>
+You will need to submit a project proposal and a project report.
+</p>
+<ol class="org-ol">
+<li><b>Proposal</b>: by the end of the 4th week, submit a project proposal (1-2 page) that explains what you want to do and what you expect to learn from the project (i.e., why is it interesting to you?). Here's an <a href="./pre_proposal.pdf">example</a> (in particular focus on the <b>Task Proprosal</b> section).
+</li>
+</ol>
+
+<p>
+In addition, include:
+</p>
+<ul class="org-ul">
+<li>A <b>survey of the work</b> in selected topic (e.g., read 3 papers thoroughly and 3 other papers superficially). 
+</li>
+<li>A <b>work schedule</b>. Make sure to budget time for writing a short project paper describing the project described below.
+</li>
+
+<li><b>Report</b>: by the last week of the semester, submit a project report (5-7 pages).
+<ul class="org-ul">
+<li>You will write the report as if you were submitting to a conference such as PLDI or ICSE (e.g., using LaTeX templates for these conferences and including all the usual sections such as Introduction, Body, Related Work, Conclusion). 
+</li>
+<li>Turn in the complete PDF as well as your LaTeX source.
+</li>
+</ul>
+</li>
+</ul>
+
+<p>
+<b>Presentation</b>: You can choose whether to give a 10-min presentation of your project in the final week.
+If you give a project presentation, I take that into account when evaluating and grading your final project (e.g., delivering a good presentation counts as some amount of work done, so I expect a bit less from the writeup). 
+By contrast, if you turn in only the final project writeup, you should ensure that it contains enough information for me to assess your work done.
+</p>
+</div>
+</div>
+</div>
+
+
+
+
+<div id="outline-container-sec-4" class="outline-2">
+<h2 id="sec-4">Additional Information</h2>
+<div class="outline-text-2" id="text-4">
+<ol class="org-ol">
+<li>It is CSE Department policy that all students in CSE courses are expected to regularly check their email so they do not miss important announcements.
+</li>
+
+<li>All homework assignments, quizzes, exams, etc. must be your own work. No direct collaboration with fellow students, past or current, is allowed unless otherwise stated. The  Computer Science &amp; Engineering department has an <a href="http://cse.unl.edu/academic-integrity-policy">Academic</a> Integrity Policy. All students enrolled in any computer science course are bound by this policy. You are expected to read, understand, and follow this policy. Violations will be dealt with on a case by case basis and may result in a failing assignment or a failing grade for the course itself.
+</li>
+
+<li>The CSE Department has an <a href="http://cse.unl.edu/contact-form">anonymous</a> contact form that you may use to voice your concerns about any problems in the course or department if you do not wish to be identified.
+</li>
+
+<li>Consider the <a href="http://cse.unl.edu/src">Student Resource Center</a> in Avery 12 for additional help (e.g., TA's, tutorings, etc)
+</li>
+
+<li>Students with disabilities are encouraged to contact the instructor for a confidential discussion of their individual needs for academic accommodation. It is the policy of the University of Nebraska-Lincoln to provide flexible and individualized accommodations to students with documented disabilities that may affect their ability to fully participate in course activities or to meet course requirements. To receive accommodation services, students must be registered with the Services for Students with Disabilities (SSD) office, 132 Canfield Administration, 472-3787 voice or TTY.
+</li>
+</ol>
+
+
+<p>
+<b>Acknowledgements</b>: Thanks <a href="http://cs.virginia.edu/~weimer">Wes Weimer</a> for letting me reuse and adapt course materials from his graduate PL seminar courses.
+</p>
+</div>
+</div>
+</div>
+</body>
+</html>

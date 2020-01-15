@@ -1,0 +1,39 @@
+ hmhF* tutorial
+
+
+can infer that canRead "foo.txt" has type : Tot bool.
+Side-effects
+Tot t: no side effects, for all inputs, will return a type t
+ML t: side-effects, if success, then return a type t
+Dv
+ST
+Exn
+
+How to use the editor to show what are inferred ?
+
+3.2 Factorial
+Why can't F* infer val factorial: x:int{x>=0} -> Tot int?   Checking is easier than inferring !!!
+
+
+val factorial: nat -> Tot (y:int{y>=1})       (* even stronger result type *)
+Can I write something even stronger ?  e.g., y >= x
+
+
+Have to write this lemma
+
+let rec factorial_is_greater_than_arg x =
+  match x with
+    | 3 -> ()
+      | _ -> factorial_is_greater_than_arg (x - 1)
+
+
+IDEA: write your network protocal in F* .
+
+
+Can it infer this ?     l1:list 'a -> l2:list 'a -> Tot (l:list 'a{length l = length l1 + length l2})
+
+
+4.2 Can do all this with Coq (But F* makes it easier)
+
+
+How to automatically synthesize these Lemma or Proof strategies ?

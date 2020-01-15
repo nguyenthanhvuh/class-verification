@@ -1,0 +1,136 @@
+#+STARTUP: showall
+
+#+TITLE:     CSCE990 Software Verification - PROJECTS
+#+AUTHOR:    ThanhVu H. Nguyen
+#+EMAIL:     tnguyen@cse.unl.edu
+#+OPTIONS: toc:nil num:nil ^:nil
+#+OPTIONS: html-postamble:nil
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="http://thomasf.github.io/solarized-css/solarized-light.css"/>
+
+
+* Project Guidelines
+
+All students are expected to select and complete a project that explores more deeply a topic covered in the course (or a related topic which we didn't cover). 
+
+The main goal of the project is for you to learn and understand topic in depth.
+The goal is not to force you all to produce novel results in one semester. 
+Course projects like this often lead to collaborations that eventually yield exciting research. 
+In the hopefully-likely event that you end up enjoying your project, come see me about taking it further (say, to publication).
+
+
+** Project Proposal
+By the end of the 4th week, submit a *project proposal* (one to two pages). 
+The proposal should explain what you expect to learn from the project (i.e., why is it interesting to you?) and should include a work schedule. 
+Make sure to budget time for writing a short project paper (5 pages) describing the project and/or for preparing a short (10 minute) project presentation during the last week of classes. 
+The purpose of the proposal is for me to give you feedback on its feasibility.
+
+
+** Project Scale
+# You should learn as much from working on your project as you would from two or three lectures.
+# 20-30 hours should suffice. My spider sense tells me that if you actually put in one hour of work on your project after every lecture you'd end up with the Project Of Ultimate Mastery.
+20-30 should suffice (so if you actually put in about 2 hours a week, you would end up with pretty good project).
+But don't attempt to do everything in "one long weekend", it will not work.
+
+You are welcome to tackle a more ambitious project. 
+Such a project should have "stages" so that you have something to show at the end of the semester. 
+I (or your advisor) can provide extra guidance on such projects.
+
+If you have a great idea and need help, feel free to work as a pair. 
+However, given the scope of most projects, I think they are better done alone. 
+Notably, the grading for a two-person project will actually require "twice as much work" rather than the standard "1.5-times as much work". 
+
+* Project Kinds
+
+There are two main kinds of projects: (i) a survey of the work in some area related to program verification, or (ii) a research project that involves creating something new.
+
+** Survey Projects
+
+Pick an area that you are interested in.
+Read at least *six papers* thoroughly and at least *six other* papers "superficially". 
+I can provide some paper suggestions but you should do most of the work in tracking the relevant papers. 
+
+Write a paper on what you have learned.  
+It should answer the following questions:
+1. What are the basic problems?
+- What are the basic approaches to solving them?
+- What are the main achievements to date? 
+- What are the open problems?
+- What further research or experiments do you propose in this area? Why?
+
+Keep the scope narrow enough so that you can learn something well and write something interesting.
+
+** Research Projects
+
+These projects often involve finding some existing problem (or define a new one) and propose a technique to solve it.
+The technique can be either a new one or an improved/extended version of an existing one.
+
+These projects are the hardest because they always involve some survey work and often involve some implementation. 
+You can always start with a survey project and then turn it into a research one: if you have good ideas one-third of the way in, implement them. 
+If not, read many more papers. In any event, you still have to write the paper. 
+
+* Project Paper
+You will write your project paper as if you were submitting to a conference such as PLDI or ICSE (e.g., using LaTex templates for these conferences). Turn in the complete 5-page PDF as well as your LaTeX source.
+
+* Project Status Update
+
+The Status Update is a short email (less than a page) that explains what you have done so far and what you plan to do next..
+It is due at the end of every month after your proposal is approved.
+This allows me to help if you are stuck.
+
+* Bonus: Project Presentation
+You can choose whether to give a 10-presentation of your project.
+If you give a project presentation, I take that into account when evaluating and grading your final project (e.g., delivering a good presentation counts as some amount of work done, so I expect a bit less from the writeup). 
+By contrast, if you turn in only the final project writeup, you should ensure that it contains enough information for me to assess your work done.
+
+# The presentation should be very short (you have 10 minutes total for the presentation, and 3 for questions) and should describe what the problem was, what the difficulties were and what was accomplished or learned. You will find it much easier to prepare the talk using slides (6 to 8 slides excluding the title, depending on your speed).
+
+# While preparing the talk keep in mind who your audience is. You will be presenting to colleagues who are eager to find out (1) about new exciting facets of programming languages and (2) how much fun you had. Plan to motivate the project (i.e., why is this important?) and to describe what you learned from it. Keep in mind that your colleagues have not read all the papers that you have read to do the project.
+
+# Check out the Speech Evaluation Form for more information. Your peers will use this form to rate your presentation and will turn in a copy to me.
+
+* Project Ideas
+
+I encourage you to define your own project. 
+In case you do not have any ideas, here are some starting suggestions.
+
+** Suggestions For Survey Projects
+
+Survey Topic	Description
+
+Constructs for Concurrency	See Chapter 14 in Winskel for leads. You must go significantly beyond the simple pi calculus (which we'll probably cover in class).
+
+Formal PL Semantics and Databases	Start with Arasu and Widom's A Denotational Semantics for Continuous Queries over Streams and Relations or Widom's A Denotational Semantics for the Starburst Production Rule Language for a veiw from the DB side. Then check out Goldsmith et al.'s Relational Queries Over Program Traces for a PL perspective. You might well grow this into an implementation project that checks embedded SQL statements (in, e.g., Java programs) against a formal model of your own devising.
+
+Axiomatic semantics for parallel languages	See Apt and Olderog's Verification of Sequential and Concurrent Programs.
+
+Region-Based Memory Management	Is it possible to have a type-safe language where the programmer has some control over the memory deallocation? Regions offer one possible approach. Start with the seminal paper by Talpin and then take a look at Cyclone.
+Constraint-based program analysis	Start with Alex Aiken's talk on the topic. The read more of the literature.
+
+Refinement Types	A method to refine types for the purpose of allowing the type checker to perform more extensive tests. For example we might want to refine the type of lists into two subtypes, the list of even length and those of odd length (or non-empty lists and possibly-empty lists). With such information a compiler can unroll loops involving lists. Start here.
+
+Implementation choices for polymoprhism	Care must be taken when implementing polymorphic languages so that the representation size of all types are the same. This is sub-optimal and interesting schemes have been devised. Start with the overview in Greg Morrisett's thesis Compiling with Types.
+
+Monads	Monads are a discipline for simulating the effects of imperative programming in logic or purely functional programming languages. Don't forget Haskell!
+Continuation-passing style semantics	Continuation passing style is a form of operational semantics using continuations. You can start with Duba et al. paper Typing First-Class Continuations in ML from POPL '91 and Filinski's Linear Continuations in POPL '92.
+Semantics of finalizers	Java has the notion of a finalizer, a function that is invoked when an object is garbage collected. This has some interesting consequences, mostly having to do with the ordering of finalizers. See the section from the Java Reference Manual: 12.6 Finalization of Class Instances.
+Languages with multiple inheritance	Java has multiple inheritance of specifications and C++ has also multiple inheritance of implementation. Explore the implications. A starting point might be Cardelli's paper A Semantics of Multiple Inheritance in Lecture Notes in Computer Science, vol 173, 1984, pp 51--67.
+Suggestions For Implementation Projects
+
+** Implementation project topics can also serve as survey project topics.
+Implementation Topic	Description
+Receiver class analysis with abstract interpretation	Design and implement an analysis to infer the run-time subclass of a value statically declared to have an abstract class. This can be used in compilers for object-oriented languages to optimize the run-time method dispatch.
+Range analysis with abstract interpretation	Design and implement an analysis to infer ranges for integer variables. The results of such analyses can be used to optimize array-bounds checking in type-safe languages such as Java, Modula-3 and ML.
+Implementation choices for exceptions	Read about the implementation of exceptions in C++, ML and Java. Try these implementations on a small fragment of lambda-calculus with exceptions.
+Semantics for Dijkstra's guarded-command language	The guarded-command language is a very simple nondeterministic language. It is described in Winskel Chapter 14 and also in Dijkstra's book A Discipline of Programming. A verification condition generator for a GCL might be interesting.
+Suggestions For Research Projects
+
+Domain-Specific Language Bug-Finding	Choose a DSL for which a large number of "programs" are available (e.g., UnrealScript, Excel Spreadsheets, Infinity Engine Scripting). Troll around in the DSL communities until you find common mistakes or complaints. Write a bug-finding tool that locates mistakes in such programs. This can be as "simple" as FindBugs or as complex as BLAST. Aim for a data-flow analysis of some sort.
+Domain-Specific Language Modeling	Choose a DSL (as above) with non-trivial semantics. Common mistakes and complaints can point you toward areas of complexity. Come up with a formal type system or operational semantics (as appropriate) to capture the essence of some feature. For example, you might look at type qualifiers like "transient" and "travel" in UnrealScript and then build up an operational semantics model (possibly by extending or translating to the pi calculus) that describes them. You might use Mosterman and Vangheluwe's Towards and Executable Denotational Semantics for Causal Block Diagrams (which nominally centers on embedded control systems) as an entry-point into the literature.
+Language-Based Security Analysis	Using program analyses to spot certain classes of security errors is an approach that has been rapidly gaining in popularity. You might get started with David Wagner's work (e.g., type qualifiers and format string vulnerabilities, model checking linux for security violations), then talk to Dave Evans, then pick one of the top 20 security vulnerabilities, then write a program analysis for detecting it. Pay special attention to false positives and false negatives.
+TinyOS and nesC projects.	Quite a few such projects were suggested by David Gay. TinyOS is particularly appropriate if you like operating systems, embedded systems or networking.
+Custom Memory management.	Have you ever wondered why type-safe languages let you almost everything except manage your memory? Have you noticed that virtually all large software systems (e.g. Apache, Linux, gcc) have their own customized allocators? Apparently it pays off to have an allocator that exploits the details of the particular strategy for allocation and deallocation that your application uses. All of this is not available to users of type-safe languages. Can we design a mechanism that allows type-safe user-specified memory management?
+There are two things that are unsafe about manual memory management: you have a buffer of elements of type char and you carve it out into pieces which are then treated as having some other types; and (much more serious) in the presence of manual deallocation you have the risk of deallocating too early and thus having dangling pointers. Deallocating too late is also bad but technically not unsafe.
+
+Memory management analysis.	Scott McPeak has implemented an extension to the Boehm-Weiser garbage collector to monitor the execution of a program. Periodically, the program is paused and all allocated blocks are scanned for pointers. Then a graph is constructed with the nodes being the blocks and the edges the pointers between them. You will see that there is a lot of structure in these graphs: you can recognize linked lists, doubly linked lists and even leaked structures. Build an analysis tool that examines this graph (which also contains allocation sites) and tries to predict structural invariants for the data structures at various points in the program. Ambitious: Then, take these invariants and try to verify statically that they are preserved on all executions.
+Type-safe polymorphism in C.	In the C programming language you must use void* with a lot of unsafe casting to implement polymorphic functions (functions that can operate on object of different types). In Java there are two mechanisms. Generics (in the most recent versions) allow you to implement parametric polymorphism (e.g., a list data structure in which all elements are known to be of the same type). Java also has subtype polymorphism (a function that can operate on Object, can be invoked with an object of any type). Parametric polymorphism has the advantage that it does not require run-time checking. This project would explore extensions of the C programming language with support for polymorphism. We want these extensions to be minimal and preferably to not break compatibility with existing programs (e.g., a module compiled with your extended compiler can still be linked with a library module that has been compiled with standard compilers).
+Specifying pointer-based data-structures.	Programmers have a simple but effective vocabulary to communicate invariants about many common data structures (an array of circular lists, a tree with the leaves linked in a circular list). Unfortunately, we do not know of a similarly effective mechanism to communicate these invariants to a tool that can enforce them. Types are probably too weak for this. Full-blown specifications are too hard to use. George Necula has some work in this direction but I think that a lot more can be done.
