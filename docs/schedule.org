@@ -9,10 +9,11 @@
 
 * Announcements
 
-| Date   | Summary                      | HW |
-|--------+------------------------------+----|
-| T 1/14 | Syllabus                     |    |
-| T 2/11 | No Class (Instructor travel) |    |
+|        | <l>                          |     |   |
+| Date   | Summary                      | Due |   |
+|--------+------------------------------+-----+---|
+| T 1/14 | Syllabus                     |     |   |
+| T 2/11 | No Class (Instructor travel) |     |   |
 
 
 
@@ -21,16 +22,16 @@
 
 ** Topic 1: Intro
 
-1. William G. Griswold, [[http://cseweb.ucsd.edu/~wgg/CSE210/howtoread.html][How to Read an Engineering Research Paper]]
-1. Mike Hicks, [[http://www.pl-enthusiast.net/2014/08/21/advice-reviewing-papers/][Advice on Reviewing Papers]]
-1. Hoare, [[https://www.cs.cmu.edu/~crary/819-f09/Hoare69.pdf][Axiomatic Basis for Computer Programming]]
+1. William G. Griswold, [[http://cseweb.ucsd.edu/~wgg/CSE210/howtoread.html][How to Read an Engineering Research Paper]] 
+1. Mike Hicks, [[http://www.pl-enthusiast.net/2014/08/21/advice-reviewing-papers/][Advice on Reviewing Papers]] 
+1. Hoare, [[https://www.cs.cmu.edu/~crary/819-f09/Hoare69.pdf][Axiomatic Basis for Computer Programming]] *READ NEXT*
 
 *Note*: You might want to start by with the [[https://en.wikipedia.org/wiki/Hoare_logic][Hoare logic article]] from Wikipedia.
 
-
 ** Topic 2: Model Checking
 
-1. JHala et al., [[./files/SoftwareModelChecking.pdf][Software Model Checking]]. *Chapter 1*
+1. JHala et al., [[./files/SoftwareModelChecking.pdf][Software Model Checking]]. *Chapter 1* *READ NEXT*
+
 1. JHala et al., [[./files/SoftwareModelChecking.pdf][Software Model Checking]]. *Chapters 2,3*
 1. **OPTIONAL** Visser et al., [[https://ti.arc.nasa.gov/m/tech/rse/publications/papers/ASE00/jpf2-ase.pdf][Model Checking Programs]]. ASE 2003
 

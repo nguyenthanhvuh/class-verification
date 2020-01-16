@@ -7,7 +7,7 @@
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="https://cse.unl.edu/~tnguyen/css/worg.css"/>
 
 #+begin_src
-Meetings: MWF 10:30AM - 11:20PM,  LPH 124
+Meetings: TR 11:00AM - 11:15PM,  Avery 103C (Software Engineering Conference room)
 Instructor: ThanhVu Nguyen
 Email: tnguyen @ unl.edu
 Office Hours: Tues 2:00PM - 4:00PM, Avery 364
@@ -15,6 +15,7 @@ Office Hours: Tues 2:00PM - 4:00PM, Avery 364
 
 
 * [[./schedule.html][CLASS SCHEDULE]]
+
 
 * Description
 This special topics course is a research seminar in *software verification*. 
