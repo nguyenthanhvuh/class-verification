@@ -95,7 +95,7 @@ Optional:
 1. Le et al., [[http://vuminhle.com/pdf/pldi14-emi.pdf][Compiler Validation via Equivalence Modulo Inputs]], PLDI 2014,
 
 
-*Tool*: [delta debugging](http://www.st.cs.uni-saarland.de/dd/)
+*Tool*: [[http://www.st.cs.uni-saarland.de/dd/][delta debugging]]
 
 
 
