@@ -1,7 +1,107 @@
+#+TITLE:     CSCE 990 (Spring 2020): Notes
+
+#+AUTHOR:    ThanhVu H. Nguyen
+#+EMAIL:     tnguyen@cse.unl.edu
+#+OPTIONS: html-postamble:nil
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="https://cse.unl.edu/~tnguyen/css/worg.css"/>
 
 
-T 1/14:
-- Ask students to think about projects
-- Verification vs Testing
-- Go through each topic, discuss things a bit in details
-- Ask if students want to look at some specific topics
+* Intro
+** First day 
+- Class Intro 
+  - Ask students to think about projects
+  - Verification vs Testing
+  - Go through each topic, discuss things a bit in details
+  - Ask if students want to look at some specific topics
+- Quick intro to Complexity class, logic
+
+#+BEGIN_CENTER
+End of class T 1/14 
+#+END_CENTER
+
+* How to Read Technical Papers 
+#+BEGIN_CENTER
+End of class R 1/16
+#+END_CENTER
+
+* Hoare Logic 
+- Axiomatic Semantics (Hoare)
+- Weakest Precondition (Dijkstra)
+- Loop Invariants
+#+BEGIN_CENTER
+End of class T 1/21
+#+END_CENTER
+
+* Software Model Checker
+
+** Intro
+- *Goal*: develop *automated techniques* for program analysis, both in the *scale* of the programs handled and in the *richness of properties* that can be checked, reducing burden on human
+- Three parallel trends
+  1. Logics and Decision procedure (e.g., SMT solvers)
+  2. Model checkign techniques (Clark et al) for temporary logic / state-space exploration
+  3. Abstract Interpretation: connecting inifite state spaces and finite representations
+
+*** Defs
+    - Simple programs =imp= language,  transition-relation
+    - states
+    - strongest postcondition
+    - weakest precondition
+    - properties
+      - local assertions
+      - global assertions
+      - termination proeprties
+
+*** Verification problem (Safety)
+    - inputs: program $P$, property $\Pi$
+    - returns
+      1. *safe*: if every computation of $P$ satisfies $\Pi$
+      2. *unsafe*: otherwise
+    - Reachability formulation: location $\epsilon$ representing error 
+
+    - Soundness: an algorithm $A$ for the safety verification is *sound* if: 
+#+BEGIN_CENTER
+Soundness: $A$ returns *safe* then $\epsilon$ is not reachable in $P$
+#+END_CENTER
+
+    - Completeness: an algorithm $A$ for the safety verification is *complete* if: 
+#+BEGIN_CENTER
+Completeness: $\epsilon$ is not reachable in $P$ then $A$ returns *safe*
+#+END_CENTER
+
+    - Note: we talk about the soundness and completeness of the *algorithm*, not the *implementation* of the alg.
+
+   - No algorithm that is both sound and complete
+   - Two approaches
+     1. Testing/Falsification:  the alg finds a violation, then the program is not safe.  But if *doesnot* find a violation, no conclusion (program might or might not be safe)
+	- Underapproximation
+     2. Verification: if the alg finds no violation, then the program is safe.  But if *does* find a violation, no conclusion (the found violation might be false)
+	- Overapproximation
+	- violation: counterexample inputs
+
+** Concrete Enumerative Model Checking
+   - Traverse graph of program states using graph search techniques
+   - *Concrete*: representing the program states exactly
+   - *Concrete Enumerative* techniques manipulate *individual* states (*symbolic* techniques manipulate *sets* of states)
+     
+*** Stateful Search
+    - finite domain
+    - explicitly construct finite set of reachable states to check if $\epsilon$ is reachable
+    - Algo EnumerativeREachability
+      - graph search
+      - stack: dfs 
+      - queue
+
+      - Implmented in SPIN and MURPHI,  impactful in protocol verification 
+    - *state-space explosion* problem:  
+      - state space of program can be *exponentially* larger than program description  
+      - major direction for research
+      - for enumerative mc:
+	1. reduction-based techniques: equivalence relation, complete: if there's a bug in orig system, there's a bug in the reduced one
+	   - partial-order reduction
+	   - symmetry reduction
+	2. compositional techniques: reduce safety verification problem in the orig program to proving properties on subprograms, such that the results of checking the subprograms can be combined to deduce the safety of original program
+	   - Assume-guarantee reasoning: 
+
+
+*** Systematic Execution Exploration
+	   

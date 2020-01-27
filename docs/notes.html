@@ -3,12 +3,12 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2020-01-11 Sat 22:10 -->
+<!-- 2020-01-23 Thu 09:54 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>&lrm;</title>
+<title>CSCE 990 (Spring 2020): Notes</title>
 <meta name="generator" content="Org mode" />
-<meta name="author" content="ThanhVu (Vu) Nguyen" />
+<meta name="author" content="ThanhVu H. Nguyen" />
 <style type="text/css">
  <!--/*--><![CDATA[/*><!--*/
   .title  { text-align: center;
@@ -180,6 +180,7 @@
   .org-svg { width: 90%; }
   /*]]>*/-->
 </style>
+<link rel="stylesheet" type="text/css" href="https://cse.unl.edu/~tnguyen/css/worg.css"/>
 <script type="text/javascript">
 /*
 @licstart  The following is the entire license notice for the
@@ -226,23 +227,256 @@ for the JavaScript code in this tag.
  }
 /*]]>*///-->
 </script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        displayAlign: "center",
+        displayIndent: "0em",
+
+        "HTML-CSS": { scale: 100,
+                        linebreaks: { automatic: "false" },
+                        webFont: "TeX"
+                       },
+        SVG: {scale: 100,
+              linebreaks: { automatic: "false" },
+              font: "TeX"},
+        NativeMML: {scale: 100},
+        TeX: { equationNumbers: {autoNumber: "AMS"},
+               MultLineWidth: "85%",
+               TagSide: "right",
+               TagIndent: ".8em"
+             }
+});
+</script>
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML"></script>
 </head>
 <body>
 <div id="content">
-<p>
-T 1/14:
-</p>
+<h1 class="title">CSCE 990 (Spring 2020): Notes</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#orgd5a41c4">1. Intro</a>
+<ul>
+<li><a href="#org9e57b4a">1.1. First day</a></li>
+</ul>
+</li>
+<li><a href="#org58fd110">2. How to Read Technical Papers</a></li>
+<li><a href="#orgf4eed5b">3. Hoare Logic</a></li>
+<li><a href="#orga48edbd">4. Software Model Checker</a>
+<ul>
+<li><a href="#orgbb3d1e6">4.1. Intro</a>
+<ul>
+<li><a href="#orgfe45845">4.1.1. Defs</a></li>
+<li><a href="#orga8dd9ab">4.1.2. Verification problem (Safety)</a></li>
+</ul>
+</li>
+<li><a href="#org0894001">4.2. Concrete Enumerative Model Checking</a>
+<ul>
+<li><a href="#orgf25fe60">4.2.1. Stateful Search</a></li>
+<li><a href="#org29628cc">4.2.2. Systematic Execution Exploration</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+
+<div id="outline-container-orgd5a41c4" class="outline-2">
+<h2 id="orgd5a41c4"><span class="section-number-2">1</span> Intro</h2>
+<div class="outline-text-2" id="text-1">
+</div>
+<div id="outline-container-org9e57b4a" class="outline-3">
+<h3 id="org9e57b4a"><span class="section-number-3">1.1</span> First day</h3>
+<div class="outline-text-3" id="text-1-1">
+<ul class="org-ul">
+<li>Class Intro 
 <ul class="org-ul">
 <li>Ask students to think about projects</li>
 <li>Verification vs Testing</li>
 <li>Go through each topic, discuss things a bit in details</li>
 <li>Ask if students want to look at some specific topics</li>
+</ul></li>
+<li>Quick intro to Complexity class, logic</li>
+</ul>
+
+<div class="org-center">
+<p>
+End of class T 1/14 
+</p>
+</div>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org58fd110" class="outline-2">
+<h2 id="org58fd110"><span class="section-number-2">2</span> How to Read Technical Papers</h2>
+<div class="outline-text-2" id="text-2">
+<div class="org-center">
+<p>
+End of class R 1/16
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgf4eed5b" class="outline-2">
+<h2 id="orgf4eed5b"><span class="section-number-2">3</span> Hoare Logic</h2>
+<div class="outline-text-2" id="text-3">
+<ul class="org-ul">
+<li>Axiomatic Semantics (Hoare)</li>
+<li>Weakest Precondition (Dijkstra)</li>
+<li>Loop Invariants</li>
+</ul>
+<div class="org-center">
+<p>
+End of class T 1/21
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orga48edbd" class="outline-2">
+<h2 id="orga48edbd"><span class="section-number-2">4</span> Software Model Checker</h2>
+<div class="outline-text-2" id="text-4">
+</div>
+<div id="outline-container-orgbb3d1e6" class="outline-3">
+<h3 id="orgbb3d1e6"><span class="section-number-3">4.1</span> Intro</h3>
+<div class="outline-text-3" id="text-4-1">
+<ul class="org-ul">
+<li><b>Goal</b>: develop <b>automated techniques</b> for program analysis, both in the <b>scale</b> of the programs handled and in the <b>richness of properties</b> that can be checked, reducing burden on human</li>
+<li>Three parallel trends
+<ol class="org-ol">
+<li>Logics and Decision procedure (e.g., SMT solvers)</li>
+<li>Model checkign techniques (Clark et al) for temporary logic / state-space exploration</li>
+<li>Abstract Interpretation: connecting inifite state spaces and finite representations</li>
+</ol></li>
 </ul>
 </div>
-<div id="postamble" class="status">
-<p class="author">Author: ThanhVu (Vu) Nguyen</p>
-<p class="date">Created: 2020-01-11 Sat 22:10</p>
-<p class="validation"></p>
+
+<div id="outline-container-orgfe45845" class="outline-4">
+<h4 id="orgfe45845"><span class="section-number-4">4.1.1</span> Defs</h4>
+<div class="outline-text-4" id="text-4-1-1">
+<ul class="org-ul">
+<li>Simple programs <code>imp</code> language,  transition-relation</li>
+<li>states</li>
+<li>strongest postcondition</li>
+<li>weakest precondition</li>
+<li>properties
+<ul class="org-ul">
+<li>local assertions</li>
+<li>global assertions</li>
+<li>termination proeprties</li>
+</ul></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orga8dd9ab" class="outline-4">
+<h4 id="orga8dd9ab"><span class="section-number-4">4.1.2</span> Verification problem (Safety)</h4>
+<div class="outline-text-4" id="text-4-1-2">
+<ul class="org-ul">
+<li>inputs: program \(P\), property \(\Pi\)</li>
+<li>returns
+<ol class="org-ol">
+<li><b>safe</b>: if every computation of \(P\) satisfies \(\Pi\)</li>
+<li><b>unsafe</b>: otherwise</li>
+</ol></li>
+<li>Reachability formulation: location \(\epsilon\) representing error</li>
+
+<li>Soundness: an algorithm \(A\) for the safety verification is <b>sound</b> if:</li>
+</ul>
+<div class="org-center">
+<p>
+Soundness: \(A\) returns <b>safe</b> then \(\epsilon\) is not reachable in \(P\)
+</p>
+</div>
+
+<ul class="org-ul">
+<li>Completeness: an algorithm \(A\) for the safety verification is <b>complete</b> if:</li>
+</ul>
+<div class="org-center">
+<p>
+Completeness: \(\epsilon\) is not reachable in \(P\) then \(A\) returns <b>safe</b>
+</p>
+</div>
+
+<ul class="org-ul">
+<li>Note: we talk about the soundness and completeness of the <b>algorithm</b>, not the <b>implementation</b> of the alg.</li>
+</ul>
+<ul class="org-ul">
+<li>No algorithm that is both sound and complete</li>
+<li>Two approaches
+<ol class="org-ol">
+<li>Testing/Falsification:  the alg finds a violation, then the program is not safe.  But if <b>doesnot</b> find a violation, no conclusion (program might or might not be safe)
+<ul class="org-ul">
+<li>Underapproximation</li>
+</ul></li>
+<li>Verification: if the alg finds no violation, then the program is safe.  But if <b>does</b> find a violation, no conclusion (the found violation might be false)
+<ul class="org-ul">
+<li>Overapproximation</li>
+<li>violation: counterexample inputs</li>
+</ul></li>
+</ol></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org0894001" class="outline-3">
+<h3 id="org0894001"><span class="section-number-3">4.2</span> Concrete Enumerative Model Checking</h3>
+<div class="outline-text-3" id="text-4-2">
+<ul class="org-ul">
+<li>Traverse graph of program states using graph search techniques</li>
+<li><b>Concrete</b>: representing the program states exactly</li>
+<li><b>Concrete Enumerative</b> techniques manipulate <b>individual</b> states (<b>symbolic</b> techniques manipulate <b>sets</b> of states)</li>
+</ul>
+</div>
+
+<div id="outline-container-orgf25fe60" class="outline-4">
+<h4 id="orgf25fe60"><span class="section-number-4">4.2.1</span> Stateful Search</h4>
+<div class="outline-text-4" id="text-4-2-1">
+<ul class="org-ul">
+<li>finite domain</li>
+<li>explicitly construct finite set of reachable states to check if \(\epsilon\) is reachable</li>
+<li>Algo EnumerativeREachability
+<ul class="org-ul">
+<li>graph search</li>
+<li>stack: dfs</li>
+<li>queue</li>
+
+<li>Implmented in SPIN and MURPHI,  impactful in protocol verification</li>
+</ul></li>
+<li><b>state-space explosion</b> problem:  
+<ul class="org-ul">
+<li>state space of program can be <b>exponentially</b> larger than program description</li>
+<li>major direction for research</li>
+<li>for enumerative mc:
+<ol class="org-ol">
+<li>reduction-based techniques: equivalence relation, complete: if there's a bug in orig system, there's a bug in the reduced one
+<ul class="org-ul">
+<li>partial-order reduction</li>
+<li>symmetry reduction</li>
+</ul></li>
+<li>compositional techniques: reduce safety verification problem in the orig program to proving properties on subprograms, such that the results of checking the subprograms can be combined to deduce the safety of original program
+<ul class="org-ul">
+<li>Assume-guarantee reasoning:</li>
+</ul></li>
+</ol></li>
+</ul></li>
+</ul>
+</div>
+</div>
+
+
+<div id="outline-container-org29628cc" class="outline-4">
+<h4 id="org29628cc"><span class="section-number-4">4.2.2</span> Systematic Execution Exploration</h4>
+</div>
+</div>
+</div>
 </div>
 </body>
 </html>
