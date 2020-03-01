@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2020-01-23 Thu 09:54 -->
+<!-- 2020-01-28 Tue 10:27 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>CSCE 990 (Spring 2020): Notes</title>
@@ -257,25 +257,25 @@ for the JavaScript code in this tag.
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#orgd5a41c4">1. Intro</a>
+<li><a href="#org9061ea3">1. Intro</a>
 <ul>
-<li><a href="#org9e57b4a">1.1. First day</a></li>
+<li><a href="#orgc6e070b">1.1. First day</a></li>
 </ul>
 </li>
-<li><a href="#org58fd110">2. How to Read Technical Papers</a></li>
-<li><a href="#orgf4eed5b">3. Hoare Logic</a></li>
-<li><a href="#orga48edbd">4. Software Model Checker</a>
+<li><a href="#org9f9b716">2. How to Read Technical Papers</a></li>
+<li><a href="#org13e30ba">3. Hoare Logic</a></li>
+<li><a href="#org5c04226">4. Software Model Checker</a>
 <ul>
-<li><a href="#orgbb3d1e6">4.1. Intro</a>
+<li><a href="#org14fcb18">4.1. Intro</a>
 <ul>
-<li><a href="#orgfe45845">4.1.1. Defs</a></li>
-<li><a href="#orga8dd9ab">4.1.2. Verification problem (Safety)</a></li>
+<li><a href="#org7b9514d">4.1.1. Defs</a></li>
+<li><a href="#org75be268">4.1.2. Verification problem (Safety)</a></li>
 </ul>
 </li>
-<li><a href="#org0894001">4.2. Concrete Enumerative Model Checking</a>
+<li><a href="#orge634f4a">4.2. Concrete Enumerative Model Checking</a>
 <ul>
-<li><a href="#orgf25fe60">4.2.1. Stateful Search</a></li>
-<li><a href="#org29628cc">4.2.2. Systematic Execution Exploration</a></li>
+<li><a href="#org7dfda4b">4.2.1. Stateful Search</a></li>
+<li><a href="#orgaae43fe">4.2.2. Systematic Execution Exploration</a></li>
 </ul>
 </li>
 </ul>
@@ -285,12 +285,12 @@ for the JavaScript code in this tag.
 </div>
 
 
-<div id="outline-container-orgd5a41c4" class="outline-2">
-<h2 id="orgd5a41c4"><span class="section-number-2">1</span> Intro</h2>
+<div id="outline-container-org9061ea3" class="outline-2">
+<h2 id="org9061ea3"><span class="section-number-2">1</span> Intro</h2>
 <div class="outline-text-2" id="text-1">
 </div>
-<div id="outline-container-org9e57b4a" class="outline-3">
-<h3 id="org9e57b4a"><span class="section-number-3">1.1</span> First day</h3>
+<div id="outline-container-orgc6e070b" class="outline-3">
+<h3 id="orgc6e070b"><span class="section-number-3">1.1</span> First day</h3>
 <div class="outline-text-3" id="text-1-1">
 <ul class="org-ul">
 <li>Class Intro 
@@ -312,8 +312,8 @@ End of class T 1/14
 </div>
 </div>
 
-<div id="outline-container-org58fd110" class="outline-2">
-<h2 id="org58fd110"><span class="section-number-2">2</span> How to Read Technical Papers</h2>
+<div id="outline-container-org9f9b716" class="outline-2">
+<h2 id="org9f9b716"><span class="section-number-2">2</span> How to Read Technical Papers</h2>
 <div class="outline-text-2" id="text-2">
 <div class="org-center">
 <p>
@@ -323,8 +323,8 @@ End of class R 1/16
 </div>
 </div>
 
-<div id="outline-container-orgf4eed5b" class="outline-2">
-<h2 id="orgf4eed5b"><span class="section-number-2">3</span> Hoare Logic</h2>
+<div id="outline-container-org13e30ba" class="outline-2">
+<h2 id="org13e30ba"><span class="section-number-2">3</span> Hoare Logic</h2>
 <div class="outline-text-2" id="text-3">
 <ul class="org-ul">
 <li>Axiomatic Semantics (Hoare)</li>
@@ -339,12 +339,12 @@ End of class T 1/21
 </div>
 </div>
 
-<div id="outline-container-orga48edbd" class="outline-2">
-<h2 id="orga48edbd"><span class="section-number-2">4</span> Software Model Checker</h2>
+<div id="outline-container-org5c04226" class="outline-2">
+<h2 id="org5c04226"><span class="section-number-2">4</span> Software Model Checker</h2>
 <div class="outline-text-2" id="text-4">
 </div>
-<div id="outline-container-orgbb3d1e6" class="outline-3">
-<h3 id="orgbb3d1e6"><span class="section-number-3">4.1</span> Intro</h3>
+<div id="outline-container-org14fcb18" class="outline-3">
+<h3 id="org14fcb18"><span class="section-number-3">4.1</span> Intro</h3>
 <div class="outline-text-3" id="text-4-1">
 <ul class="org-ul">
 <li><b>Goal</b>: develop <b>automated techniques</b> for program analysis, both in the <b>scale</b> of the programs handled and in the <b>richness of properties</b> that can be checked, reducing burden on human</li>
@@ -357,8 +357,8 @@ End of class T 1/21
 </ul>
 </div>
 
-<div id="outline-container-orgfe45845" class="outline-4">
-<h4 id="orgfe45845"><span class="section-number-4">4.1.1</span> Defs</h4>
+<div id="outline-container-org7b9514d" class="outline-4">
+<h4 id="org7b9514d"><span class="section-number-4">4.1.1</span> Defs</h4>
 <div class="outline-text-4" id="text-4-1-1">
 <ul class="org-ul">
 <li>Simple programs <code>imp</code> language,  transition-relation</li>
@@ -375,8 +375,8 @@ End of class T 1/21
 </div>
 </div>
 
-<div id="outline-container-orga8dd9ab" class="outline-4">
-<h4 id="orga8dd9ab"><span class="section-number-4">4.1.2</span> Verification problem (Safety)</h4>
+<div id="outline-container-org75be268" class="outline-4">
+<h4 id="org75be268"><span class="section-number-4">4.1.2</span> Verification problem (Safety)</h4>
 <div class="outline-text-4" id="text-4-1-2">
 <ul class="org-ul">
 <li>inputs: program \(P\), property \(\Pi\)</li>
@@ -426,8 +426,8 @@ Completeness: \(\epsilon\) is not reachable in \(P\) then \(A\) returns <b>safe<
 </div>
 </div>
 
-<div id="outline-container-org0894001" class="outline-3">
-<h3 id="org0894001"><span class="section-number-3">4.2</span> Concrete Enumerative Model Checking</h3>
+<div id="outline-container-orge634f4a" class="outline-3">
+<h3 id="orge634f4a"><span class="section-number-3">4.2</span> Concrete Enumerative Model Checking</h3>
 <div class="outline-text-3" id="text-4-2">
 <ul class="org-ul">
 <li>Traverse graph of program states using graph search techniques</li>
@@ -436,8 +436,8 @@ Completeness: \(\epsilon\) is not reachable in \(P\) then \(A\) returns <b>safe<
 </ul>
 </div>
 
-<div id="outline-container-orgf25fe60" class="outline-4">
-<h4 id="orgf25fe60"><span class="section-number-4">4.2.1</span> Stateful Search</h4>
+<div id="outline-container-org7dfda4b" class="outline-4">
+<h4 id="org7dfda4b"><span class="section-number-4">4.2.1</span> Stateful Search</h4>
 <div class="outline-text-4" id="text-4-2-1">
 <ul class="org-ul">
 <li>finite domain</li>
@@ -472,8 +472,8 @@ Completeness: \(\epsilon\) is not reachable in \(P\) then \(A\) returns <b>safe<
 </div>
 
 
-<div id="outline-container-org29628cc" class="outline-4">
-<h4 id="org29628cc"><span class="section-number-4">4.2.2</span> Systematic Execution Exploration</h4>
+<div id="outline-container-orgaae43fe" class="outline-4">
+<h4 id="orgaae43fe"><span class="section-number-4">4.2.2</span> Systematic Execution Exploration</h4>
 </div>
 </div>
 </div>
