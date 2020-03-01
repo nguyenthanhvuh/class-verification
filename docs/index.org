@@ -6,13 +6,13 @@
 #+OPTIONS: html-postamble:nil
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="https://cse.unl.edu/~tnguyen/css/worg.css"/>
 
-#+begin_src
+#+BEGIN_EXAMPLE
 Meetings: TR 11:00AM - 11:15PM,  Avery 103C (Software Engineering Conference room)
 Instructor: ThanhVu Nguyen
 Email: tnguyen @ unl.edu
 Office Hours: Tues 2:00PM - 4:00PM, Avery 364
-#+end_src
 
+#+END_EXAMPLE
 
 * [[./schedule.html][CLASS SCHEDULE]]
 
