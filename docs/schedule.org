@@ -39,14 +39,14 @@
 1. +Mike Hick's post on [[http://www.pl-enthusiast.net/2017/10/23/what-is-soundness-in-static-analysis/][Soundness of Static Analysis]]+
 
 ** Topic 4: Symbolic Execution/Test Case Generation
-1. Baldoni et al., [[http://season-lab.github.io/papers/survey-symbolic-execution-preprint-CSUR18.pdf][A Survey of Symbolic Execution Techniques]]  *READ NEXT (long, count as 2 reads)*
+1. Baldoni et al., [[http://season-lab.github.io/papers/survey-symbolic-execution-preprint-CSUR18.pdf][A Survey of Symbolic Execution Techniques]]  
 
 *Tool*: Java Symbolic PathFinder (SE for Java), KLEE (SE for C)
 
 ** Topic 5: Dynamic analysis, Invariant Generation
 
-1. Ernst et al., [[https://ece.uwaterloo.ca/~agurfink/ece653w17/assets/pdf/W12-Daikon.pdf][Daikon: Dynamically Discovering Likely Program Invariants]]. **Note**: Just read the slides.  
-1. Nguyen et al., [[https://cse.unl.edu/~tnguyen/pubs/symtraces_pres.pdf][SymInfer: Inferring Program Invariants using Symbolic States]]. **Note**: Just read the slides.
+1. Ernst et al., [[https://ece.uwaterloo.ca/~agurfink/ece653w17/assets/pdf/W12-Daikon.pdf][Daikon: Dynamically Discovering Likely Program Invariants]]. **Note**: Just read the slides.  *READ NEXT*
+1. Nguyen et al., [[https://cse.unl.edu/~tnguyen/pubs/symtraces_pres.pdf][SymInfer: Inferring Program Invariants using Symbolic States]]. **Note**: Just read the slides. *READ NEXT*
 1. **OPTIONAL** Garg et al., Learning invariants using decision trees and implication counterexamples. POPL 2016.
 
 *Tool*: Daikon, SymInfer
