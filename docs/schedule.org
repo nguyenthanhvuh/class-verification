@@ -18,32 +18,32 @@
 
 
 * Reading List
-** Topic 1: Intro
+**  Intro
 
 1. +William G. Griswold, [[http://cseweb.ucsd.edu/~wgg/CSE210/howtoread.html][How to Read an Engineering Research Paper]]+
 1. +Mike Hicks, [[http://www.pl-enthusiast.net/2014/08/21/advice-reviewing-papers/][Advice on Reviewing Papers]]+
 1. +Hoare, [[https://www.cs.cmu.edu/~crary/819-f09/Hoare69.pdf][Axiomatic Basis for Computer Programming]]+
 *Note*: You might want to start by with the [[https://en.wikipedia.org/wiki/Hoare_logic][Hoare logic article]] from Wikipedia.
 
-** Topic 2: Model Checking
+** Model Checking
 
 1. +JHala et al., [[./files/SoftwareModelChecking.pdf][Software Model Checking]]. *Chapter 1*+
 1. +JHala et al., [[./files/SoftwareModelChecking.pdf][Software Model Checking]]. *Chapters 2,3*+
 1. **OPTIONAL** Visser et al., [[https://ti.arc.nasa.gov/m/tech/rse/publications/papers/ASE00/jpf2-ase.pdf][Model Checking Programs]]. ASE 2003
 
-** Topic 3: Abstraction / Static Analysis
+** Abstraction / Static Analysis
 
 1. +JHala et al., [[./files/SoftwareModelChecking.pdf][Software Model Checking]]. *Chapters 4*+    
 1. +JHala et al., [[./files/SoftwareModelChecking.pdf][Software Model Checking]]. *Chapters 5*+
 1. +Ball et al., Automatic predicate abstraction of C programs. PLDI, 2001+
 1. +Mike Hick's post on [[http://www.pl-enthusiast.net/2017/10/23/what-is-soundness-in-static-analysis/][Soundness of Static Analysis]]+
 
-** Topic 4: Symbolic Execution/Test Case Generation
+** Symbolic Execution/Test Case Generation
 1. Baldoni et al., [[http://season-lab.github.io/papers/survey-symbolic-execution-preprint-CSUR18.pdf][A Survey of Symbolic Execution Techniques]]  
 
 *Tool*: Java Symbolic PathFinder (SE for Java), KLEE (SE for C)
 
-** Topic 5: Dynamic analysis, Invariant Generation
+**  Dynamic analysis, Invariant Generation
 
 1. Ernst et al., [[https://ece.uwaterloo.ca/~agurfink/ece653w17/assets/pdf/W12-Daikon.pdf][Daikon: Dynamically Discovering Likely Program Invariants]]. **Note**: Just read the slides.  *READ NEXT*
 1. Nguyen et al., [[https://cse.unl.edu/~tnguyen/pubs/symtraces_pres.pdf][SymInfer: Inferring Program Invariants using Symbolic States]]. **Note**: Just read the slides. *READ NEXT*
@@ -53,17 +53,18 @@
 
 **Optional**: http://se.inf.ethz.ch/old/teaching/2009-S/0276/slides/schwab.pdf
    
-** Topic 6: Program Synthesis and Repair
-1. Weimer et al., Automatically finding patches using genetic programming. ICSE 2009
-1. Nguyen et al., Connecting Program Synthesis and Reachability: Automatic Program Repair using Test-Input Generation. TACAS 2017.
+** Program Synthesis and Repair
+1. Weimer et al., Automatically finding patches using genetic programming. ICSE 2009 *READ NEXT*
+1. Nguyen et al., Connecting Program Synthesis and Reachability: Automatic Program Repair using Test-Input Generation. TACAS 2017. *READ NEXT*
 1. Gulwani et al., [[https://www.microsoft.com/en-us/research/publication/program-synthesis/][Program Synthesis]], Chapters 1 and 2
 1. Gulwani et al., [[https://www.microsoft.com/en-us/research/publication/program-synthesis/][Program Synthesis]], Chapters 3 and 4
 
 *Optional*: [[https://code.fb.com/developer-tools/getafix-how-facebook-tools-learn-to-fix-bugs-automatically/][Facebook's automatic bug fixing]]
 
 *Tool*: Sketch
-  
-** Topic 7: Logics/SAT Solving
+**  Program Termination 
+1. Cook et al., [[https://cacm.acm.org/magazines/2011/5/107680-proving-program-termination/fulltext][Proving Program Termination]], Communications of the ACM, May 2011
+** Logics/SAT Solving
 
 - [[https://en.wikipedia.org/wiki/Propositional_calculus][Propositional calculus]]
 - [[https://en.wikipedia.org/wiki/Conflict-Driven_Clause_Learning][Conflict Driven Clause Learning]]
@@ -74,10 +75,10 @@ Optional: Shankar, [[http://fm.csl.sri.com/SSFT18/speaklogicV8.pdf][Speaking Log
 
 *Tool*: Z3
 
-** Topic 8: Type Systems
+** Type Systems
 1. Luca Cardelli, [[http://lucacardelli.name/papers/typesystems.pdf][Type Systems]], CSUR 1996
 
-** Topic 9: Automated Debugging
+** Automated Debugging
 
 1. James A. Jones et al., [[https://www.cc.gatech.edu/~john.stasko/papers/icse02.pdf][Visualization of test information to assist fault localization]]. ICSE 2002.
 1. Bessey et al., A Few Billion Lines of Code Later: Using Static Analysis to Find Bugs in the Real World. CACM

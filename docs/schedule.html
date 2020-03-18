@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2020-02-29 Sat 23:38 -->
+<!-- 2020-03-04 Wed 22:00 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>CSCE 990 (Spring 2020): Software Verification</title>
@@ -235,19 +235,20 @@ for the JavaScript code in this tag.
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org9257c38">Announcements</a></li>
-<li><a href="#orge3c2266">Reading List</a>
+<li><a href="#orgf5d2df3">Announcements</a></li>
+<li><a href="#orge6e1d02">Reading List</a>
 <ul>
-<li><a href="#org49ccb90">Topic 1: Intro</a></li>
-<li><a href="#org13793f3">Topic 2: Model Checking</a></li>
-<li><a href="#orgbc43a97">Topic 3: Abstraction / Static Analysis</a></li>
-<li><a href="#org95ebd3b">Topic 4: Symbolic Execution/Test Case Generation</a></li>
-<li><a href="#org7297e1f">Topic 5: Dynamic analysis, Invariant Generation</a></li>
-<li><a href="#org9a68824">Topic 6: Program Synthesis and Repair</a></li>
-<li><a href="#org30e71dc">Topic 7: Logics/SAT Solving</a></li>
-<li><a href="#org9e2e725">Topic 8: Type Systems</a></li>
-<li><a href="#org1708af7">Topic 9: Automated Debugging</a></li>
-<li><a href="#org676f850">Additional Resources</a></li>
+<li><a href="#orgb8c552b">Intro</a></li>
+<li><a href="#org2bf4345">Model Checking</a></li>
+<li><a href="#org8a50ddf">Abstraction / Static Analysis</a></li>
+<li><a href="#org810df2d">Symbolic Execution/Test Case Generation</a></li>
+<li><a href="#org1665794">Dynamic analysis, Invariant Generation</a></li>
+<li><a href="#org933f1b4">Program Synthesis and Repair</a></li>
+<li><a href="#org75b66a5">Program Termination</a></li>
+<li><a href="#orgd346c10">Logics/SAT Solving</a></li>
+<li><a href="#org9faa5f6">Type Systems</a></li>
+<li><a href="#org0055d88">Automated Debugging</a></li>
+<li><a href="#org6a0bc2e">Additional Resources</a></li>
 </ul>
 </li>
 </ul>
@@ -255,9 +256,9 @@ for the JavaScript code in this tag.
 </div>
 
 
-<div id="outline-container-org9257c38" class="outline-2">
-<h2 id="org9257c38">Announcements</h2>
-<div class="outline-text-2" id="text-org9257c38">
+<div id="outline-container-orgf5d2df3" class="outline-2">
+<h2 id="orgf5d2df3">Announcements</h2>
+<div class="outline-text-2" id="text-orgf5d2df3">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
@@ -299,13 +300,13 @@ for the JavaScript code in this tag.
 
 
 
-<div id="outline-container-orge3c2266" class="outline-2">
-<h2 id="orge3c2266">Reading List</h2>
-<div class="outline-text-2" id="text-orge3c2266">
+<div id="outline-container-orge6e1d02" class="outline-2">
+<h2 id="orge6e1d02">Reading List</h2>
+<div class="outline-text-2" id="text-orge6e1d02">
 </div>
-<div id="outline-container-org49ccb90" class="outline-3">
-<h3 id="org49ccb90">Topic 1: Intro</h3>
-<div class="outline-text-3" id="text-org49ccb90">
+<div id="outline-container-orgb8c552b" class="outline-3">
+<h3 id="orgb8c552b">Intro</h3>
+<div class="outline-text-3" id="text-orgb8c552b">
 <ol class="org-ol">
 <li><del>William G. Griswold, <a href="http://cseweb.ucsd.edu/~wgg/CSE210/howtoread.html">How to Read an Engineering Research Paper</a></del></li>
 <li><del>Mike Hicks, <a href="http://www.pl-enthusiast.net/2014/08/21/advice-reviewing-papers/">Advice on Reviewing Papers</a></del></li>
@@ -317,9 +318,9 @@ for the JavaScript code in this tag.
 </div>
 </div>
 
-<div id="outline-container-org13793f3" class="outline-3">
-<h3 id="org13793f3">Topic 2: Model Checking</h3>
-<div class="outline-text-3" id="text-org13793f3">
+<div id="outline-container-org2bf4345" class="outline-3">
+<h3 id="org2bf4345">Model Checking</h3>
+<div class="outline-text-3" id="text-org2bf4345">
 <ol class="org-ol">
 <li><del>JHala et al., <a href="./files/SoftwareModelChecking.pdf">Software Model Checking</a>. <b>Chapter 1</b></del></li>
 <li><del>JHala et al., <a href="./files/SoftwareModelChecking.pdf">Software Model Checking</a>. <b>Chapters 2,3</b></del></li>
@@ -328,9 +329,9 @@ for the JavaScript code in this tag.
 </div>
 </div>
 
-<div id="outline-container-orgbc43a97" class="outline-3">
-<h3 id="orgbc43a97">Topic 3: Abstraction / Static Analysis</h3>
-<div class="outline-text-3" id="text-orgbc43a97">
+<div id="outline-container-org8a50ddf" class="outline-3">
+<h3 id="org8a50ddf">Abstraction / Static Analysis</h3>
+<div class="outline-text-3" id="text-org8a50ddf">
 <ol class="org-ol">
 <li><del>JHala et al., <a href="./files/SoftwareModelChecking.pdf">Software Model Checking</a>. <b>Chapters 4</b></del></li>
 <li><del>JHala et al., <a href="./files/SoftwareModelChecking.pdf">Software Model Checking</a>. <b>Chapters 5</b></del></li>
@@ -340,9 +341,9 @@ for the JavaScript code in this tag.
 </div>
 </div>
 
-<div id="outline-container-org95ebd3b" class="outline-3">
-<h3 id="org95ebd3b">Topic 4: Symbolic Execution/Test Case Generation</h3>
-<div class="outline-text-3" id="text-org95ebd3b">
+<div id="outline-container-org810df2d" class="outline-3">
+<h3 id="org810df2d">Symbolic Execution/Test Case Generation</h3>
+<div class="outline-text-3" id="text-org810df2d">
 <ol class="org-ol">
 <li>Baldoni et al., <a href="http://season-lab.github.io/papers/survey-symbolic-execution-preprint-CSUR18.pdf">A Survey of Symbolic Execution Techniques</a></li>
 </ol>
@@ -353,9 +354,9 @@ for the JavaScript code in this tag.
 </div>
 </div>
 
-<div id="outline-container-org7297e1f" class="outline-3">
-<h3 id="org7297e1f">Topic 5: Dynamic analysis, Invariant Generation</h3>
-<div class="outline-text-3" id="text-org7297e1f">
+<div id="outline-container-org1665794" class="outline-3">
+<h3 id="org1665794">Dynamic analysis, Invariant Generation</h3>
+<div class="outline-text-3" id="text-org1665794">
 <ol class="org-ol">
 <li>Ernst et al., <a href="https://ece.uwaterloo.ca/~agurfink/ece653w17/assets/pdf/W12-Daikon.pdf">Daikon: Dynamically Discovering Likely Program Invariants</a>. <b><b>Note</b></b>: Just read the slides.  <b>READ NEXT</b></li>
 <li>Nguyen et al., <a href="https://cse.unl.edu/~tnguyen/pubs/symtraces_pres.pdf">SymInfer: Inferring Program Invariants using Symbolic States</a>. <b><b>Note</b></b>: Just read the slides. <b>READ NEXT</b></li>
@@ -372,12 +373,12 @@ for the JavaScript code in this tag.
 </div>
 </div>
 
-<div id="outline-container-org9a68824" class="outline-3">
-<h3 id="org9a68824">Topic 6: Program Synthesis and Repair</h3>
-<div class="outline-text-3" id="text-org9a68824">
+<div id="outline-container-org933f1b4" class="outline-3">
+<h3 id="org933f1b4">Program Synthesis and Repair</h3>
+<div class="outline-text-3" id="text-org933f1b4">
 <ol class="org-ol">
-<li>Weimer et al., Automatically finding patches using genetic programming. ICSE 2009</li>
-<li>Nguyen et al., Connecting Program Synthesis and Reachability: Automatic Program Repair using Test-Input Generation. TACAS 2017.</li>
+<li>Weimer et al., Automatically finding patches using genetic programming. ICSE 2009 <b>READ NEXT</b></li>
+<li>Nguyen et al., Connecting Program Synthesis and Reachability: Automatic Program Repair using Test-Input Generation. TACAS 2017. <b>READ NEXT</b></li>
 <li>Gulwani et al., <a href="https://www.microsoft.com/en-us/research/publication/program-synthesis/">Program Synthesis</a>, Chapters 1 and 2</li>
 <li>Gulwani et al., <a href="https://www.microsoft.com/en-us/research/publication/program-synthesis/">Program Synthesis</a>, Chapters 3 and 4</li>
 </ol>
@@ -391,10 +392,17 @@ for the JavaScript code in this tag.
 </p>
 </div>
 </div>
-
-<div id="outline-container-org30e71dc" class="outline-3">
-<h3 id="org30e71dc">Topic 7: Logics/SAT Solving</h3>
-<div class="outline-text-3" id="text-org30e71dc">
+<div id="outline-container-org75b66a5" class="outline-3">
+<h3 id="org75b66a5">Program Termination</h3>
+<div class="outline-text-3" id="text-org75b66a5">
+<ol class="org-ol">
+<li>Cook et al., <a href="https://cacm.acm.org/magazines/2011/5/107680-proving-program-termination/fulltext">Proving Program Termination</a>, Communications of the ACM, May 2011</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-orgd346c10" class="outline-3">
+<h3 id="orgd346c10">Logics/SAT Solving</h3>
+<div class="outline-text-3" id="text-orgd346c10">
 <ul class="org-ul">
 <li><a href="https://en.wikipedia.org/wiki/Propositional_calculus">Propositional calculus</a></li>
 <li><a href="https://en.wikipedia.org/wiki/Conflict-Driven_Clause_Learning">Conflict Driven Clause Learning</a></li>
@@ -412,18 +420,18 @@ Optional: Shankar, <a href="http://fm.csl.sri.com/SSFT18/speaklogicV8.pdf">Speak
 </div>
 </div>
 
-<div id="outline-container-org9e2e725" class="outline-3">
-<h3 id="org9e2e725">Topic 8: Type Systems</h3>
-<div class="outline-text-3" id="text-org9e2e725">
+<div id="outline-container-org9faa5f6" class="outline-3">
+<h3 id="org9faa5f6">Type Systems</h3>
+<div class="outline-text-3" id="text-org9faa5f6">
 <ol class="org-ol">
 <li>Luca Cardelli, <a href="http://lucacardelli.name/papers/typesystems.pdf">Type Systems</a>, CSUR 1996</li>
 </ol>
 </div>
 </div>
 
-<div id="outline-container-org1708af7" class="outline-3">
-<h3 id="org1708af7">Topic 9: Automated Debugging</h3>
-<div class="outline-text-3" id="text-org1708af7">
+<div id="outline-container-org0055d88" class="outline-3">
+<h3 id="org0055d88">Automated Debugging</h3>
+<div class="outline-text-3" id="text-org0055d88">
 <ol class="org-ol">
 <li>James A. Jones et al., <a href="https://www.cc.gatech.edu/~john.stasko/papers/icse02.pdf">Visualization of test information to assist fault localization</a>. ICSE 2002.</li>
 <li>Bessey et al., A Few Billion Lines of Code Later: Using Static Analysis to Find Bugs in the Real World. CACM</li>
@@ -445,9 +453,9 @@ Optional:
 </div>
 
 
-<div id="outline-container-org676f850" class="outline-3">
-<h3 id="org676f850">Additional Resources</h3>
-<div class="outline-text-3" id="text-org676f850">
+<div id="outline-container-org6a0bc2e" class="outline-3">
+<h3 id="org6a0bc2e">Additional Resources</h3>
+<div class="outline-text-3" id="text-org6a0bc2e">
 <ul class="org-ul">
 <li>Basic stuff: control flow graph, live/reach defs: <a href="https://www.cs.odu.edu/~zeil/cs350/f18/Public/analysis/index.html">https://www.cs.odu.edu/~zeil/cs350/f18/Public/analysis/index.html</a></li>
 <li>Build System: <a href="https://www.cs.odu.edu/~zeil/cs350/f18/Public/make/index.html">https://www.cs.odu.edu/~zeil/cs350/f18/Public/make/index.html</a></li>
