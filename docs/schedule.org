@@ -39,14 +39,14 @@
 1. +Mike Hick's post on [[http://www.pl-enthusiast.net/2017/10/23/what-is-soundness-in-static-analysis/][Soundness of Static Analysis]]+
 
 ** Symbolic Execution/Test Case Generation
-1. Baldoni et al., [[http://season-lab.github.io/papers/survey-symbolic-execution-preprint-CSUR18.pdf][A Survey of Symbolic Execution Techniques]]  
+1. +Baldoni et al., [[http://season-lab.github.io/papers/survey-symbolic-execution-preprint-CSUR18.pdf][A Survey of Symbolic Execution Techniques]]+
 
 *Tool*: Java Symbolic PathFinder (SE for Java), KLEE (SE for C)
 
 **  Dynamic analysis, Invariant Generation
 
-1. Ernst et al., [[https://ece.uwaterloo.ca/~agurfink/ece653w17/assets/pdf/W12-Daikon.pdf][Daikon: Dynamically Discovering Likely Program Invariants]]. **Note**: Just read the slides.  *READ NEXT*
-1. Nguyen et al., [[https://cse.unl.edu/~tnguyen/pubs/symtraces_pres.pdf][SymInfer: Inferring Program Invariants using Symbolic States]]. **Note**: Just read the slides. *READ NEXT*
+1. +Ernst et al., [[https://ece.uwaterloo.ca/~agurfink/ece653w17/assets/pdf/W12-Daikon.pdf][Daikon: Dynamically Discovering Likely Program Invariants]]. **Note**: Just read the slides.+
+1. +Nguyen et al., [[https://cse.unl.edu/~tnguyen/pubs/symtraces_pres.pdf][SymInfer: Inferring Program Invariants using Symbolic States]]. **Note**: Just read the slides.+
 1. **OPTIONAL** Garg et al., Learning invariants using decision trees and implication counterexamples. POPL 2016.
 
 *Tool*: Daikon, SymInfer
@@ -54,10 +54,11 @@
 **Optional**: http://se.inf.ethz.ch/old/teaching/2009-S/0276/slides/schwab.pdf
    
 ** Program Synthesis and Repair
-1. Weimer et al., Automatically finding patches using genetic programming. ICSE 2009 *READ NEXT*
+1. +Weimer et al., Automatically finding patches using genetic programming. ICSE 2009+
 1. Nguyen et al., Connecting Program Synthesis and Reachability: Automatic Program Repair using Test-Input Generation. TACAS 2017. *READ NEXT*
-1. Gulwani et al., [[https://www.microsoft.com/en-us/research/publication/program-synthesis/][Program Synthesis]], Chapters 1 and 2
-1. Gulwani et al., [[https://www.microsoft.com/en-us/research/publication/program-synthesis/][Program Synthesis]], Chapters 3 and 4
+1. Alur et al., [[https://people.eecs.berkeley.edu/~sseshia/pubdir/fmcad13-sygus.pdf][Syntax-Guided Synthesis]], FMCAT 13, *READ NEXT*
+1. **OPTIONAL** Gulwani et al., [[https://www.microsoft.com/en-us/research/publication/program-synthesis/][Program Synthesis]], Chapters 1 and 2
+1. **OPTIONAL** Gulwani et al., [[https://www.microsoft.com/en-us/research/publication/program-synthesis/][Program Synthesis]], Chapters 3 and 4
 
 *Optional*: [[https://code.fb.com/developer-tools/getafix-how-facebook-tools-learn-to-fix-bugs-automatically/][Facebook's automatic bug fixing]]
 
