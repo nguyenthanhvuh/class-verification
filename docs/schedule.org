@@ -53,16 +53,23 @@
 
 **Optional**: http://se.inf.ethz.ch/old/teaching/2009-S/0276/slides/schwab.pdf
    
-** Program Synthesis and Repair
+** Program Repair
 1. +Weimer et al., Automatically finding patches using genetic programming. ICSE 2009+
 1. Nguyen et al., [[https://cse.unl.edu/~tnguyen/pubs/equiv.pdf][Connecting Program Synthesis and Reachability: Automatic Program Repair using Test-Input Generation]]. TACAS 2017. *READ NEXT*
-1. Alur et al., [[./files/alur-fmcad-programsynthesis.pdf][Syntax-Guided Synthesis]], FMCAT 13, *READ NEXT*
-1. **OPTIONAL** Gulwani et al., [[https://www.microsoft.com/en-us/research/publication/program-synthesis/][Program Synthesis]], Chapters 1 and 2
-1. **OPTIONAL** Gulwani et al., [[https://www.microsoft.com/en-us/research/publication/program-synthesis/][Program Synthesis]], Chapters 3 and 4
+1. Monperrus., [[./files/monperrus-surveys18-apr-bib.pdf][Automatic Software Repair: A Bibliography]], ACM Computing Surveys 2018. *READ NEXT* 
+**Optional**
+- Gazzola et al., [[./files/gazzola-tse19-apr-survey.pdf][Automatic Software Repair: A Survey]], TSE 2019
+- [[https://code.fb.com/developer-tools/getafix-how-facebook-tools-learn-to-fix-bugs-automatically/][Facebook's automatic bug fixing]]
 
-*Optional*: [[https://code.fb.com/developer-tools/getafix-how-facebook-tools-learn-to-fix-bugs-automatically/][Facebook's automatic bug fixing]]
+
+** Program Synthesis
+1. Gulwani et al., [[https://www.microsoft.com/en-us/research/publication/program-synthesis/][Program Synthesis]], Chapters 1, 2, 3
+1. Gulwani et al., [[https://www.microsoft.com/en-us/research/publication/program-synthesis/][Program Synthesis]], Chapters 4, 5
+1. Gulwani et al., [[https://www.microsoft.com/en-us/research/publication/program-synthesis/][Program Synthesis]], Chapters 6, 7
+1. Alur et al., [[./files/alur-fmcad-programsynthesis.pdf][Syntax-Guided Synthesis]], FMCAT 13
 
 *Tool*: Sketch
+
 **  Program Termination 
 1. Cook et al., [[./fils/cook-cacm11-termination.pdf][Proving Program Termination]], Communications of the ACM, May 2011
 ** Logics/SAT Solving
