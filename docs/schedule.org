@@ -55,8 +55,8 @@
    
 ** Program Synthesis and Repair
 1. +Weimer et al., Automatically finding patches using genetic programming. ICSE 2009+
-1. Nguyen et al., Connecting Program Synthesis and Reachability: Automatic Program Repair using Test-Input Generation. TACAS 2017. *READ NEXT*
-1. Alur et al., [[https://people.eecs.berkeley.edu/~sseshia/pubdir/fmcad13-sygus.pdf][Syntax-Guided Synthesis]], FMCAT 13, *READ NEXT*
+1. Nguyen et al., [[https://cse.unl.edu/~tnguyen/pubs/equiv.pdf][Connecting Program Synthesis and Reachability: Automatic Program Repair using Test-Input Generation]]. TACAS 2017. *READ NEXT*
+1. Alur et al., [[./files/fmcad13-sygus.pdf][Syntax-Guided Synthesis]], FMCAT 13, *READ NEXT*
 1. **OPTIONAL** Gulwani et al., [[https://www.microsoft.com/en-us/research/publication/program-synthesis/][Program Synthesis]], Chapters 1 and 2
 1. **OPTIONAL** Gulwani et al., [[https://www.microsoft.com/en-us/research/publication/program-synthesis/][Program Synthesis]], Chapters 3 and 4
 
