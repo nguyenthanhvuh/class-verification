@@ -16,11 +16,18 @@ Office Hours: Tues 2:00PM - 4:00PM, Avery 364
 
 * [[./schedule.html][CLASS SCHEDULE]]
 
+* COVID-19 Notes
+Due to COVID-19, we will move to an online course format. Below lists the main changes to the class.
 
+- Class lectures and discussions will happen at regular class time through Zoom (i.e., we will have real-time, synchronous discussions).  I will also be available after class on Zoom to answer questions.
+- The main changes to class assignments are (i) instead of in-class presentations, we will have online presentations on Zoom. As with normal classes, I will regularly interact and ask questions during the online discussions to assess your participation and understandings.
+- We will use Canvas (email and discussion list) as the primary way for communication. 
+- I will have office hours through Zoom (links are given in Canvas announcements during the regular scheduled time, i.e., Tuesday 2-4 PM. In addition, you can make appointment for individual meetings with me.
+
+Please let me know if you have any questions or concerns.
 * Description
 This special topics course is a research seminar in *software verification*. 
 The course will focus on active research areas in programming languages and software engineering, but the specific topics will be largely determined by a combination of instructor fiat and the interests of the students.
-
 
 * Requirements and Grading
 You will be evaluated based on discussion and writting summaries on reading assignments, and completing a final project.
@@ -75,7 +82,6 @@ Turn in the complete PDF as well as your LaTeX source.
 
 
 
-
 * Course Policy
 
 - It is CSE Department policy that all students in CSE courses are expected to regularly check their email so they do not miss important announcements.
@@ -87,7 +93,6 @@ Turn in the complete PDF as well as your LaTeX source.
 - Consider the [[http://cse.unl.edu/src][Student Resource Center]] in Avery 12 for additional help (e.g., TA's, tutorings, etc)
 
 - Students with disabilities are encouraged to contact the instructor for a confidential discussion of their individual needs for academic accommodation. It is the policy of the University of Nebraska-Lincoln to provide flexible and individualized accommodations to students with documented disabilities that may affect their ability to fully participate in course activities or to meet course requirements. To receive accommodation services, students must be registered with the Services for Students with Disabilities (SSD) office, 132 Canfield Administration, 472-3787 voice or TTY.
-
 
 * Acknowledgements
 Thanks [[https://web.eecs.umich.edu/~weimerw/][Westley Weimer]] for letting me reuse and adapt course materials from his graduate PL seminar courses.
