@@ -15,10 +15,8 @@
 | T 1/14 | Syllabus                     |     |   |
 | T 2/11 | No Class (Instructor travel) |     |   |
 
-
-
 * Reading List
-**  Intro
+** Intro
 
 1. +William G. Griswold, [[http://cseweb.ucsd.edu/~wgg/CSE210/howtoread.html][How to Read an Engineering Research Paper]]+
 1. +Mike Hicks, [[http://www.pl-enthusiast.net/2014/08/21/advice-reviewing-papers/][Advice on Reviewing Papers]]+
@@ -43,7 +41,7 @@
 
 *Tool*: Java Symbolic PathFinder (SE for Java), KLEE (SE for C)
 
-**  Dynamic analysis, Invariant Generation
+** Dynamic analysis, Invariant Generation
 
 1. +Ernst et al., [[https://ece.uwaterloo.ca/~agurfink/ece653w17/assets/pdf/W12-Daikon.pdf][Daikon: Dynamically Discovering Likely Program Invariants]]. **Note**: Just read the slides.+
 1. +Nguyen et al., [[https://cse.unl.edu/~tnguyen/pubs/symtraces_pres.pdf][SymInfer: Inferring Program Invariants using Symbolic States]]. **Note**: Just read the slides.+
@@ -55,22 +53,19 @@
    
 ** Program Repair
 1. +Weimer et al., Automatically finding patches using genetic programming. ICSE 2009+
-1. Nguyen et al., [[https://cse.unl.edu/~tnguyen/pubs/equiv.pdf][Connecting Program Synthesis and Reachability: Automatic Program Repair using Test-Input Generation]]. TACAS 2017. *READ NEXT*
-1. Monperrus., [[./files/monperrus-surveys18-apr-bib.pdf][Automatic Software Repair: A Bibliography]], ACM Computing Surveys 2018. *READ NEXT* 
+1. +Nguyen et al., [[https://cse.unl.edu/~tnguyen/pubs/equiv.pdf][Connecting Program Synthesis and Reachability: Automatic Program Repair using Test-Input Generation]]. TACAS 2017.+
+1. +Monperrus., [[./files/monperrus-surveys18-apr-bib.pdf][Automatic Software Repair: A Bibliography]], ACM Computing Surveys 2018.+
 **Optional**
 - Gazzola et al., [[./files/gazzola-tse19-apr-survey.pdf][Automatic Software Repair: A Survey]], TSE 2019
 - [[https://code.fb.com/developer-tools/getafix-how-facebook-tools-learn-to-fix-bugs-automatically/][Facebook's automatic bug fixing]]
 
-
 ** Program Synthesis
-1. Gulwani et al., [[https://www.microsoft.com/en-us/research/publication/program-synthesis/][Program Synthesis]], Chapters 1, 2, 3
-1. Gulwani et al., [[https://www.microsoft.com/en-us/research/publication/program-synthesis/][Program Synthesis]], Chapters 4, 5
-1. Gulwani et al., [[https://www.microsoft.com/en-us/research/publication/program-synthesis/][Program Synthesis]], Chapters 6, 7
+1. +Gulwani et al., [[https://www.microsoft.com/en-us/research/publication/program-synthesis/][Program Synthesis]], Chapters 1, 2, 3+
+1. Gulwani et al., [[https://www.microsoft.com/en-us/research/publication/program-synthesis/][Program Synthesis]], Chapters 4, 5 *READ NEXT*
+1. Gulwani et al., [[https://www.microsoft.com/en-us/research/publication/program-synthesis/][Program Synthesis]], Chapters 6, 7 *READ NEXT*
 1. Alur et al., [[./files/alur-fmcad-programsynthesis.pdf][Syntax-Guided Synthesis]], FMCAT 13
-
 *Tool*: Sketch
-
-**  Program Termination 
+** Program Termination 
 1. Cook et al., [[./fils/cook-cacm11-termination.pdf][Proving Program Termination]], Communications of the ACM, May 2011
 ** Logics/SAT Solving
 
@@ -97,7 +92,6 @@ Optional:
 
 
 *Tool*: [[http://www.st.cs.uni-saarland.de/dd/][delta debugging]]
-
 
 ** Additional Resources
 - Basic stuff: control flow graph, live/reach defs: https://www.cs.odu.edu/~zeil/cs350/f18/Public/analysis/index.html
