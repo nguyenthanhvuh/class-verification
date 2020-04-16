@@ -67,6 +67,7 @@
 *Tool*: Sketch
 ** Program Termination 
 1. Cook et al., [[./files/cook-cacm11-termination.pdf][Proving Program Termination]], Communications of the ACM, May 2011 *READ NEXT*
+1. Katz et al., [[./files/katz-acta75-closerlookattermination.pdf][A Closer Look at Termination]], Acta Informatica volume, 1975 *READ NEXT*
 ** Logics/SAT Solving
 
 - [[https://en.wikipedia.org/wiki/Propositional_calculus][Propositional calculus]]
