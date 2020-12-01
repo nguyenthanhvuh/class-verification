@@ -4,7 +4,12 @@
 #+EMAIL:     tnguyen@cse.unl.edu
 #+OPTIONS: num:nil 
 #+OPTIONS: html-postamble:nil
-#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="https://cse.unl.edu/~tnguyen/css/worg.css"/>
+#+HTML_HEAD: <link rel="stylesheet" href="https://web.eecs.umich.edu/~weimerw/css/bootstrap.min.css">
+
+
+
+
+
 
 #+BEGIN_EXAMPLE
 Meetings: TR 11:00AM - 11:15PM,  Avery 103C (Software Engineering Conference room)

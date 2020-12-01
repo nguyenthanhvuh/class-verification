@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2020-04-07 Tue 12:42 -->
+<!-- 2020-11-21 Sat 18:34 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>CSCE 990 (Spring 2020): Software Verification</title>
@@ -161,6 +161,19 @@
   .footdef  { margin-bottom: 1em; }
   .figure { padding: 1em; }
   .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
   .inlinetask {
     padding: 10px;
     border: 2px solid gray;
@@ -180,13 +193,13 @@
   .org-svg { width: 90%; }
   /*]]>*/-->
 </style>
-<link rel="stylesheet" type="text/css" href="https://cse.unl.edu/~tnguyen/css/worg.css"/>
+<link rel="stylesheet" href="https://web.eecs.umich.edu/~weimerw/css/bootstrap.min.css">
 <script type="text/javascript">
 /*
 @licstart  The following is the entire license notice for the
 JavaScript code in this tag.
 
-Copyright (C) 2012-2019 Free Software Foundation, Inc.
+Copyright (C) 2012-2020 Free Software Foundation, Inc.
 
 The JavaScript code in this tag is free software: you can
 redistribute it and/or modify it under the terms of the GNU
@@ -235,27 +248,27 @@ for the JavaScript code in this tag.
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org19b2ed2">CLASS SCHEDULE</a></li>
-<li><a href="#org8178118">COVID-19 Notes</a></li>
-<li><a href="#orge638ade">Description</a></li>
-<li><a href="#orgda14c6a">Requirements and Grading</a>
+<li><a href="#org78330bf">CLASS SCHEDULE</a></li>
+<li><a href="#orgf6edd71">COVID-19 Notes</a></li>
+<li><a href="#orgf9481d0">Description</a></li>
+<li><a href="#org694bad1">Requirements and Grading</a>
 <ul>
-<li><a href="#org0bebc6e">Reading</a>
+<li><a href="#org7e01278">Reading</a>
 <ul>
-<li><a href="#orgbec2fce">Discussion</a></li>
-<li><a href="#org387a9dc">Writing Summaries</a></li>
+<li><a href="#org6a93b19">Discussion</a></li>
+<li><a href="#org4c27bbc">Writing Summaries</a></li>
 </ul>
 </li>
-<li><a href="#org0417a0d">Project</a>
+<li><a href="#org9951b71">Project</a>
 <ul>
-<li><a href="#orgb0c9d11">Proposal</a></li>
-<li><a href="#org532bb54">Report</a></li>
+<li><a href="#org5cd4367">Proposal</a></li>
+<li><a href="#orgf665f7e">Report</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li><a href="#org4bfe41d">Course Policy</a></li>
-<li><a href="#org2952a04">Acknowledgements</a></li>
+<li><a href="#orga239c11">Course Policy</a></li>
+<li><a href="#orga3a0ef5">Acknowledgements</a></li>
 </ul>
 </div>
 </div>
@@ -267,13 +280,13 @@ Office Hours: Tues 2:00PM - 4:00PM, Avery 364
 
 </pre>
 
-<div id="outline-container-org19b2ed2" class="outline-2">
-<h2 id="org19b2ed2"><a href="./schedule.html">CLASS SCHEDULE</a></h2>
+<div id="outline-container-org78330bf" class="outline-2">
+<h2 id="org78330bf"><a href="./schedule.html">CLASS SCHEDULE</a></h2>
 </div>
 
-<div id="outline-container-org8178118" class="outline-2">
-<h2 id="org8178118">COVID-19 Notes</h2>
-<div class="outline-text-2" id="text-org8178118">
+<div id="outline-container-orgf6edd71" class="outline-2">
+<h2 id="orgf6edd71">COVID-19 Notes</h2>
+<div class="outline-text-2" id="text-orgf6edd71">
 <p>
 Due to COVID-19, we will move to an online course format. Below lists the main changes to the class.
 </p>
@@ -290,9 +303,9 @@ Please let me know if you have any questions or concerns.
 </p>
 </div>
 </div>
-<div id="outline-container-orge638ade" class="outline-2">
-<h2 id="orge638ade">Description</h2>
-<div class="outline-text-2" id="text-orge638ade">
+<div id="outline-container-orgf9481d0" class="outline-2">
+<h2 id="orgf9481d0">Description</h2>
+<div class="outline-text-2" id="text-orgf9481d0">
 <p>
 This special topics course is a research seminar in <b>software verification</b>. 
 The course will focus on active research areas in programming languages and software engineering, but the specific topics will be largely determined by a combination of instructor fiat and the interests of the students.
@@ -300,17 +313,17 @@ The course will focus on active research areas in programming languages and soft
 </div>
 </div>
 
-<div id="outline-container-orgda14c6a" class="outline-2">
-<h2 id="orgda14c6a">Requirements and Grading</h2>
-<div class="outline-text-2" id="text-orgda14c6a">
+<div id="outline-container-org694bad1" class="outline-2">
+<h2 id="org694bad1">Requirements and Grading</h2>
+<div class="outline-text-2" id="text-org694bad1">
 <p>
 You will be evaluated based on discussion and writting summaries on reading assignments, and completing a final project.
 </p>
 </div>
 
-<div id="outline-container-org0bebc6e" class="outline-3">
-<h3 id="org0bebc6e">Reading</h3>
-<div class="outline-text-3" id="text-org0bebc6e">
+<div id="outline-container-org7e01278" class="outline-3">
+<h3 id="org7e01278">Reading</h3>
+<div class="outline-text-3" id="text-org7e01278">
 <p>
 We will read papers covering various topics including model checking, symbolic and concolic executions, 
 constraint solving (e.g., SMT solvers), interactive theorem proving, type inference/checking, automatic debugging, invariant generation (dynamic vs static analyses), automatic program repair, program synthesis (e.g., syntax-guided synthesis), verifying concurrent programs.
@@ -322,9 +335,9 @@ You are responsible for reading at least <b><b>two papers</b></b> in advance for
 </p>
 </div>
 
-<div id="outline-container-orgbec2fce" class="outline-4">
-<h4 id="orgbec2fce">Discussion</h4>
-<div class="outline-text-4" id="text-orgbec2fce">
+<div id="outline-container-org6a93b19" class="outline-4">
+<h4 id="org6a93b19">Discussion</h4>
+<div class="outline-text-4" id="text-org6a93b19">
 <p>
 At the beginning of each paper discussion I will choose up to <b>three students</b> at random. 
 Each student will give a <b>five-minute</b> presentation about the paper.  
@@ -349,9 +362,9 @@ In addition, these students will help engage discussions about the paper.
 </div>
 </div>
 
-<div id="outline-container-org387a9dc" class="outline-4">
-<h4 id="org387a9dc">Writing Summaries</h4>
-<div class="outline-text-4" id="text-org387a9dc">
+<div id="outline-container-org4c27bbc" class="outline-4">
+<h4 id="org4c27bbc">Writing Summaries</h4>
+<div class="outline-text-4" id="text-org4c27bbc">
 <p>
 One of the chosen students is responsible to write a summary of the paper.
 The writing will focus on using <b>examples</b> to demonstrate the presented points above.
@@ -367,13 +380,13 @@ The writing will be in <b>Markdown</b> (so that you can use code snippets effect
 
 
 
-<div id="outline-container-org0417a0d" class="outline-3">
-<h3 id="org0417a0d">Project</h3>
-<div class="outline-text-3" id="text-org0417a0d">
+<div id="outline-container-org9951b71" class="outline-3">
+<h3 id="org9951b71">Project</h3>
+<div class="outline-text-3" id="text-org9951b71">
 </div>
-<div id="outline-container-orgb0c9d11" class="outline-4">
-<h4 id="orgb0c9d11">Proposal</h4>
-<div class="outline-text-4" id="text-orgb0c9d11">
+<div id="outline-container-org5cd4367" class="outline-4">
+<h4 id="org5cd4367">Proposal</h4>
+<div class="outline-text-4" id="text-org5cd4367">
 <p>
 By the end of the 3th week, submit a project proposal (1-2 page) that explains what you want to do and what you expect to learn from the project (i.e., why is it interesting to you?).
 </p>
@@ -389,9 +402,9 @@ In addition, include:
 </div>
 </div>
 
-<div id="outline-container-org532bb54" class="outline-4">
-<h4 id="org532bb54">Report</h4>
-<div class="outline-text-4" id="text-org532bb54">
+<div id="outline-container-orgf665f7e" class="outline-4">
+<h4 id="orgf665f7e">Report</h4>
+<div class="outline-text-4" id="text-orgf665f7e">
 <p>
 Submit a project report (5-7 pages) during dead week (<b>11:59 PM Sunday</b>).
 </p>
@@ -407,9 +420,9 @@ Turn in the complete PDF as well as your LaTeX source.
 
 
 
-<div id="outline-container-org4bfe41d" class="outline-2">
-<h2 id="org4bfe41d">Course Policy</h2>
-<div class="outline-text-2" id="text-org4bfe41d">
+<div id="outline-container-orga239c11" class="outline-2">
+<h2 id="orga239c11">Course Policy</h2>
+<div class="outline-text-2" id="text-orga239c11">
 <ul class="org-ul">
 <li>It is CSE Department policy that all students in CSE courses are expected to regularly check their email so they do not miss important announcements.</li>
 
@@ -424,9 +437,9 @@ Turn in the complete PDF as well as your LaTeX source.
 </div>
 </div>
 
-<div id="outline-container-org2952a04" class="outline-2">
-<h2 id="org2952a04">Acknowledgements</h2>
-<div class="outline-text-2" id="text-org2952a04">
+<div id="outline-container-orga3a0ef5" class="outline-2">
+<h2 id="orga3a0ef5">Acknowledgements</h2>
+<div class="outline-text-2" id="text-orga3a0ef5">
 <p>
 Thanks <a href="https://web.eecs.umich.edu/~weimerw/">Westley Weimer</a> for letting me reuse and adapt course materials from his graduate PL seminar courses.
 </p>
