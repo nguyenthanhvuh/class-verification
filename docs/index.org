@@ -1,43 +1,27 @@
-#+TITLE:     CSCE 990 (Spring 2020): Software Verification
+#+TITLE:     CSCE 990 (Spring 2021): Ensuring Software Dependability (or Software Verification)
 
 #+AUTHOR:    ThanhVu H. Nguyen
-#+EMAIL:     tnguyen@cse.unl.edu
 #+OPTIONS: num:nil 
 #+OPTIONS: html-postamble:nil
-#+HTML_HEAD: <link rel="stylesheet" href="https://web.eecs.umich.edu/~weimerw/css/bootstrap.min.css">
+#+SETUPFILE: https://nguyenthanhvuh.github.io/org-html-theme-darksun/export/setup/theme-darksun.setup
 
 
+#+BEGIN_SRC
+Meetings: TR 11:00AM - 11:15PM,  ZOOM
 
-
-
-
-#+BEGIN_EXAMPLE
-Meetings: TR 11:00AM - 11:15PM,  Avery 103C (Software Engineering Conference room)
 Instructor: ThanhVu Nguyen
-Email: tnguyen @ unl.edu
-Office Hours: Tues 2:00PM - 4:00PM, Avery 364
+Email: tnguyen@unl.edu
+Office Hours: After class
+#+END_SRC
 
-#+END_EXAMPLE
-
-* [[./schedule.html][CLASS SCHEDULE]]
-
-* COVID-19 Notes
-Due to COVID-19, we will move to an online course format. Below lists the main changes to the class.
-
-- Class lectures and discussions will happen at regular class time through Zoom (i.e., we will have real-time, synchronous discussions).  I will also be available after class on Zoom to answer questions.
-- The main changes to class assignments are (i) instead of in-class presentations, we will have online presentations on Zoom. As with normal classes, I will regularly interact and ask questions during the online discussions to assess your participation and understandings.
-- We will use Canvas (email and discussion list) as the primary way for communication. 
-- I will have office hours through Zoom (links are given in Canvas announcements during the regular scheduled time, i.e., Tuesday 2-4 PM. In addition, you can make appointment for individual meetings with me.
-
-Please let me know if you have any questions or concerns.
-* Description
+* General Info
 This special topics course is a research seminar in *software verification*. 
 The course will focus on active research areas in programming languages and software engineering, but the specific topics will be largely determined by a combination of instructor fiat and the interests of the students.
 
-* Requirements and Grading
+** Grading
 You will be evaluated based on discussion and writting summaries on reading assignments, and completing a final project.
 
-** Reading
+*** Reading
 
 We will read papers covering various topics including model checking, symbolic and concolic executions, 
 constraint solving (e.g., SMT solvers), interactive theorem proving, type inference/checking, automatic debugging, invariant generation (dynamic vs static analyses), automatic program repair, program synthesis (e.g., syntax-guided synthesis), verifying concurrent programs.
@@ -45,7 +29,7 @@ constraint solving (e.g., SMT solvers), interactive theorem proving, type infere
 On average, we will discuss **three papers** a week (~50 minutes to each paper). 
 You are responsible for reading at least **two papers** in advance for any given discussion.
 
-*** Discussion
+***** Discussion
 
 At the beginning of each paper discussion I will choose up to *three students* at random. 
 Each student will give a *five-minute* presentation about the paper.  
@@ -61,7 +45,7 @@ The goals of this approach are to encourage all participants to read the materia
 
 In addition, these students will help engage discussions about the paper.
 
-*** Writing Summaries
+**** Writing Summaries
 One of the chosen students is responsible to write a summary of the paper.
 The writing will focus on using *examples* to demonstrate the presented points above.
 That is, you will use concrete examples (e.g., those from the paper) to demonstrate the problem, limitations of existing works, and the technical approach. 
@@ -69,9 +53,8 @@ That is, you will use concrete examples (e.g., those from the paper) to demonstr
 The writing will be in *Markdown* (so that you can use code snippets effectively).   You must submit it this writing by the end of each week (*11:59 PM Sunday*).
 
 
-
-** Project
-*** Proposal
+*** Project
+**** Proposal
 By the end of the 3th week, submit a project proposal (1-2 page) that explains what you want to do and what you expect to learn from the project (i.e., why is it interesting to you?).
 
 In addition, include:
@@ -79,7 +62,7 @@ In addition, include:
 1. A survey of the work in selected topic (e.g., read 3 papers thoroughly and 3 other papers superficially).
 1. A work schedule. Make sure to budget time for writing a short project paper describing the project described below.
 
-*** Report
+**** Report
 Submit a project report (5-7 pages) during dead week (*11:59 PM Sunday*).
 
 You will write the report as if you were submitting to a conference such as PLDI or FSE (e.g., using LaTeX templates for these conferences and including all the usual sections such as Introduction, Body, Related Work, Conclusion).
@@ -87,7 +70,7 @@ Turn in the complete PDF as well as your LaTeX source.
 
 
 
-* Course Policy
+** Course Policy
 
 - It is CSE Department policy that all students in CSE courses are expected to regularly check their email so they do not miss important announcements.
 
@@ -99,11 +82,32 @@ Turn in the complete PDF as well as your LaTeX source.
 
 - Students with disabilities are encouraged to contact the instructor for a confidential discussion of their individual needs for academic accommodation. It is the policy of the University of Nebraska-Lincoln to provide flexible and individualized accommodations to students with documented disabilities that may affect their ability to fully participate in course activities or to meet course requirements. To receive accommodation services, students must be registered with the Services for Students with Disabilities (SSD) office, 132 Canfield Administration, 472-3787 voice or TTY.
 
-* Acknowledgements
+** Acknowledgements
 Thanks [[https://web.eecs.umich.edu/~weimerw/][Westley Weimer]] for letting me reuse and adapt course materials from his graduate PL seminar courses.
 
 
 
 
+* Reading List
+
+** Program Analysis Background
+1. Fuzzing
+1. Model Checking
+1. Symbolic Execution
+1. Abstract Intepretation
 
 
+** Domain 1: Deep Neural Networks
+1. Concolic Testing DNN ASE '18
+1. Reluplex
+1. NNV
+1. ERAN
+
+** Domain 2: IoT systems
+
+
+** Domain 3: Robotics
+
+
+
+* Project
