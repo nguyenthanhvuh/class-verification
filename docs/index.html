@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2020-12-06 Sun 10:08 -->
+<!-- 2020-12-16 Wed 11:28 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>CSCE 990 (Spring 2021): Ensuring Software Dependability (or Software Verification)</title>
@@ -193,17 +193,13 @@
   .org-svg { width: 90%; }
   /*]]>*/-->
 </style>
-<link rel="stylesheet" type="text/css" href="https://nguyenthanhvuh.github.io/org-html-theme-darksun/export/styles/darksun/css/htmlize.css"/>
-<link rel="stylesheet" type="text/css" href="https://nguyenthanhvuh.github.io/org-html-theme-darksun/export/styles/darksun/css/darksun.css"/>
-<link rel="stylesheet" type="text/css" href="https://nguyenthanhvuh.github.io/org-html-theme-darksun/export/styles/darksun/css/hideshow.css"/>
-<script type="text/javascript" src="https://nguyenthanhvuh.github.io/org-html-theme-darksun/export/styles/darksun/js/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="https://nguyenthanhvuh.github.io/org-html-theme-darksun/export/styles/darksun/js/jquery-ui-1.10.2.min.js"></script>
-<script type="text/javascript" src="https://nguyenthanhvuh.github.io/org-html-theme-darksun/export/styles/darksun/js/jquery.localscroll-min.js"></script>
-<script type="text/javascript" src="https://nguyenthanhvuh.github.io/org-html-theme-darksun/export/styles/darksun/js/jquery.scrollTo-1.4.3.1-min.js"></script>
-<script type="text/javascript" src="https://nguyenthanhvuh.github.io/org-html-theme-darksun/export/styles/darksun/js/jquery.zclip.min.js"></script>
-<script type="text/javascript" src="https://nguyenthanhvuh.github.io/org-html-theme-darksun/export/styles/darksun/js/darksun.js"></script>
-<script type="text/javascript" src="https://nguyenthanhvuh.github.io/org-html-theme-darksun/export/styles/darksun/js/hideshow.js"></script>
-<script type="text/javascript" src="https://nguyenthanhvuh.github.io/org-html-theme-darksun/export/styles/lib/js/jquery.stickytableheaders.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://fniessen.github.io/org-html-themes/src/readtheorg_theme/css/htmlize.css"/>
+<link rel="stylesheet" type="text/css" href="https://fniessen.github.io/org-html-themes/src/readtheorg_theme/css/readtheorg.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://fniessen.github.io/org-html-themes/src/lib/js/jquery.stickytableheaders.min.js"></script>
+<script type="text/javascript" src="https://fniessen.github.io/org-html-themes/src/readtheorg_theme/js/readtheorg.js"></script>
+<style> #content{max-width:none;}</style>
 <script type="text/javascript">
 /*
 @licstart  The following is the entire license notice for the
@@ -258,27 +254,21 @@ for the JavaScript code in this tag.
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org668055b">General Info</a>
+<li><a href="#org58ad23a">Description</a></li>
+<li><a href="#org32f4ba2">Grading</a>
 <ul>
-<li><a href="#org39065b9">Grading</a>
+<li><a href="#orgdc01f5d">Reading (Schedule and Assignments)</a></li>
+<li><a href="#org70da793">Porject (Project Info)</a>
 <ul>
-<li><a href="#org0e3ff59">Reading</a></li>
-<li><a href="#orga0f164a">Project</a></li>
+<li><a href="#orgb485cc0">Proposal</a></li>
+<li><a href="#org6c267a7">Report</a></li>
 </ul>
 </li>
-<li><a href="#org6b2f327">Course Policy</a></li>
-<li><a href="#org1bcebc7">Acknowledgements</a></li>
 </ul>
 </li>
-<li><a href="#org25da410">Reading List</a>
-<ul>
-<li><a href="#org3869163">Program Analysis Background</a></li>
-<li><a href="#org8a2b639">Domain 1: Deep Neural Networks</a></li>
-<li><a href="#orgddb5294">Domain 2: IoT systems</a></li>
-<li><a href="#org329108f">Domain 3: Robotics</a></li>
-</ul>
-</li>
-<li><a href="#orgcaaaebb">Project</a></li>
+<li><a href="#org290c029">Course Policy</a></li>
+<li><a href="#org89c075c">Acknowledgements</a></li>
+<li><a href="#orgbcc31a5">Links</a></li>
 </ul>
 </div>
 </div>
@@ -290,40 +280,46 @@ Email: tnguyen@unl.edu
 Office Hours: After class
 </pre>
 
-<div id="outline-container-org668055b" class="outline-2">
-<h2 id="org668055b">General Info</h2>
-<div class="outline-text-2" id="text-org668055b">
+<div id="outline-container-org58ad23a" class="outline-2">
+<h2 id="org58ad23a">Description</h2>
+<div class="outline-text-2" id="text-org58ad23a">
 <p>
-This special topics course is a research seminar in <b>software verification</b>. 
-The course will focus on active research areas in programming languages and software engineering, but the specific topics will be largely determined by a combination of instructor fiat and the interests of the students.
+This special topics course is a research seminar in <b>software verification and analysis</b>. 
+The course covers on active research areas in programming languages 
+and software engineering, but the specific topics will be largely 
+determined by a combination of instructor fiat and the interests of the students.
+We also focus on the <b>applications</b> of these techniques, 
+i.e., the uses of software testing and verification techniques 
+in emergining computing domains such as Machine Learning, IoT, and Robotics.
 </p>
 </div>
+</div>
 
-<div id="outline-container-org39065b9" class="outline-3">
-<h3 id="org39065b9">Grading</h3>
-<div class="outline-text-3" id="text-org39065b9">
+<div id="outline-container-org32f4ba2" class="outline-2">
+<h2 id="org32f4ba2">Grading</h2>
+<div class="outline-text-2" id="text-org32f4ba2">
 <p>
 You will be evaluated based on discussion and writting summaries on reading assignments, and completing a final project.
 </p>
 </div>
 
-<div id="outline-container-org0e3ff59" class="outline-4">
-<h4 id="org0e3ff59">Reading</h4>
-<div class="outline-text-4" id="text-org0e3ff59">
+<div id="outline-container-orgdc01f5d" class="outline-3">
+<h3 id="orgdc01f5d">Reading (<a href="assignments.html">Schedule and Assignments</a>)</h3>
+<div class="outline-text-3" id="text-orgdc01f5d">
 <p>
 We will read papers covering various topics including model checking, symbolic and concolic executions, 
-constraint solving (e.g., SMT solvers), interactive theorem proving, type inference/checking, automatic debugging, invariant generation (dynamic vs static analyses), automatic program repair, program synthesis (e.g., syntax-guided synthesis), verifying concurrent programs.
+constraint solving (e.g., SMT solvers), interactive theorem proving, 
+automatic debugging, invariant generation (dynamic vs static analyses), automatic program repair, 
+program synthesis (e.g., syntax-guided synthesis).
+We will also read papers that apply these techniques in practice (e.g., testing and verifying a Deep Neural Network or 
+infering properties of an IoT system).
 </p>
 
 <p>
 On average, we will discuss <b><b>three papers</b></b> a week (~50 minutes to each paper). 
 You are responsible for reading at least <b><b>two papers</b></b> in advance for any given discussion.
 </p>
-</div>
 
-<ul class="org-ul">
-<li><a id="org094e5f8"></a>Discussion<br />
-<div class="outline-text-6" id="text-org094e5f8">
 <p>
 At the beginning of each paper discussion I will choose up to <b>three students</b> at random. 
 Each student will give a <b>five-minute</b> presentation about the paper.  
@@ -346,33 +342,16 @@ The goals of this approach are to encourage all participants to read the materia
 In addition, these students will help engage discussions about the paper.
 </p>
 </div>
-</li>
-</ul>
-
-<li><a id="org7d8eb9b"></a>Writing Summaries<br />
-<div class="outline-text-5" id="text-org7d8eb9b">
-<p>
-One of the chosen students is responsible to write a summary of the paper.
-The writing will focus on using <b>examples</b> to demonstrate the presented points above.
-That is, you will use concrete examples (e.g., those from the paper) to demonstrate the problem, limitations of existing works, and the technical approach. 
-</p>
-
-<p>
-The writing will be in <b>Markdown</b> (so that you can use code snippets effectively).   You must submit it this writing by the end of each week (<b>11:59 PM Sunday</b>).
-</p>
-</div>
-</li>
-</ul>
 </div>
 
 
-<div id="outline-container-orga0f164a" class="outline-4">
-<h4 id="orga0f164a">Project</h4>
-<div class="outline-text-4" id="text-orga0f164a">
+<div id="outline-container-org70da793" class="outline-3">
+<h3 id="org70da793">Porject (<a href="project.html">Project Info</a>)</h3>
+<div class="outline-text-3" id="text-org70da793">
 </div>
-<ul class="org-ul">
-<li><a id="org3274871"></a>Proposal<br />
-<div class="outline-text-5" id="text-org3274871">
+<div id="outline-container-orgb485cc0" class="outline-4">
+<h4 id="orgb485cc0">Proposal</h4>
+<div class="outline-text-4" id="text-orgb485cc0">
 <p>
 By the end of the 3th week, submit a project proposal (1-2 page) that explains what you want to do and what you expect to learn from the project (i.e., why is it interesting to you?).
 </p>
@@ -386,10 +365,11 @@ In addition, include:
 <li>A work schedule. Make sure to budget time for writing a short project paper describing the project described below.</li>
 </ol>
 </div>
-</li>
+</div>
 
-<li><a id="orgc3abac1"></a>Report<br />
-<div class="outline-text-5" id="text-orgc3abac1">
+<div id="outline-container-org6c267a7" class="outline-4">
+<h4 id="org6c267a7">Report</h4>
+<div class="outline-text-4" id="text-org6c267a7">
 <p>
 Submit a project report (5-7 pages) during dead week (<b>11:59 PM Sunday</b>).
 </p>
@@ -399,16 +379,15 @@ You will write the report as if you were submitting to a conference such as PLDI
 Turn in the complete PDF as well as your LaTeX source.
 </p>
 </div>
-</li>
-</ul>
 </div>
 </div>
+</div>
 
 
 
-<div id="outline-container-org6b2f327" class="outline-3">
-<h3 id="org6b2f327">Course Policy</h3>
-<div class="outline-text-3" id="text-org6b2f327">
+<div id="outline-container-org290c029" class="outline-2">
+<h2 id="org290c029">Course Policy</h2>
+<div class="outline-text-2" id="text-org290c029">
 <ul class="org-ul">
 <li>It is CSE Department policy that all students in CSE courses are expected to regularly check their email so they do not miss important announcements.</li>
 
@@ -423,62 +402,24 @@ Turn in the complete PDF as well as your LaTeX source.
 </div>
 </div>
 
-<div id="outline-container-org1bcebc7" class="outline-3">
-<h3 id="org1bcebc7">Acknowledgements</h3>
-<div class="outline-text-3" id="text-org1bcebc7">
+<div id="outline-container-org89c075c" class="outline-2">
+<h2 id="org89c075c">Acknowledgements</h2>
+<div class="outline-text-2" id="text-org89c075c">
 <p>
 Thanks <a href="https://web.eecs.umich.edu/~weimerw/">Westley Weimer</a> for letting me reuse and adapt course materials from his graduate PL seminar courses.
 </p>
 </div>
 </div>
+
+
+<div id="outline-container-orgbcc31a5" class="outline-2">
+<h2 id="orgbcc31a5">Links</h2>
+<div class="outline-text-2" id="text-orgbcc31a5">
+<ul class="org-ul">
+<li><a href="assignments.html">Schedule and Assignments</a></li>
+<li><a href="project.html">Project Info</a></li>
+</ul>
 </div>
-
-
-
-
-<div id="outline-container-org25da410" class="outline-2">
-<h2 id="org25da410">Reading List</h2>
-<div class="outline-text-2" id="text-org25da410">
-</div>
-<div id="outline-container-org3869163" class="outline-3">
-<h3 id="org3869163">Program Analysis Background</h3>
-<div class="outline-text-3" id="text-org3869163">
-<ol class="org-ol">
-<li>Fuzzing</li>
-<li>Model Checking</li>
-<li>Symbolic Execution</li>
-<li>Abstract Intepretation</li>
-</ol>
-</div>
-</div>
-
-
-<div id="outline-container-org8a2b639" class="outline-3">
-<h3 id="org8a2b639">Domain 1: Deep Neural Networks</h3>
-<div class="outline-text-3" id="text-org8a2b639">
-<ol class="org-ol">
-<li>Concolic Testing DNN ASE '18</li>
-<li>Reluplex</li>
-<li>NNV</li>
-<li>ERAN</li>
-</ol>
-</div>
-</div>
-
-<div id="outline-container-orgddb5294" class="outline-3">
-<h3 id="orgddb5294">Domain 2: IoT systems</h3>
-</div>
-
-
-<div id="outline-container-org329108f" class="outline-3">
-<h3 id="org329108f">Domain 3: Robotics</h3>
-</div>
-</div>
-
-
-
-<div id="outline-container-orgcaaaebb" class="outline-2">
-<h2 id="orgcaaaebb">Project</h2>
 </div>
 </div>
 </body>

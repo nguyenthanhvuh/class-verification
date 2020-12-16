@@ -1,0 +1,21 @@
+
+* Reading List
+
+** Program Analysis Background
+1. Fuzzing
+1. Model Checking
+1. Symbolic Execution
+1. Abstract Intepretation
+
+
+** Domain 1: Deep Neural Networks
+1. Concolic Testing DNN ASE '18
+1. Reluplex
+1. NNV
+1. ERAN
+
+** Domain 2: IoT systems
+
+
+** Domain 3: Robotics
+
