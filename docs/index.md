@@ -17,7 +17,7 @@ We will also focus on the **applications** of these techniques, i.e., their uses
 You will be evaluated based on discussion and writting summaries on
 reading assignments and completing a final project.
 
-### Reading ([Schedule and Assignments](assignments.md))
+### Reading ([Reading List](assignments.md))
 
 We will read papers covering various topics including model checking,
 symbolic and concolic executions, constraint solving (e.g., SMT
@@ -29,7 +29,7 @@ verifying a Deep Neural Network or infering properties of an IoT
 system).
 
 
-### Project ([Project Info](project.org))
+### Project ([Project Info](project.md))
 
 All students are expected to select and complete a project that explores
 more deeply a topic covered in the course (or a related topic which we
