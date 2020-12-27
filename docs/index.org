@@ -64,7 +64,7 @@ In addition, these students will help engage discussions about the paper.
 # The writing will be in *Markdown* (so that you can use code snippets effectively).   You must submit it this writing by the end of each week (*11:59 PM Sunday*).
 
 
-*** Porject ([[file:project.org][Project Info]])
+*** Project ([[file:project.org][Project Info]])
 
 **** Proposal
 By the end of the 3th week, submit a project proposal (1-2 page) that explains what you want to do and what you expect to learn from the project (i.e., why is it interesting to you?).
