@@ -1,0 +1,29 @@
+site_name: Software Verification Seminar
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - General Info: index.md
+  - Assignments: 
+    - Reading: assignments.md 
+    - Project: project.md
+ 
+theme:
+  name: material
+  features:
+    # - navigation.tabs
+    # - navigation.sections
+    # - navigation.expand
+    # - toc.integrate
+  palette:
+    scheme: preference #slate
+    # primary: green 
+    # accent: light blue 
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+
+# docs_dir: 'src'
+# site_dir: 'docs'
