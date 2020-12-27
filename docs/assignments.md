@@ -1,5 +1,29 @@
-## Reading List
+# Reading
 
+On average, we will discuss ****three papers**** a week (~50 minutes to
+each paper). You are responsible for reading at least **two papers**
+in advance for any given discussion.
+
+At the beginning of each paper discussion I will choose up to **three
+students** at random. Each student will give a **five-minute**
+presentation about the paper. This presentation must includes:
+
+1.  the problem (what is it? why is it interesting?)
+2.  existing approaches (what are they? what are their limitations?)
+3.  the proposed technical approach (also talk about the strengths of approach and how the approach addresses the weaknesses of existing works)
+4.  limitations of the proposed approach and lists ways in which it
+    might be improved.
+
+You can also include other information, such as your opinion about the
+work, or its relation to other work you may know. The goals of this
+approach are to encourage all participants to read the material
+thoroughly in advance, to provide jumping-off points for detailed
+discussions, and to allow me to evaluate participation.
+
+In addition, these students will help engage discussions about the
+paper.
+
+## Reading List
 ### Background: Program Analysis
 
 1.  Software Testing using Fuzzing:
@@ -14,7 +38,7 @@
     - Hoare Logic
     - Abstract Intepretation
 
-### Domain 1: Deep Neural Networks
+#3# Domain 1: Deep Neural Networks
 
 1.  Concolic Testing DNN ASE '18
 2.  Reluplex

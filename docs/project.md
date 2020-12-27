@@ -1,17 +1,31 @@
-## Project Guideline
+# Project Guideline
 
-All students are expected to select and complete a project that explores
-more deeply a topic covered in the course (or a related topic which we
-didn't cover).
+<!-- 1.  Proposal
 
-The main goal of the project is for you to learn and understand topic in
-depth. The goal is not to force you all to produce novel results in one
-semester. Course projects like this often lead to collaborations that
-eventually yield exciting research. In the hopefully-likely event that
-you end up enjoying your project, come see me about taking it further
-(say, to publication).
+    By the end of the 3th week, submit a project proposal (1-2 page)
+    that explains what you want to do and what you expect to learn from
+    the project (i.e., why is it interesting to you?).
+
+    In addition, include:
+
+    1.  A survey of the work in selected topic (e.g., read 3 papers
+        thoroughly and 3 other papers superficially).
+    2.  A work schedule. Make sure to budget time for writing a short
+        project paper describing the project described below.
+
+2.  Report
+
+    Submit a project report (5-7 pages) during dead week (**11:59 PM
+    Sunday**).
+
+    You will write the report as if you were submitting to a conference
+    such as PLDI or FSE (e.g., using LaTeX templates for these
+    conferences and including all the usual sections such as
+    Introduction, Body, Related Work, Conclusion). Turn in the complete
+    PDF as well as your LaTeX source. -->
 
 
+## Components
 Your project will consist of **two parts** (i) a survey of the work in some
 area related to program verification and (ii) a research part that
 involves creating something new.
@@ -106,4 +120,4 @@ have not read all the papers that you have read to do the project.
 
 ## Project Ideas
 
-I encourage you to define your own project (you can also use your current research project for this, **as long as it involves program analysis**. In case you do not have any ideas, talk to me.
+I encourage you to define your own project (you can also use your current research project with your own advisor, **as long as it involves program analysis**). In case you do not have any ideas, talk to me.

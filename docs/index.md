@@ -1,3 +1,5 @@
+# General Info
+
     Meetings: TR 11:00AM - 11:15PM,  ZOOM
 
     Instructor: ThanhVu Nguyen
@@ -26,54 +28,19 @@ papers that apply these techniques in practice (e.g., testing and
 verifying a Deep Neural Network or infering properties of an IoT
 system).
 
-On average, we will discuss ****three papers**** a week (~50 minutes to
-each paper). You are responsible for reading at least **two papers**
-in advance for any given discussion.
-
-At the beginning of each paper discussion I will choose up to **three
-students** at random. Each student will give a **five-minute**
-presentation about the paper. This presentation must includes:
-
-1.  the problem (what is it? why is it interesting?)
-2.  existing approaches (what are they? what are their limitations?)
-3.  the proposed technical approach (also talk about the strengths of approach and how the approach addresses the weaknesses of existing works)
-4.  limitations of the proposed approach and lists ways in which it
-    might be improved.
-
-You can also include other information, such as your opinion about the
-work, or its relation to other work you may know. The goals of this
-approach are to encourage all participants to read the material
-thoroughly in advance, to provide jumping-off points for detailed
-discussions, and to allow me to evaluate participation.
-
-In addition, these students will help engage discussions about the
-paper.
 
 ### Project ([Project Info](project.org))
 
-1.  Proposal
+All students are expected to select and complete a project that explores
+more deeply a topic covered in the course (or a related topic which we
+didn't cover).
 
-    By the end of the 3th week, submit a project proposal (1-2 page)
-    that explains what you want to do and what you expect to learn from
-    the project (i.e., why is it interesting to you?).
-
-    In addition, include:
-
-    1.  A survey of the work in selected topic (e.g., read 3 papers
-        thoroughly and 3 other papers superficially).
-    2.  A work schedule. Make sure to budget time for writing a short
-        project paper describing the project described below.
-
-2.  Report
-
-    Submit a project report (5-7 pages) during dead week (**11:59 PM
-    Sunday**).
-
-    You will write the report as if you were submitting to a conference
-    such as PLDI or FSE (e.g., using LaTeX templates for these
-    conferences and including all the usual sections such as
-    Introduction, Body, Related Work, Conclusion). Turn in the complete
-    PDF as well as your LaTeX source.
+The main goal of the project is for you to learn and understand topic in
+depth. The goal is not to force you all to produce novel results in one
+semester. Course projects like this often lead to collaborations that
+eventually yield exciting research. In the hopefully-likely event that
+you end up enjoying your project, come see me about taking it further
+(say, to publication).
 
 ## Course Policy
 
