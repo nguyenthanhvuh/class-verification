@@ -25,7 +25,7 @@
     PDF as well as your LaTeX source. -->
 
 
-## Components
+## Instructions
 Your project will consist of **two parts** (i) a survey of the work in some
 area related to program verification and (ii) a research part that
 involves creating something new.
@@ -41,8 +41,7 @@ papers.
 Write about what you have learned. It should answer the following
 questions:
 
-1.  What are the basic problems?
-
+> 1.  What are the basic problems?
 -   What are the basic approaches to solving them?
 -   What are the main achievements to date?
 -   What are the open problems?
