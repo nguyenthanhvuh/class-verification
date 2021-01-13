@@ -26,37 +26,39 @@ In addition, these chosen students will help engage discussions about the paper.
 ### Background: Program Analysis
 
 - Software Testing using **Fuzzing**
-  - [Fuzzing: Hack, Art, and
+    - [Fuzzing: Hack, Art, and
   Science](https://patricegodefroid.github.io/public_psfiles/Fuzzing-101-CACM2020.pdf)
-  - [Evaluating Fuzz Testing](https://arxiv.org/pdf/1808.09700.pdf)
+    - [Evaluating Fuzz Testing](https://arxiv.org/pdf/1808.09700.pdf)
 - **Model Checking**
-  - [Model Checking: Algorithmic Verification and Debugging](https://dl.acm.org/doi/pdf/10.1145/1592761.1592781)
+    - [Model Checking: Algorithmic Verification and Debugging](https://dl.acm.org/doi/pdf/10.1145/1592761.1592781)
 - **Software Verification**
-  - Hoare Logic
-    - [Wikipedia](https://en.wikipedia.org/wiki/Hoare_logic)
-  - Abstract Intepretation
-    - [Wikipedia](https://en.wikipedia.org/wiki/Abstract_interpretation)
+    - Hoare Logic
+      - [Wikipedia](https://en.wikipedia.org/wiki/Hoare_logic)
+    - Abstract Intepretation
+      - [Wikipedia](https://en.wikipedia.org/wiki/Abstract_interpretation)
 - **Symbolic Execution**
-  - [Wikipedia: Symbolic Execution](https://en.wikipedia.org/wiki/Symbolic_execution)
-  - [Wikipedia: Concolic Testing](https://en.wikipedia.org/wiki/Concolic_testing)
-  - [Symbolic Execution and Program Testing](https://dl.acm.org/doi/10.1145/360248.360252t)
-  - [Symbolic Execution For Software Testing: Three Decades Later](https://cacm.acm.org/magazines/2013/2/160161-symbolic-execution-for-software-testing/fulltext)
+    - [Wikipedia: Symbolic Execution](https://en.wikipedia.org/wiki/Symbolic_execution)
+    - [Wikipedia: Concolic Testing](https://en.wikipedia.org/wiki/Concolic_testing)
+    - [Symbolic Execution and Program Testing](https://dl.acm.org/doi/10.1145/360248.360252t)
+    - [Symbolic Execution For Software Testing: Three Decades Later](https://cacm.acm.org/magazines/2013/2/160161-symbolic-execution-for-software-testing/fulltext)
 
   
 - **Invariant Generation**
-  - SymInfer: inferring program invariants using symbolic states
-  - Learning nonlinear loop invariants with gated continuous logic networks
+    - SymInfer: inferring program invariants using symbolic states
+    - Learning nonlinear loop invariants with gated continuous logic networks
 - **Miscs**
-  - Scaling Static Analyses at Facebook
+    - Scaling Static Analyses at Facebook
 
 ### Domain 1: Deep Neural Networks
-
-1. Concolic Testing DNN ASE '18
-2. Reluplex
-3. [NNV: The Neural Network Verification Tool for Deep Neural Networks and Learning-Enabled Cyber-Physical Systems](https://link.springer.com/chapter/10.1007/978-3-030-53288-8_1)
-4. ERAN
-5. General Lectures
-   1. [AI^2: AI Safety and Robustness with Abstract Interpretation](http://safeai.ethz.ch/files/FLOC18-AI2.pdf)
+- Towards Verified Artificial Intelligence
+- Formal Specification for Deep Neural Networks
+- [Reluplex: An Efficient SMT Solver for Verifying Deep Neural Networks](https://link.springer.com/chapter/10.1007/978-3-319-63387-9_5)
+- [The Marabou Framework for Verification and Analysis of Deep Neural Networks](https://link.springer.com/chapter/10.1007/978-3-030-25540-4_26)
+- [AI2: Safety and Robustness Certification of Neural Networks with Abstract Interpretation](https://ieeexplore.ieee.org/document/8418593)
+- [Reluval: Formal security analysis of neural networks using symbolic intervals](https://dl.acm.org/doi/10.5555/3277203.3277323)
+- [NNV: The Neural Network Verification Tool for Deep Neural Networks and Learning-Enabled Cyber-Physical Systems](https://link.springer.com/chapter/10.1007/978-3-030-53288-8_1)
+- General Lectures
+    - [AI^2: AI Safety and Robustness with Abstract Interpretation](http://safeai.ethz.ch/files/FLOC18-AI2.pdf)
 
 ### Domain 2: IoT systems
 1. Scalable analysis of interaction threats in IoT systems. ISSTA 2020
