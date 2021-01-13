@@ -1,6 +1,6 @@
 # General Info
 
-    Meetings: TR 11:00AM - 11:15PM,  ZOOM
+    Meetings: TR 2:00PM - 3:15PM,  ZOOM
 
     Instructor: ThanhVu Nguyen
     Email: tnguyen@unl.edu
