@@ -8,7 +8,7 @@
 
 ## Description
 
-This special topics course is a research seminar in **software verification and analysis**. 
+This special topics course is a research seminar in **software verification and analysis**.
 The course covers active research areas in program analyses, but the specific topics will be largely determined by a combination of instructor fiat and the interests of the students. 
 We will also focus on the **applications** of these techniques, i.e., their uses in emergining computing domains such as Machine Learning, IoT, and Robotics.
 
