@@ -1,29 +1,38 @@
 site_name: Software Verification Seminar
 
 extra_css:
-  - stylesheets/extra.css
+    - stylesheets/extra.css
 
 nav:
-  - General Info: index.md
-  - Assignments: 
-    - Reading: assignments.md 
-    - Project: project.md
+    - General Info: index.md
+    - Assignments: 
+        - Reading: assignments.md 
+        - Project: project.md
  
 theme:
-  name: material
-  features:
-    # - navigation.tabs
-    # - navigation.sections
-    # - navigation.expand
-    # - toc.integrate
-  palette:
-    scheme: preference #slate
-    # primary: green 
-    # accent: light blue 
+    name: material
+    icon:
+      logo: fontawesome/solid/bug
+    features:
+        # - navigation.tabs
+        # - navigation.sections
+        # - navigation.expand
+        # - toc.integrate
+    palette:
+        scheme: preference #slate
+        # primary: green 
+        # accent: light blue 
 
 markdown_extensions:
-  - pymdownx.highlight
-  - pymdownx.superfences
-
-# docs_dir: 'src'
-# site_dir: 'docs'
+    - abbr
+    - pymdownx.tabbed
+    - pymdownx.snippets
+    - admonition
+    - pymdownx.details
+    - pymdownx.superfences
+    - footnotes
+    - pymdownx.caret
+    - pymdownx.mark
+    - pymdownx.tilde
+    - pymdownx.highlight:
+          linenums_style: pymdownx.inline

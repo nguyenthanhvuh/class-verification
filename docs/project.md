@@ -38,15 +38,12 @@ interested in. Read at least **three papers** thoroughly and at least
 suggestions but you should do most of the work in tracking the relevant
 papers.
 
-Write about what you have learned. It should answer the following
-questions:
-
-> 1.  What are the basic problems?
--   What are the basic approaches to solving them?
--   What are the main achievements to date?
--   What are the open problems?
--   What further research or experiments do you propose in this area?
-    Why?
+!!! note "Write about what you have learned. It should answer the questions:"
+    - What are the basic problems?
+    - What are the basic approaches to solving them?
+    - What are the main achievements to date?
+    - What are the open problems?
+    - What further research or experiments do you propose in this area? Why?
 
 Keep the scope narrow enough so that you can learn something well and
 write something interesting.
@@ -71,7 +68,7 @@ pages) describing the project and/or for preparing a short (10 minute)
 project presentation during the last week of classes. The purpose of the
 proposal is for me to give you feedback on its feasibility.
 
-****Scale of the project****: 20-30 should suffice (so if you actually
+**Scale of the project**: 20--30 hrs should suffice (so if you actually
 put in about 2 hours a week, you would end up with pretty good project).
 But don't attempt to do everything in "one long weekend", it will not
 work.

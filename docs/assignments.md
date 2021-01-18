@@ -2,16 +2,17 @@
 
 ## Instructions
 
-On average, we will discuss ****three papers**** a week (~50 minutes to each paper). 
+On average, we will discuss **three papers** a week (~50 minutes to each paper). 
 You are responsible for reading at least **two papers** in advance for any given discussion.
 
 At the beginning of each paper discussion I will choose up to **three students** at random. 
 Each student will give a **five-minute** presentation about the paper. 
-This presentation must includes:
-- the problem (what is it? why is it interesting?)
-- existing approaches (what are they? what are their limitations?)
-- the proposed technical approach (also talk about the strengths of approach and how the approach addresses the weaknesses of existing works)
-- limitations of the proposed approach and lists ways in which it might be improved.
+
+!!! info "This presentation must includes:"
+    - the problem (what is it? why is it interesting?)
+    - existing approaches (what are they? what are their limitations?)
+    - the proposed technical approach (also talk about the strengths of approach and how the approach addresses the weaknesses of existing works)
+    - limitations of the proposed approach and lists ways in which it might be improved.
 
 You can also include other information, such as your opinion about the
 work, or its relation to other work you may know. The goals of this
@@ -73,5 +74,3 @@ In addition, these chosen students will help engage discussions about the paper.
 1. Model-Agnostic and Efficient Exploration of Numerical State Space of Real-World TCP Congestion Control Implementations. NSDI 2019
 1. Automated Verification of Customizable Middlebox Properties with Gravel
 
-
-### Domain 4: Robotics
