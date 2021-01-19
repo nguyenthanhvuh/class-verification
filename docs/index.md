@@ -2,10 +2,10 @@
 
 !!!info
     ```txt
-    tings: TR 2:00PM - 3:15PM,  ZOOM
-    tructor: ThanhVu Nguyen
-    il: tnguyen@unl.edu
-    ice Hours: After class
+    Meetings: TR 2:00PM - 3:15PM,  ZOOM
+    Instructor: ThanhVu Nguyen
+    Email: tnguyen@unl.edu
+    Office Hours: After class
     ```
 
 ## Description
