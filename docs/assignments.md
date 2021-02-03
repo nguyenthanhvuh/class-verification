@@ -8,7 +8,7 @@ You are responsible for reading at least **two papers** in advance for any given
 At the beginning of each paper discussion I will choose up to **three students** at random. 
 Each student will give a **five-minute** presentation about the paper. 
 
-!!! info "This presentation must includes:"
+!!! info "This presentation must include:"
     - the problem (what is it? why is it interesting?)
     - existing approaches (what are they? what are their limitations?)
     - the proposed technical approach (also talk about the strengths of approach and how the approach addresses the weaknesses of existing works)
