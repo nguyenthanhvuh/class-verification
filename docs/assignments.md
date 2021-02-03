@@ -27,11 +27,10 @@ In addition, these chosen students will help engage discussions about the paper.
 ### Background: Program Analysis
 
 - Software Testing using **Fuzzing**
-    - [Fuzzing: Hack, Art, and
-  Science](https://patricegodefroid.github.io/public_psfiles/Fuzzing-101-CACM2020.pdf)
-    - [Evaluating Fuzz Testing](https://arxiv.org/pdf/1808.09700.pdf)
+    - [Fuzzing: Hack, Art, and Science](files/godefroid2020fuzzing.pdf)
+    - [Evaluating Fuzz Testing](files/klees2018evaluating.pdf)
 - **Model Checking**
-    - [Model Checking: Algorithmic Verification and Debugging](https://dl.acm.org/doi/pdf/10.1145/1592761.1592781)
+    - [Model Checking: Algorithmic Verification and Debugging](files/clarke2009model.pdf)
 - **Software Verification**
     - Hoare Logic
       - [Wikipedia](https://en.wikipedia.org/wiki/Hoare_logic)
