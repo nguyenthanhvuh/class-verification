@@ -32,17 +32,20 @@ In addition, these chosen students will help engage discussions about the paper.
 - **Model Checking**
     - [Model Checking: Algorithmic Verification and Debugging](files/clarke2009model.pdf)
 - **Software Verification**
-    - Hoare Logic
-      - [Wikipedia](https://en.wikipedia.org/wiki/Hoare_logic)
+    - [Hoare Logic](files/hoare-logic.pdf) (**Optional**: [Wikipedia](https://en.wikipedia.org/wiki/Hoare_logic))
     - Abstract Intepretation
       - [Wikipedia](https://en.wikipedia.org/wiki/Abstract_interpretation)
+      - Abstract Interpretation: Past, Present, and Future
+      
 - **Symbolic Execution**
     - [Wikipedia: Symbolic Execution](https://en.wikipedia.org/wiki/Symbolic_execution)
     - [Wikipedia: Concolic Testing](https://en.wikipedia.org/wiki/Concolic_testing)
     - [Symbolic Execution and Program Testing](https://dl.acm.org/doi/10.1145/360248.360252t)
     - [Symbolic Execution For Software Testing: Three Decades Later](https://cacm.acm.org/magazines/2013/2/160161-symbolic-execution-for-software-testing/fulltext)
 
-  
+- Miscs:
+  - Trends in Software Verification
+  - 
 - **Invariant Generation**
     - SymInfer: inferring program invariants using symbolic states
     - Learning nonlinear loop invariants with gated continuous logic networks
@@ -59,7 +62,8 @@ In addition, these chosen students will help engage discussions about the paper.
 - [NNV: The Neural Network Verification Tool for Deep Neural Networks and Learning-Enabled Cyber-Physical Systems](https://link.springer.com/chapter/10.1007/978-3-030-53288-8_1)
 - General Lectures
     - [AI^2: AI Safety and Robustness with Abstract Interpretation](http://safeai.ethz.ch/files/FLOC18-AI2.pdf)
-
+    - Lots of good talks/slides: https://mlcertifiedsystems.deel.ai/#Intro
+    
 ### Domain 2: IoT systems
 1. Scalable analysis of interaction threats in IoT systems. ISSTA 2020
 1. Understanding and Automatically Detecting Conflicting Interactions between Smart Home IoT Applications. FSE 2020
