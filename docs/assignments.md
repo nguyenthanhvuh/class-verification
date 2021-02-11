@@ -35,7 +35,7 @@ In addition, these chosen students will help engage discussions about the paper.
     - [Hoare Logic](files/hoare-logic.pdf) (**Optional**: [Wikipedia](https://en.wikipedia.org/wiki/Hoare_logic))
     - Abstract Intepretation
       - [Wikipedia](https://en.wikipedia.org/wiki/Abstract_interpretation)
-      - Abstract Interpretation: Past, Present, and Future
+      - [Abstract Interpretation: Past, Present, and Future](https://cs.nyu.edu/~pcousot/publications.www/CousotCousot-CSL-LICS-2014.pdf)
       
 - **Symbolic Execution**
     - [Wikipedia: Symbolic Execution](https://en.wikipedia.org/wiki/Symbolic_execution)
@@ -45,7 +45,8 @@ In addition, these chosen students will help engage discussions about the paper.
 
 - Miscs:
   - Trends in Software Verification
-  - 
+  - [A Gentle Introduction to Program Analysis](https://www.cs.utexas.edu/~isil/dillig-plmw14.pdf)
+  
 - **Invariant Generation**
     - SymInfer: inferring program invariants using symbolic states
     - Learning nonlinear loop invariants with gated continuous logic networks
