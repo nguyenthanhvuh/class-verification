@@ -37,25 +37,25 @@ In addition, these chosen students will help engage discussions about the paper.
       - [Wikipedia](https://en.wikipedia.org/wiki/Abstract_interpretation)
       - [Abstract Interpretation: Past, Present, and Future](https://cs.nyu.edu/~pcousot/publications.www/CousotCousot-CSL-LICS-2014.pdf)
       
-- **Symbolic Execution**
+<!-- - **Symbolic Execution**
     - [Wikipedia: Symbolic Execution](https://en.wikipedia.org/wiki/Symbolic_execution)
     - [Wikipedia: Concolic Testing](https://en.wikipedia.org/wiki/Concolic_testing)
     - [Symbolic Execution and Program Testing](https://dl.acm.org/doi/10.1145/360248.360252t)
-    - [Symbolic Execution For Software Testing: Three Decades Later](https://cacm.acm.org/magazines/2013/2/160161-symbolic-execution-for-software-testing/fulltext)
+    - [Symbolic Execution For Software Testing: Three Decades Later](https://cacm.acm.org/magazines/2013/2/160161-symbolic-execution-for-software-testing/fulltext) -->
 
 - Miscs:
   - Trends in Software Verification
   - [A Gentle Introduction to Program Analysis](https://www.cs.utexas.edu/~isil/dillig-plmw14.pdf)
   
-- **Invariant Generation**
+<!-- - **Invariant Generation**
     - SymInfer: inferring program invariants using symbolic states
     - Learning nonlinear loop invariants with gated continuous logic networks
 - **Miscs**
-    - Scaling Static Analyses at Facebook
+    - Scaling Static Analyses at Facebook -->
 
 ### Domain 1: Deep Neural Networks
-- Towards Verified Artificial Intelligence
-- Formal Specification for Deep Neural Networks
+- Towards Verified Artificial Intelligence  **NEXT CLASS**
+- Formal Specification for Deep Neural Networks **NEXT CLASS**
 - [Reluplex: An Efficient SMT Solver for Verifying Deep Neural Networks](https://link.springer.com/chapter/10.1007/978-3-319-63387-9_5)
 - [The Marabou Framework for Verification and Analysis of Deep Neural Networks](https://link.springer.com/chapter/10.1007/978-3-030-25540-4_26)
 - [AI2: Safety and Robustness Certification of Neural Networks with Abstract Interpretation](https://ieeexplore.ieee.org/document/8418593)
