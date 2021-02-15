@@ -27,16 +27,16 @@ In addition, these chosen students will help engage discussions about the paper.
 ### Background: Program Analysis
 
 - Software Testing using **Fuzzing**
-    - [Fuzzing: Hack, Art, and Science](files/godefroid2020fuzzing.pdf)
-    - [Evaluating Fuzz Testing](files/klees2018evaluating.pdf)
+    - {--[Fuzzing: Hack, Art, and Science](files/godefroid2020fuzzing.pdf)--}
+    - {--[Evaluating Fuzz Testing](files/klees2018evaluating.pdf)--}
 - **Model Checking**
-    - [Model Checking: Algorithmic Verification and Debugging](files/clarke2009model.pdf)
-- **Software Verification**
+    - {--[Model Checking: Algorithmic Verification and Debugging](files/clarke2009model.pdf)--}
+<!-- - **Software Verification**
     - [Hoare Logic](files/hoare-logic.pdf) (**Optional**: [Wikipedia](https://en.wikipedia.org/wiki/Hoare_logic))
     - Abstract Intepretation
       - [Wikipedia](https://en.wikipedia.org/wiki/Abstract_interpretation)
       - [Abstract Interpretation: Past, Present, and Future](https://cs.nyu.edu/~pcousot/publications.www/CousotCousot-CSL-LICS-2014.pdf)
-      
+       -->
 <!-- - **Symbolic Execution**
     - [Wikipedia: Symbolic Execution](https://en.wikipedia.org/wiki/Symbolic_execution)
     - [Wikipedia: Concolic Testing](https://en.wikipedia.org/wiki/Concolic_testing)
@@ -44,8 +44,8 @@ In addition, these chosen students will help engage discussions about the paper.
     - [Symbolic Execution For Software Testing: Three Decades Later](https://cacm.acm.org/magazines/2013/2/160161-symbolic-execution-for-software-testing/fulltext) -->
 
 - Miscs:
-  - Trends in Software Verification
-  - [A Gentle Introduction to Program Analysis](https://www.cs.utexas.edu/~isil/dillig-plmw14.pdf)
+  <!-- - Trends in Software Verification -->
+  - {--[A Gentle Introduction to Program Analysis](https://www.cs.utexas.edu/~isil/dillig-plmw14.pdf)--}
   
 <!-- - **Invariant Generation**
     - SymInfer: inferring program invariants using symbolic states
@@ -54,8 +54,11 @@ In addition, these chosen students will help engage discussions about the paper.
     - Scaling Static Analyses at Facebook -->
 
 ### Domain 1: Deep Neural Networks
-- Towards Verified Artificial Intelligence  **NEXT CLASS**
-- Formal Specification for Deep Neural Networks **NEXT CLASS**
+- [Youtube Video: Verification of ML Programs](https://www.youtube.com/watch?v=Reo5REo71GU), Guy Katz
+- [Towards Verified Artificial Intelligence](files/seshia2016towards.pdf), Seshia et al.  **NEXT CLASS**
+- [Algorithms for Verifying Deep Neural Networks](files/iu2019algorithms.pdf), Lieu et al.  SECTIONS 1-3 **NEXT CLASS** 
+- [Algorithms for Verifying Deep Neural Networks](files/iu2019algorithms.pdf), Lieu et al.  SECTIONS 4-5 **NEXT CLASS** 
+- [Algorithms for Verifying Deep Neural Networks](files/iu2019algorithms.pdf), Lieu et al.  SECTIONS 4-5 **NEXT CLASS** 
 - [Reluplex: An Efficient SMT Solver for Verifying Deep Neural Networks](https://link.springer.com/chapter/10.1007/978-3-319-63387-9_5)
 - [The Marabou Framework for Verification and Analysis of Deep Neural Networks](https://link.springer.com/chapter/10.1007/978-3-030-25540-4_26)
 - [AI2: Safety and Robustness Certification of Neural Networks with Abstract Interpretation](https://ieeexplore.ieee.org/document/8418593)
