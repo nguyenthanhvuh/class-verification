@@ -57,8 +57,8 @@ In addition, these chosen students will help engage discussions about the paper.
 - [Youtube Video: Verification of ML Programs](https://www.youtube.com/watch?v=Reo5REo71GU), Guy Katz
 - [Towards Verified Artificial Intelligence](files/seshia2016towards.pdf), Seshia et al.  **NEXT CLASS**
 - [Algorithms for Verifying Deep Neural Networks](files/iu2019algorithms.pdf), Lieu et al.  SECTIONS 1-3 **NEXT CLASS** 
-- [Algorithms for Verifying Deep Neural Networks](files/iu2019algorithms.pdf), Lieu et al.  SECTIONS 4-5 **NEXT CLASS** 
-- [Algorithms for Verifying Deep Neural Networks](files/iu2019algorithms.pdf), Lieu et al.  SECTIONS 4-5 **NEXT CLASS** 
+- [Algorithms for Verifying Deep Neural Networks](files/iu2019algorithms.pdf), Lieu et al.  SECTIONS 4-5
+- [Algorithms for Verifying Deep Neural Networks](files/iu2019algorithms.pdf), Lieu et al.  SECTIONS 4-5
 - [Reluplex: An Efficient SMT Solver for Verifying Deep Neural Networks](https://link.springer.com/chapter/10.1007/978-3-319-63387-9_5)
 - [The Marabou Framework for Verification and Analysis of Deep Neural Networks](https://link.springer.com/chapter/10.1007/978-3-030-25540-4_26)
 - [AI2: Safety and Robustness Certification of Neural Networks with Abstract Interpretation](https://ieeexplore.ieee.org/document/8418593)
