@@ -14,9 +14,9 @@ theme:
     icon:
       logo: fontawesome/solid/bug
     features:
+        - navigation.expand
         # - navigation.tabs
         # - navigation.sections
-        # - navigation.expand
         # - toc.integrate
     palette:
         scheme: preference #slate
