@@ -55,7 +55,7 @@ In addition, these chosen students will help engage discussions about the paper.
 
 ### Domain 1: Deep Neural Networks
 - [Youtube Video: Verification of ML Programs](https://www.youtube.com/watch?v=Reo5REo71GU), Guy Katz
-  - [pdf](files/verification_of_ml_programs_katz.pdf)
+    - [pdf](files/verification_of_ml_programs_katz.pdf)
 - [Towards Verified Artificial Intelligence](files/seshia2016towards.pdf), Seshia et al.  **NEXT CLASS**
 - [Algorithms for Verifying Deep Neural Networks](files/liu2019algorithms.pdf), Lieu et al.  SECTIONS 1-3 **NEXT CLASS** 
 - [Algorithms for Verifying Deep Neural Networks](files/liu2019algorithms.pdf), Lieu et al.  SECTIONS 4-5
