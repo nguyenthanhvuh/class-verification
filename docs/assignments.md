@@ -45,7 +45,7 @@ In addition, these chosen students will help engage discussions about the paper.
 
 - Miscs:
   <!-- - Trends in Software Verification -->
-  - {--[A Gentle Introduction to Program Analysis](https://www.cs.utexas.edu/~isil/dillig-plmw14.pdf)--}
+    - {--[A Gentle Introduction to Program Analysis](https://www.cs.utexas.edu/~isil/dillig-plmw14.pdf)--}
   
 <!-- - **Invariant Generation**
     - SymInfer: inferring program invariants using symbolic states

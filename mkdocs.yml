@@ -23,7 +23,6 @@ theme:
         # primary: green 
         # accent: light blue 
 
-
 markdown_extensions:
     - abbr
     - pymdownx.tabbed
