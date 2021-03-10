@@ -53,11 +53,20 @@ In addition, these chosen students will help engage discussions about the paper.
 - **Miscs**
     - Scaling Static Analyses at Facebook -->
 
-### Domain 1: Deep Neural Networks
+   
+### Domain 1: IoT systems
+1. Scalable analysis of interaction threats in IoT systems. ISSTA 2020 **NEXT CLASS**
+1. Understanding and Automatically Detecting Conflicting Interactions between Smart Home IoT Applications. FSE 2020
+1. Trace2TAP: Synthesizing Trigger-Action Programs From Traces of Behavior.
+1. Decentralized Action Integrity for Trigger-Action IoT Platforms.
+1. Charting the Attack Surface of Trigger-Action IoT Platforms.
+
+
+### Domain 2: Deep Neural Networks
 - [Youtube Video: Verification of ML Programs](https://www.youtube.com/watch?v=Reo5REo71GU), Guy Katz
     - [pdf](files/verification_of_ml_programs_katz.pdf)
-- [Towards Verified Artificial Intelligence](files/seshia2016towards.pdf), Seshia et al.  **NEXT CLASS**
-- [Algorithms for Verifying Deep Neural Networks](files/liu2019algorithms.pdf), Lieu et al.  SECTIONS 1-3 **NEXT CLASS** 
+- [Towards Verified Artificial Intelligence](files/seshia2016towards.pdf), Seshia et al.  
+- [Algorithms for Verifying Deep Neural Networks](files/liu2019algorithms.pdf), Lieu et al.  SECTIONS 1-3 
 - [Algorithms for Verifying Deep Neural Networks](files/liu2019algorithms.pdf), Lieu et al.  SECTIONS 4-5
 - [Algorithms for Verifying Deep Neural Networks](files/liu2019algorithms.pdf), Lieu et al.  SECTIONS 4-5
 - [Reluplex: An Efficient SMT Solver for Verifying Deep Neural Networks](https://link.springer.com/chapter/10.1007/978-3-319-63387-9_5)
@@ -69,12 +78,6 @@ In addition, these chosen students will help engage discussions about the paper.
     - [AI^2: AI Safety and Robustness with Abstract Interpretation](http://safeai.ethz.ch/files/FLOC18-AI2.pdf)
     - Lots of good talks/slides: https://mlcertifiedsystems.deel.ai/#Intro
     
-### Domain 2: IoT systems
-1. Scalable analysis of interaction threats in IoT systems. ISSTA 2020
-1. Understanding and Automatically Detecting Conflicting Interactions between Smart Home IoT Applications. FSE 2020
-1. Trace2TAP: Synthesizing Trigger-Action Programs From Traces of Behavior.
-1. Decentralized Action Integrity for Trigger-Action IoT Platforms.
-1. Charting the Attack Surface of Trigger-Action IoT Platforms.
 
 ### Domain 3: Networking
 1. Applying Formal Methods to Networking: Theory, Techniques, and Applications
