@@ -55,11 +55,12 @@ In addition, these chosen students will help engage discussions about the paper.
 
    
 ### Domain 1: IoT systems
+
 1. {--[Scalable analysis of interaction threats in IoT systems](files/alhanahnah20scalable.pdf). ISSTA 2020--}
 1. {--Understanding and Automatically Detecting Conflicting Interactions between Smart Home IoT Applications. FSE 2020--}
-1. Trace2TAP: Synthesizing Trigger-Action Programs From Traces of Behavior. **NEXT CLASS**
+1. {--Trace2TAP: Synthesizing Trigger-Action Programs From Traces of Behavior--}. 
+1. Charting the Attack Surface of Trigger-Action IoT Platforms. **NEXT CLASS**
 1. Decentralized Action Integrity for Trigger-Action IoT Platforms.
-1. Charting the Attack Surface of Trigger-Action IoT Platforms.
 
 
 ### Domain 2: Deep Neural Networks
