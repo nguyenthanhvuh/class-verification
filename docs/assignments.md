@@ -58,8 +58,8 @@ In addition, these chosen students will help engage discussions about the paper.
 
 1. {--[Scalable analysis of interaction threats in IoT systems](files/alhanahnah20scalable.pdf). ISSTA 2020--}
 1. {--Understanding and Automatically Detecting Conflicting Interactions between Smart Home IoT Applications. FSE 2020--}
-1. {--Trace2TAP: Synthesizing Trigger-Action Programs From Traces of Behavior--}. 
-1. Charting the Attack Surface of Trigger-Action IoT Platforms. **NEXT CLASS**
+1. {--Trace2TAP: Synthesizing Trigger-Action Programs From Traces of Behavior--} 
+1. {--Charting the Attack Surface of Trigger-Action IoT Platforms.--}
 1. Decentralized Action Integrity for Trigger-Action IoT Platforms.
 
 
@@ -71,7 +71,7 @@ In addition, these chosen students will help engage discussions about the paper.
 - [Algorithms for Verifying Deep Neural Networks](files/liu2019algorithms.pdf), Lieu et al.  SECTIONS 4-5
 - [Algorithms for Verifying Deep Neural Networks](files/liu2019algorithms.pdf), Lieu et al.  SECTIONS 4-5
 - [Reluplex: An Efficient SMT Solver for Verifying Deep Neural Networks](https://link.springer.com/chapter/10.1007/978-3-319-63387-9_5)
-- [The Marabou Framework for Verification and Analysis of Deep Neural Networks](https://link.springer.com/chapter/10.1007/978-3-030-25540-4_26)
+- [The Marabou Framework for Verification and Analysis of Deep Neural Networks](https://link.springer.com/chapter/10.1007/978-3-030-25540-4_26) **NEXT CLASS**
 - [AI2: Safety and Robustness Certification of Neural Networks with Abstract Interpretation](https://ieeexplore.ieee.org/document/8418593)
 - [Reluval: Formal security analysis of neural networks using symbolic intervals](https://dl.acm.org/doi/10.5555/3277203.3277323)
 - [NNV: The Neural Network Verification Tool for Deep Neural Networks and Learning-Enabled Cyber-Physical Systems](https://link.springer.com/chapter/10.1007/978-3-030-53288-8_1)
