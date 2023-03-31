@@ -1,0 +1,111 @@
+#+STARTUP: showall
+
+#+TITLE:     CSCE 990: Software Verification
+#+AUTHOR:    ThanhVu H. Nguyen
+#+EMAIL:     tnguyen@cse.unl.edu
+#+OPTIONS: toc:nil num:nil ^:nil
+#+OPTIONS: html-postamble:nil
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="../../Pub/solarized-light.css"/>
+
+#+begin_src
+Instructor: ThanhVu (Vu) Nguyen
+Meetings: Tues and Thurs, Room: Military and Naval Science, Room B7, 11:00AM - 12:15PM
+
+Email: tnguyen at cse.unl.edu
+Office: 359 Avery Hall
+Office Hours: Thursdays 12:30 PM - 1:30 PM and by appointment
+
+#+end_src
+
+
+* Announcements:
+** First Class Meeting
+The first meeting will take place on Tuesday 8/22 (at the usual time and place: 11AM in Burnett 202). 
+
+* Overview
+This special topics course is a research seminar in software verification. 
+The course will focus on active research areas in programming languages and software engineering, but the specific topics will be largely determined by a combination of instructor fiat and the interests of the students.
+
+* Requirements and Grading
+You will be evaluated based on reading & discussion and completing a final project.
+
+** Reading
+We will read papers covering various topics including model checking, symbolic and concolic executions (e.g., for test case generation), constraint solving (e.g., SMT solvers), interactive theorem proving, type inference/checking, automatic debugging, invariant generation (dynamic vs static analyses), automatic program repair, program synthesis (e.g., syntax-guided synthesis), verifying concurrent programs.
+
+On average, we will discuss *three papers* a week (~50 minutes to each paper) from the list below. 
+You are responsible for reading at least *two papers* in advance for any given discussion.
+
+At the beginning of *each paper* discussion I will choose up to *three students* at random. 
+Each student will give a *five-minute* presentation that at least 
+1. summarizes the work, 
+- lists its strengths, and 
+- lists ways in which it might be improved.
+You can also include other information, such as your opinion about the work, or its relation to other work you may know.
+
+The goals of this approach are to encourage all participants to read the material thoroughly in advance, to provide jumping-off points for detailed discussions, and to allow me to evaluate participation.
+
+
+*Tools*: Usually each research paper has an implementation tool. 
+I will take into account when evaluating if you try out the tool and discuss some interesting things that it can or cannot do (e.g., try the the tool on some small but nontrivial examples).
+This will help you understand the readings better and give you ideas on how to use existing tools in your own work.
+
+*** [[./reading.html][Reading List]]
+
+
+** Project
+
+You are expected to select and complete a research project that explores more deeply a topic covered in the course (or a related topic which we didn't cover). 
+Examples including developing a new or improved technique to solve an existing problem, or applying an existing technique/tool to a new problem.
+This kind of research project typically involves some survey work, some implementation, and some evaluation.
+
+Several things to keep in mind:
+- I do not expect very fancy project. The goal of the project is to allow you to customize the content of the course to your own interests. The goal is not to force you to produce novel results in one semester.
+- 25-30 hours should suffice (so if you actually put in about 2 hours a week, you would have a good project).
+- But don't attempt to do everything in the last week, it will not work!
+- You are welcome to tackle a more ambitious project. Such a project should have "stages" so that you have something to show at the end of the semester. I (or your advisor) can provide extra guidance on such projects.
+- If you have a great idea and need help, feel free to work as a pair. However, given the scope of most projects, I think they are better done alone. Notably, the grading for a two-person project will actually require "twice as much work" rather than the standard "1.5-times as much work". 
+- I encourage you to define your own project. In case you do not have any ideas or want to try something new, I can give you some project ideas.
+
+
+You will need to submit a project proposal and a project report.
+1. *Proposal*: by the end of the 4th week, submit a project proposal (1-2 page) that explains what you want to do and what you expect to learn from the project (i.e., why is it interesting to you?). Here's an [[./pre_proposal.pdf][example]] (in particular focus on the *Task Proprosal* section).
+
+In addition, include:
+  - A *survey of the work* in selected topic (e.g., read 3 papers thoroughly and 3 other papers superficially). 
+  - A *work schedule*. Make sure to budget time for writing a short project paper describing the project described below.
+
+  - *Report*: by the last week of the semester, submit a project report (5-7 pages).
+    - You will write the report as if you were submitting to a conference such as PLDI or ICSE (e.g., using LaTeX templates for these conferences and including all the usual sections such as Introduction, Body, Related Work, Conclusion). 
+    - Turn in the complete PDF as well as your LaTeX source.
+
+*Presentation*: You can choose whether to give a 10-min presentation of your project in the final week.
+If you give a project presentation, I take that into account when evaluating and grading your final project (e.g., delivering a good presentation counts as some amount of work done, so I expect a bit less from the writeup). 
+By contrast, if you turn in only the final project writeup, you should ensure that it contains enough information for me to assess your work done.
+
+
+
+# * First Class Meeting
+# The first meeting will take place on Tuesday, August 23th (at the usual time and place: 11:00AM in Burnett 202). 
+# You are responsible for reading the first paper. 
+# However, I will get the discussion rolling for Paper #1 (Producing wrong data ...), so you do not need to prepare a presentation for it. 
+# The discussion for it will probably be short.
+# I will begin randomly calling on students when we advance to Paper #2 and Paper #3. 
+# You should prepare your five minute discussions for those two papers.
+
+
+
+
+* Additional Information
+
+1. It is CSE Department policy that all students in CSE courses are expected to regularly check their email so they do not miss important announcements.
+
+- All homework assignments, quizzes, exams, etc. must be your own work. No direct collaboration with fellow students, past or current, is allowed unless otherwise stated. The  Computer Science & Engineering department has an [[http://cse.unl.edu/academic-integrity-policy][Academic]] Integrity Policy. All students enrolled in any computer science course are bound by this policy. You are expected to read, understand, and follow this policy. Violations will be dealt with on a case by case basis and may result in a failing assignment or a failing grade for the course itself.
+
+- The CSE Department has an [[http://cse.unl.edu/contact-form][anonymous]] contact form that you may use to voice your concerns about any problems in the course or department if you do not wish to be identified.
+
+- Consider the [[http://cse.unl.edu/src][Student Resource Center]] in Avery 12 for additional help (e.g., TA's, tutorings, etc)
+
+- Students with disabilities are encouraged to contact the instructor for a confidential discussion of their individual needs for academic accommodation. It is the policy of the University of Nebraska-Lincoln to provide flexible and individualized accommodations to students with documented disabilities that may affect their ability to fully participate in course activities or to meet course requirements. To receive accommodation services, students must be registered with the Services for Students with Disabilities (SSD) office, 132 Canfield Administration, 472-3787 voice or TTY.
+
+
+*Acknowledgements*: Thanks [[http://cs.virginia.edu/~weimer][Wes Weimer]] for letting me reuse and adapt course materials from his graduate PL seminar courses.

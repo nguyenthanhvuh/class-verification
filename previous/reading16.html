@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>CSCE990 Software Verification - READINGS</title>
+<!-- 2017-10-26 Thu 15:03 -->
+<meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta  name="generator" content="Org-mode" />
+<meta  name="author" content="ThanhVu H. Nguyen" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { color: green; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  pre.src-sh:before    { content: 'sh'; }
+  pre.src-bash:before  { content: 'sh'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-R:before     { content: 'R'; }
+  pre.src-perl:before  { content: 'Perl'; }
+  pre.src-java:before  { content: 'Java'; }
+  pre.src-sql:before   { content: 'SQL'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.right  { text-align: center;  }
+  th.left   { text-align: center;   }
+  th.center { text-align: center; }
+  td.right  { text-align: right;  }
+  td.left   { text-align: left;   }
+  td.center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara:nth-child(2) { display: inline; }
+  .footpara { display: block; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  /*]]>*/-->
+</style>
+<link rel="stylesheet" type="text/css" href="../../Pub/solarized-light.css"/>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2013 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">CSCE990 Software Verification - READINGS</h1>
+
+<div id="outline-container-sec-1" class="outline-2">
+<h2 id="sec-1">Reading List</h2>
+<div class="outline-text-2" id="text-1">
+</div><div id="outline-container-sec-1-0-1" class="outline-4">
+<h4 id="sec-1-0-1">First Day of Class</h4>
+<div class="outline-text-4" id="text-1-0-1">
+<ol class="org-ol">
+<li>JHala et al., <a href="./SoftwareModelChecking.pdf">Software Model Checking</a>,  ACM Computing Surveys, 2009 <b>Chapter 1</b> 
+</li>
+</ol>
+</div>
+</div>
+
+<div id="outline-container-sec-1-0-2" class="outline-4">
+<h4 id="sec-1-0-2">Software Verification Overview &amp; Model Checking</h4>
+<div class="outline-text-4" id="text-1-0-2">
+<ol class="org-ol">
+<li>JHala et al., <a href="./SoftwareModelChecking.pdf">Software Model Checking</a>, ACM Computing Surveys, 2009 <b>Chapters 2,3</b>
+</li>
+<li>JHala et al.,<a href="./SoftwareModelChecking.pdf"> Software Model Checking</a>, ACM Computing Surveys, 2009 <b>Chapters 4,5</b>
+</li>
+<li>Clark et al., <a href="./clarke-et-al-cav-2000.pdf">Counter-Example Guided Abstract Refinement</a> CAV,  2000
+</li>
+<li>JHala et al., <a href="./SoftwareModelChecking.pdf">Software Model Checking</a>,  ACM Computing Surveys, 2009 <b>Chapters 6,7</b>
+</li>
+<li>JHala et al., <a href="./SoftwareModelChecking.pdf">Software Model Checking</a>,  ACM Computing Surveys, 2009 <b>Chapters 8,9,10</b>
+</li>
+<li>Ball et al., <a href="./ball.pdf">Automatic predicate abstraction of C programs</a> PLDI, 2001
+</li>
+</ol>
+
+
+<ul class="org-ul">
+<li>Lecture by Matt Dwyer on Model Checking (9/6)
+<ol class="org-ol">
+<li>Reading: Stephan Merz, <a href="./mc-tutorial.pdf">Model Checking: A Tutorial Overview</a>, Modeling and Verification of Parallel Processes, 2001 
+</li>
+<li>Class Notes: Tevfik Bultan, <a href="http://www.cs.ucsb.edu/~bultan/courses/267/cavnotes.pdf">Introduction to Temporal Logic and Model Checking</a>
+</li>
+</ol>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-1-0-3" class="outline-4">
+<h4 id="sec-1-0-3">Automated Debuggig</h4>
+<div class="outline-text-4" id="text-1-0-3">
+<ol class="org-ol">
+<li>Andreas Zeller: <a href="https://www.st.cs.uni-saarland.de/publications/files/zeller-esec-1999.pdf">Yesterday, My Program Worked. Today, It Does Not. Why?</a>, FSE, 1999
+
+<p>
+Tool: <a href="http://www.st.cs.uni-saarland.de/dd/">http://www.st.cs.uni-saarland.de/dd/</a>
+</p>
+</li>
+
+<li>James A. Jones et al., <a href="http://www.cc.gatech.edu/~stasko/papers/icse02.pdf">Visualization of test information to assist fault localization</a>, ICSE, 2002
+</li>
+<li>Liblit et al., <a href="http://dl.acm.org/citation.cfm?id=1065014">Scalable statistical bug isolation</a>, PLDI, 2005
+</li>
+<li>Flanagan et al., <a href="./p234-leino.pdf">Extended Static Checking for Java</a>, PLDI , 2002 <b>Ten-Year Most Influential Paper Award</b> 
+</li>
+</ol>
+
+<p>
+<b>Optional</b>
+</p>
+<ul class="org-ul">
+<li>Nathaniel Ayewah, David Hovemeyer, J. David Morgenthaler, John Penix, William Pugh: Using Static Analysis to Find Bugs. IEEE Software 25(5): 22-29 (2008) 
+</li>
+<li>(Optional) Joseph R. Ruthruff, John Penix, J. David Morgenthaler, Sebastian G. Elbaum, Gregg Rothermel: Predicting accurate and actionable static analysis warnings: an experimental approach. ICSE 2008
+</li>
+<li>(Optional) Al Bessey, Ken Block, Ben Chelf, Andy Chou, Bryan Fulton, Seth Hallem, Charles Henri-Gros, Asya Kamsky, Scott McPeak, Dawson Engler: A Few Billion Lines of Code Later: Using Static Analysis to Find Bugs in the Real World. CACM
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-1-0-4" class="outline-4">
+<h4 id="sec-1-0-4">Symbolic Execution &amp; Test Case Generation</h4>
+<div class="outline-text-4" id="text-1-0-4">
+<ol class="org-ol">
+<li>Patrice Godefroid, Nils Klarlund, Koushik Sen: <a href="http://dl.acm.org/citation.cfm?id=1065036">DART: directed automated random testing</a>, PLDI, 2005
+</li>
+
+<li>Cadar et al., <a href="https://www.usenix.org/legacy/event/osdi08/tech/full_papers/cadar/cadar.pdf">KLEE: Unassisted and Automatic Generation of High-Coverage Tests for Complex Systems Programs</a>, OSDI, 2008
+
+<p>
+Tool: <b>KLEE</b>
+</p>
+</li>
+
+<li>Raul A. Santelices, Pavan Kumar Chittimalli, Taweesup Apiwattanapong, Alessandro Orso, Mary Jean Harrold: <a href="http://dl.acm.org/citation.cfm?id=1642959">Test-Suite Augmentation for Evolving Software</a>, ASE, 2008.
+</li>
+</ol>
+
+
+<ul class="org-ul">
+<li>Lecture by Willem Visser on Symbolic Execution (10/13)
+</li>
+</ul>
+
+<p>
+<b>Optional</b>
+</p>
+<ul class="org-ul">
+<li>T. Ball and S. K. Rajamani. The SLAM project: Debugging system software via static  analysis. POPL, 2002 
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-1-0-5" class="outline-4">
+<h4 id="sec-1-0-5">Invariants Analysis</h4>
+<div class="outline-text-4" id="text-1-0-5">
+<ol class="org-ol">
+<li>Michael D. Ernst, Jake Cockrell, William G. Griswold, David Notkin, <a href="http://homes.cs.washington.edu/~mernst/pubs/invariants-icse99.pdf">Dynamically Discovering Likely Program Invariants to Support Program Evolution</a>, IEEE Trans. Software Eng 2001.
+
+<p>
+Tool: <b>Daikon</b>
+</p>
+</li>
+
+<li>Flanagan, Cormac, and K. Rustan M. Leino, <a href="./esc-houdini.ps">Houdini, an annotation assistant for ESC/Java</a>, International Symposium of Formal Methods (FM),  2001.
+</li>
+
+<li>Findler et al, <a href="http://dl.acm.org/citation.cfm?id=581484">Contracts for Higher-Order Functions</a>, ICFP 2002
+</li>
+
+<li>Sawmy et al., <a href="http://dl.acm.org/citation.cfm?id=2837655">Dependent Types and Multi-Monadic Effects in F*</a>, POPL, 2016
+
+<p>
+Tool: <a href="https://www.fstar-lang.org/tutorial/">F* online tutorial</a>
+</p>
+</li>
+</ol>
+
+<p>
+<b>Optional</b>
+</p>
+<ul class="org-ul">
+<li>ThanhVu Nguyen, Deepak Kapur, Westley Weimer, and Stephanie Forrest, <a href="https://cse.unl.edu/~tnguyen/Pub/icse2012.pdf">Using Dynamic Analysis to Discover Polynomial and Array Invariants</a>, ICSE, 2012. 
+
+<p>
+Tool: <b>DIG</b>
+</p>
+</li>
+</ul>
+</div>
+</div>
+
+
+<div id="outline-container-sec-1-0-6" class="outline-4">
+<h4 id="sec-1-0-6">Program Slicing</h4>
+<div class="outline-text-4" id="text-1-0-6">
+<ol class="org-ol">
+<li>Horwitz et al., <a href="http://dl.acm.org/citation.cfm?id=53994">Interprocedural Slicing Using Dependence Graphs</a>, PLDI 1988 
+</li>
+<li>Agrawal et al., <a href="http://dl.acm.org/citation.cfm?id=93576">Dynamic Program Slicing</a>, PLDI, 1990
+</li>
+</ol>
+
+<p>
+<b>Optional</b>
+</p>
+<ul class="org-ul">
+<li>Reps et al., Precise Interprocedural Dataflow Analysis via Graph Reachability
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-1-0-7" class="outline-4">
+<h4 id="sec-1-0-7">Program Repair</h4>
+<div class="outline-text-4" id="text-1-0-7">
+<ol class="org-ol">
+<li>Westley Weimer, ThanhVu Nguyen, Claire Le Goues, Stephanie Forrest, <a href="http://dl.acm.org/citation.cfm?id=1555051">Automatically finding patches using genetic programming</a>, International Conference on Software Engineering,  2009
+
+<p>
+Tool: <b>GenProg</b>
+</p>
+</li>
+
+<li>Mechtaev, Sergey, Jooyong Yi, and Abhik Roychoudhury, <a href="http://dl.acm.org/citation.cfm?id=2884807">Angelix: Scalable multiline program patch synthesis via symbolic analysis</a>, International Conference on Software Engineering, 2016.
+
+<p>
+Tool: <b>Angelix</b>
+</p>
+</li>
+</ol>
+</div>
+</div>
+
+
+<div id="outline-container-sec-1-0-8" class="outline-4">
+<h4 id="sec-1-0-8">Program Synthesis</h4>
+<div class="outline-text-4" id="text-1-0-8">
+<ol class="org-ol">
+<li>Armando Solar-Lezama, Liviu Tancau, Rastislav Bodik, Vijay Saraswat, Sanjit A. Seshia, <a href="https://people.csail.mit.edu/asolar/papers/asplos06-final.pdf">Combinatorial Sketching for Finite Programs</a>, ASPLOS 2006.
+
+<p>
+Tool: <b>Sketch</b> 
+</p>
+</li>
+
+<li>Saurabh Srivastava, Sumit Gulwani, Jeffrey S. Foster, <a href="http://dl.acm.org/citation.cfm?id=1706337">From program verification to program synthesis</a>, POPL, 2010
+</li>
+</ol>
+
+<p>
+<b>Optional</b>
+</p>
+<ul class="org-ul">
+<li>Alur, et al., <b>Syntax-guided synthesis</b>, Dependable Software Systems Engineering, 2015.
+</li>
+</ul>
+</div>
+</div>
+
+
+<div id="outline-container-sec-1-0-9" class="outline-4">
+<h4 id="sec-1-0-9">Theorem Proving</h4>
+<div class="outline-text-4" id="text-1-0-9">
+<ol class="org-ol">
+<li>Daniel Kroening, <a href="./ch2.pdf">Chapter2. Decision Procedures for Propositional Logic</a> (pages 25-50, cover both DPLL and BDD). Note: you might want to start with this introduction to the <a href="https://en.wikipedia.org/wiki/DPLL_algorithm">DPLL</a> algorithm from Wikipedia.  
+
+<p>
+Tool: <b>Z3</b> 
+</p>
+</li>
+
+<li><a href="https://coq.inria.fr/distrib/current/files/Tutorial.pdf">The Coq Proof Assistant: A Tutorial</a> (read up to and including Section 1.3.4)
+
+<p>
+Tool: <b>Coq</b>
+</p>
+</li>
+</ol>
+
+<p>
+<b>Optional</b>
+</p>
+<ol class="org-ol">
+<li>Ganzinger et al., <a href="./dpllt.pdf">DPLL(T ): Fast Decision Procedures</a>, CAV, 2004. 
+</li>
+</ol>
+</div>
+</div>
+
+
+
+<div id="outline-container-sec-1-0-10" class="outline-4">
+<h4 id="sec-1-0-10">Type Checking / Inferrence</h4>
+<div class="outline-text-4" id="text-1-0-10">
+<ol class="org-ol">
+<li>Hindley-Milner type system 
+<a href="https://en.wikipedia.org/wiki/Hindley%E2%80%93Milner_type_system">Wikipedia</a>
+</li>
+
+<li>Seidel et al., <a href="http://eric.seidel.io/pub/nanomaly-icfp16.pdf">Dynamic Witnesses for Static Type Errors</a>, ICFP 2016 
+</li>
+</ol>
+
+<p>
+<b>Optional</b>
+</p>
+<ul class="org-ul">
+<li>Patrick Rondon, Ming Kawaguchi, Ranjit Jhala, <a href="http://goto.ucsd.edu/~rjhala/liquid/liquid_types_techrep.pdf">Liquid Types</a>, PLDI, 2008
+</li>
+</ul>
+</div>
+</div>
+
+
+<div id="outline-container-sec-1-0-11" class="outline-4">
+<h4 id="sec-1-0-11">Concurrent Programs</h4>
+<div class="outline-text-4" id="text-1-0-11">
+<ol class="org-ol">
+<li>Lecture by Matt Dwyer on CIVL
+</li>
+<li>TBA
+</li>
+<li>TBA
+</li>
+</ol>
+</div>
+</div>
+
+
+<div id="outline-container-sec-1-1" class="outline-3">
+<h3 id="sec-1-1">Useful Info</h3>
+<div class="outline-text-3" id="text-1-1">
+<p>
+-. William G. Griswold, <a href="http://cseweb.ucsd.edu/~wgg/CSE210/howtoread.html">How to Read an Engineering Research Paper</a>.
+</p>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>

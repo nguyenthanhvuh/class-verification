@@ -1,0 +1,28 @@
+#+STARTUP: showall
+
+#+TITLE:     CSCE990 Software Verification - READINGS
+#+AUTHOR:    ThanhVu H. Nguyen
+#+EMAIL:     tnguyen@cse.unl.edu
+#+OPTIONS: toc:nil num:nil ^:nil
+#+OPTIONS: html-postamble:nil
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="../../solarized-light.css"/>
+* Schedule
+| *Week* | *Topic*                       | *Assignments*                | *Notes*      |   |   |   |
+| 8/23   | Verification Overview         | SMC 1-5                      |              |   |   |   |
+| 8/30   | Verification & Model checking | CEGAR, SMC 6-10              |              |   |   |   |
+| 9/6    | Guest Lecture /Model Checking | Pred Abs                     |              |   |   |   |
+| 9/13   | Debugging & Prog Slicing      | Proposals due                |              |   |   |   |
+| 9/20   |                               |                              |              |   |   |   |
+| 9/27   |                               |                              |              |   |   |   |
+| 10/4   | Symbolic Exec                 |                              |              |   |   |   |
+| 10/11  | Symbolic Exec / Guest Lecture |                              |              |   |   |   |
+| 10/18  | Invariant Analysis            |                              |              |   |   |   |
+| 10/25  | Program Slicing               |                              |              |   |   |   |
+| 11/1   | Program Repair                |                              |              |   |   |   |
+| 11/8   | Program Synthesis             |                              |              |   |   |   |
+| 11/15  | Matt's lecture ..             |                              | FSE travel   |   |   |   |
+| 11/22  | Theorem Proving               |                              | Thanksgiving |   |   |   |
+| 11/29  | Type Checking/Inferrence      |                              |              |   |   |   |
+| 12/6   | Concurrent Programs           |                              |              |   |   |   |
+| 12/13  | Project                       | Presentations & Projects Due |              |   |   |   |
+  

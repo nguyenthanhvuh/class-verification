@@ -1,0 +1,57 @@
+Verification
+
+
+- Floyd's logic 
+- Disjkstra's wp
+- Statistical Debugging
+
+- FindBugs
+- Daikon
+- KLEE
+- DIG
+- Angelix
+- Sketch
+- DPLL
+- COQ 
+
+
+Edsger W. Dijkstra. Go to statement considered harmful. 11(3):147-148, March 1968.
+Peter J. Landin. The next 700 programming languages. Communications of the ACM, 9(3):157-166, March 1966.
+Gordon Plotkin. Call-by-name, call-by-value, and the λ-calculus. Theoretical Computer Science, 1:125-159, 1975.
+George C. Necula. Proof-carrying code. In ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages (POPL), Paris, France, pages 106-119, January 1997.
+C. A. R. Hoare. Proof of a program: FIND. Communications of the ACM, 14(1):39-45, January 1971.
+
+
+
+Verification
+
+
+Separation Logic
+
+
+Testing
+
+
+
+Debugging
+
+
+
+Invariant Generation
+
+
+
+Synthesis
+
+
+Repair
+
+
+
+Theorem Proving
+
+
+Type Checking/Inference
+
+
+Concurrent Programs

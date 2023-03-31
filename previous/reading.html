@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2020-12-16 Wed 12:54 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>CSCE990 Software Verification - READINGS</title>
+<meta name="generator" content="Org mode" />
+<meta name="author" content="ThanhVu H. Nguyen" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<link rel="stylesheet" type="text/css" href="../../Pub/solarized-light.css"/>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2020 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">CSCE990 Software Verification - READINGS</h1>
+
+<div id="outline-container-orged6b71c" class="outline-2">
+<h2 id="orged6b71c">Reading List</h2>
+<div class="outline-text-2" id="text-orged6b71c">
+</div>
+<div id="outline-container-orge4e53b4" class="outline-4">
+<h4 id="orge4e53b4">Software Verification Overview &amp; Model Checking</h4>
+<div class="outline-text-4" id="text-orge4e53b4">
+<p>
+<b>Topics</b>: Hoare logic, predicate transformer, model checking, CEGAR, predicate abstraction
+</p>
+<ol class="org-ol">
+<li>Hoare, <a href="https://www.cs.cmu.edu/~crary/819-f09/Hoare69.pdf">Axiomatic Basis for Computer Programming</a>, CACM, 1969</li>
+<li><p>
+Dijkstra, <a href="./files/guardedcommands.pdf">Guarded commands, nondeterminacy and formal derivation of program</a>. CACM, 1975
+</p>
+
+<p>
+Note: you might want to start by reading these 2 articles from Wikipedia: <a href="https://en.wikipedia.org/wiki/Hoare_logic">Hoare logic</a> and <a href="https://en.wikipedia.org/wiki/Predicate_transformer_semantics">Predicate Transformer</a>
+</p></li>
+<li>JHala et al., <a href="./files/SoftwareModelChecking.pdf">Software Model Checking</a>,  ACM Computing Surveys, 2009 <b>Chapter 1</b></li>
+<li>JHala et al., <a href="./files/SoftwareModelChecking.pdf">Software Model Checking</a>, ACM Computing Surveys, 2009 <b>Chapters 2,3</b></li>
+<li>Visser et al., <a href="https://ti.arc.nasa.gov/m/tech/rse/publications/papers/ASE00/jpf2-ase.pdf">Model Checking Programs</a>, ASE 2003</li>
+<li>JHala et al.,<a href="./files/SoftwareModelChecking.pdf"> Software Model Checking</a>, ACM Computing Surveys, 2009 <b>Chapters 4,5</b></li>
+<li>Ball et al., <a href="./files/ball.pdf">Automatic predicate abstraction of C programs</a> PLDI, 2001</li>
+</ol>
+</div>
+</div>
+
+
+<div id="outline-container-orgcf2438c" class="outline-4">
+<h4 id="orgcf2438c">Symbolic Execution &amp; Test Case Generation</h4>
+<div class="outline-text-4" id="text-orgcf2438c">
+<ol class="org-ol">
+<li>King,  <a href="https://yurichev.com/mirrors/king76symbolicexecution.pdf">Symbolic Execution and Program Testing</a>, CACM 1976</li>
+<li>Sarfraz Khurshid, Corina S. Pasareanu, and Willem Visser,  <a href="./files/GSE.pdf">Generalized Symbolic Execution for Model Checking and Testing</a>, TACAS 2003</li>
+<li>Edward J. Schwartz, Thanassis Avgerinos, David Brumley,  <a href="https://edmcman.github.io/papers/oakland10.pdf">All You Ever Wanted to Know About Dynamic Taint Analysis and Forward Symbolic Execution</a>, Oakland 2010</li>
+</ol>
+
+<p>
+<b>Optional</b>
+</p>
+<ul class="org-ul">
+<li>T. Ball and S. K. Rajamani. The SLAM project: Debugging system software via static  analysis. POPL, 2002</li>
+</ul>
+</div>
+</div>
+
+
+<div id="outline-container-org5b2e6db" class="outline-4">
+<h4 id="org5b2e6db">Automatic Invariants Generation</h4>
+<div class="outline-text-4" id="text-org5b2e6db">
+<p>
+<b>Topics</b>: Dynamic analysis, Daikon, DIG, CEGAR
+</p>
+<ol class="org-ol">
+<li><p>
+Michael D. Ernst, Jake Cockrell, William G. Griswold, David Notkin, <a href="http://homes.cs.washington.edu/~mernst/pubs/invariants-icse99.pdf">Dynamically Discovering Likely Program Invariants to Support Program Evolution</a>, IEEE Trans. Software Eng 2001.
+</p>
+
+<p>
+Tool: <b>Daikon</b>
+</p></li>
+<li>Corina S. Pasareanu and Willem Visser: <a href="https://link.springer.com/chapter/10.1007/978-3-540-24732-6_13">Veriﬁcation of Java Programs using Symbolic Execution and Invariant Generation</a>, SPIN 2004</li>
+</ol>
+
+<p>
+Optional:
+</p>
+<ul class="org-ul">
+<li>Findler et al, <a href="http://dl.acm.org/citation.cfm?id=581484">Contracts for Higher-Order Functions</a>, ICFP 2002</li>
+<li>Flanagan, Cormac, and K. Rustan M. Leino, <a href="./files/esc-houdini.ps">Houdini, an annotation assistant for ESC/Java</a>, International Symposium of Formal Methods (FM),  2001.</li>
+<li><p>
+Nguyen et al., <a href="https://cse.unl.edu/~tnguyen/Pub/dig2.pdf">Counterexample-guided Approach to Finding Numerical Invariants</a>, FSE 2017
+</p>
+
+<p>
+Tool: <a href="https://bitbucket.org/nguyenthanhvuh/dig2/">DIG</a>
+</p></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgcbb5a87" class="outline-4">
+<h4 id="orgcbb5a87">Program Synthesis/Repair</h4>
+<div class="outline-text-4" id="text-orgcbb5a87">
+<ol class="org-ol">
+<li>Alur, et al., <a href="./files/alur-fmcad.pdf">Syntax-guided synthesis</a>, Dependable Software Systems Engineering, 2015.</li>
+<li><p>
+Armando Solar-Lezama, Liviu Tancau, Rastislav Bodik, Vijay Saraswat, Sanjit A. Seshia, <a href="https://people.csail.mit.edu/asolar/papers/asplos06-final.pdf">Combinatorial Sketching for Finite Programs</a>, ASPLOS 2006.
+</p>
+
+<p>
+Tool: <b>Sketch</b> 
+</p></li>
+<li><p>
+Westley Weimer, ThanhVu Nguyen, Claire Le Goues, Stephanie Forrest, <a href="http://dl.acm.org/citation.cfm?id=1555051">Automatically finding patches using genetic programming</a>, International Conference on Software Engineering,  2009
+</p>
+
+<p>
+Tool: <b>GenProg</b>
+</p></li>
+
+<li>Xuan-Bach D. Le et al., <a href="./files/le-fse-17-programrepairs3.pdf">S3: Syntax- and Semantic-Guided Repair Synthesis via Programming by Examples</a>, Foundation of Software Engineering 2017</li>
+</ol>
+</div>
+</div>
+
+
+
+<div id="outline-container-org7f93365" class="outline-4">
+<h4 id="org7f93365">Automated Debugging</h4>
+<div class="outline-text-4" id="text-org7f93365">
+<p>
+<b>Topics</b>: delta debugging, statistical debugging, ESC/Java
+</p>
+
+<ol class="org-ol">
+<li><p>
+Andreas Zeller: <a href="https://www.st.cs.uni-saarland.de/publications/./files/zeller-esec-1999.pdf">Yesterday, My Program Worked. Today, It Does Not. Why?</a>, FSE, 1999
+</p>
+
+<p>
+Tool: <a href="http://www.st.cs.uni-saarland.de/dd/">http://www.st.cs.uni-saarland.de/dd/</a>
+</p></li>
+
+<li>James A. Jones et al., <a href="http://www.cc.gatech.edu/~stasko/papers/icse02.pdf">Visualization of test information to assist fault localization</a>, ICSE, 2002</li>
+<li>Flanagan et al., <a href="./files/p234-leino.pdf">Extended Static Checking for Java</a>, PLDI , 2002 <b>Ten-Year Most Influential Paper Award</b></li>
+<li>David Hovemeyer and William Pugh, <a href="http://dl.acm.org/citation.cfm?id=1052895">Finding bugs is easy</a>, OOPSLA, 2004</li>
+</ol>
+</div>
+</div>
+
+<div id="outline-container-orgc869529" class="outline-4">
+<h4 id="orgc869529">Logics</h4>
+<div class="outline-text-4" id="text-orgc869529">
+<p>
+<b>Topics</b>: First Order Logic, SMT Solving, DPLL, Separation Logic
+</p>
+<ul class="org-ul">
+<li><a href="https://en.wikipedia.org/wiki/Propositional_calculus">Propositional calculus</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Conflict-Driven_Clause_Learning">Conflict Driven Clause Learning</a></li>
+<li><a href="https://en.wikipedia.org/wiki/First-order_logic">First-Order Logic</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Satisfiability_modulo_theories">SMT Solver</a>
+Tool: <b>Z3</b></li>
+<li>O' Hearn,  <a href="http://www0.cs.ucl.ac.uk/staff/p.ohearn/papers/Marktoberdorf11LectureNotes.pdf">A Primer on Separation Logic</a>, Read Chapters 1-3</li>
+</ul>
+<p>
+<b>Optional</b>
+</p>
+<ul class="org-ul">
+<li><a href="./files/08-seplogic.pdf">Slides from NUS about Separation Logic</a></li>
+</ul>
+</div>
+</div>
+
+
+
+<div id="outline-container-org5ef18d6" class="outline-4">
+<h4 id="org5ef18d6">Type Checking / Inferrence</h4>
+<div class="outline-text-4" id="text-org5ef18d6">
+<ol class="org-ol">
+<li>Hindley-Milner type system 
+<a href="https://en.wikipedia.org/wiki/Hindley%E2%80%93Milner_type_system">Wikipedia</a></li>
+
+<li>Seidel et al., <a href="http://eric.seidel.io/pub/nanomaly-icfp16.pdf">Dynamic Witnesses for Static Type Errors</a>, ICFP 2016</li>
+</ol>
+
+<p>
+<b>Optional</b>
+</p>
+<ul class="org-ul">
+<li>Patrick Rondon, Ming Kawaguchi, Ranjit Jhala, <a href="http://goto.ucsd.edu/~rjhala/liquid/liquid_types_techrep.pdf">Liquid Types</a>, PLDI, 2008</li>
+</ul>
+</div>
+</div>
+
+
+<div id="outline-container-orge90bcf2" class="outline-4">
+<h4 id="orge90bcf2">Concurrent Programs</h4>
+<div class="outline-text-4" id="text-orge90bcf2">
+<ol class="org-ol">
+<li>Lecture by Matt Dwyer on CIVL</li>
+<li>TBA</li>
+<li>TBA</li>
+</ol>
+</div>
+</div>
+
+
+<div id="outline-container-org00049eb" class="outline-3">
+<h3 id="org00049eb">Useful Info</h3>
+<div class="outline-text-3" id="text-org00049eb">
+<p>
+-. William G. Griswold, <a href="http://cseweb.ucsd.edu/~wgg/CSE210/howtoread.html">How to Read an Engineering Research Paper</a>.
+</p>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
