@@ -1,3 +1,5 @@
+# Announcement
+
 
 ```
     Instructor: ThanhVu (Vu) Nguyen
@@ -8,9 +10,6 @@
     Office Hours: by appointment
 ```
 
-# Announcements:
-
-## First Class Meeting
 
 # Overview
 
