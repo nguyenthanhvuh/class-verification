@@ -1,4 +1,4 @@
-#+TITLE:     CS695 (Fall 2023): AI Safety and Assurance (or AI Verification)
+#+TITLE:     CS695 (Fall 2023): AI Safety and Assurance (or simply just AI Verification)
 #+AUTHOR:    ThanhVu H. Nguyen
 
 #+OPTIONS: num:nil 
