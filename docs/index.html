@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2023-04-04 Tue 00:17 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<title>CS695 (Fall 2023): AI Safety and Assurance (or AI Verification)</title>
+<meta name="author" content="ThanhVu H. Nguyen" />
+<meta name="generator" content="Org Mode" />
+<link rel="stylesheet" type="text/css" href="https://dynaroars.github.io/files/org.css"/>
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">CS695 (Fall 2023): AI Safety and Assurance (or AI Verification)</h1>
+<pre class="example">
+Instructor: ThanhVu (Vu) Nguyen
+Meetings: TBD
+
+Email: tvn@gmu.edu
+Office: 4430 Nguyen Engineering Building
+Office Hours: by appointment
+</pre>
+
+<div id="outline-container-orgf2afcae" class="outline-2">
+<h2 id="orgf2afcae">Description</h2>
+<div class="outline-text-2" id="text-orgf2afcae">
+<p>
+This special topics course is a research seminar on <b><b>AI Verification and Analysis</b></b>.
+The course will focus on active research areas in formal AI reasoning,
+but the specific topics will be largely determined by a
+combination of instructor fiat and the interests of the students.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org029d37d" class="outline-2">
+<h2 id="org029d37d">Prerequiste</h2>
+<div class="outline-text-2" id="text-org029d37d">
+<ul class="org-ul">
+<li>No prerequiste courses (but knowledge in linear algebra is strongly recommended)</li>
+<li>Programming knowledge (preferrably Python): capable of developing a project of roughly about 1000 LoCs</li>
+</ul>
+</div>
+</div>
+
+
+<div id="outline-container-org8902012" class="outline-2">
+<h2 id="org8902012">Grading</h2>
+<div class="outline-text-2" id="text-org8902012">
+<p>
+You will be evaluated based on
+</p>
+<ol class="org-ol">
+<li>weekly reading assignments and discussions,</li>
+<li>a programming project</li>
+</ol>
+</div>
+
+<div id="outline-container-org0b0e1d7" class="outline-3">
+<h3 id="org0b0e1d7">Reading and Discussion (<a href="assignments.html">Schedule and Assignments</a>)</h3>
+<div class="outline-text-3" id="text-org0b0e1d7">
+<p>
+We will read papers covering various topics including the applications
+of verification, testing, analysis, constraint solving, and abstraction
+techniques to Deep Neural Networks such as Feedforward Neural Networks
+(FNNs), Residual Networks (ResNet), Convolutional Neural Networks
+(CNNs), and Recurrent Neural Networks (RNNs).
+</p>
+
+<p>
+On average, we will discuss <b><b>two  papers</b></b> a week (~50 minutes to each paper). 
+You are responsible for reading the sasigned papers in advance for any given discussion.
+</p>
+
+<p>
+Each student will be assigned to <b><b>lead a paper</b></b> that talks about a technique
+</p>
+<ul class="org-ul">
+<li>You will present <b><b>in depth</b></b> the paper you read
+<ul class="org-ul">
+<li>You will need to do a Powerpoint presentation style</li>
+<li>This include providing concrete examples illustrating how the technique</li>
+</ul></li>
+<li>You will guide the discussion</li>
+<li><b><b>Tools</b></b>: Usually each research paper has a free implementation
+tool. I will take into account when evaluating if you try out the
+tool and discuss some interesting things that it can or cannot do
+(e.g., try the the tool on some small but nontrivial examples). This
+will help you understand the readings better and give you ideas on
+how to use existing tools in your own work.</li>
+</ul>
+
+<p>
+At the beginning of <b><b>each paper</b></b> discussion I will choose at random up to
+<b><b>three students</b></b> who is <b>not</b> the paper.
+</p>
+<ul class="org-ul">
+<li>Each student will give a <b><b>five-minute</b></b> presentation that at least
+<ol class="org-ol">
+<li>the problem (what is it? why is it interesting?)</li>
+<li>existing approaches (what are they? what are their limitations?)</li>
+<li>the proposed technical approach (also talk about the strengths of approach and how the approach addresses the weaknesses of  existing works)</li>
+<li>limitations of the proposed approach and lists ways in which it might be improved.</li>
+</ol></li>
+
+<li>The goals of this approach are to encourage all participants to read the material thoroughly in advance, to provide jumping-off points for detailed discussions, and to allow me to evaluate participation.</li>
+</ul>
+</div>
+</div>
+
+
+<div id="outline-container-org38078c0" class="outline-3">
+<h3 id="org38078c0">Project</h3>
+<div class="outline-text-3" id="text-org38078c0">
+<p>
+Each student will understand in depth (or own) a DNN analysis technique.  This technique is from one of the papers you lead.  Your project consists of 2 parts
+</p>
+</div>
+
+<div id="outline-container-orgc2a275b" class="outline-4">
+<h4 id="orgc2a275b">Example Illustration</h4>
+<div class="outline-text-4" id="text-orgc2a275b">
+<ul class="org-ul">
+<li>You will write a "blog" describing full concrete example illustrating the DNN technique assigned to you. This example will be due <b><b>2 weeks</b></b> after the paper is read.</li>
+
+<li>Format
+<ul class="org-ul">
+<li>Written in <b>Markdown</b></li>
+<li>Posted on the class's wiki</li>
+<li>Consist of a full illustration on how the technique works on a given example (e.g., how Reluplex works on a simple DNN).</li>
+</ul></li>
+</ul>
+</div>
+</div>
+
+
+<div id="outline-container-orgf6e7461" class="outline-4">
+<h4 id="orgf6e7461">Programming Project (<a href="project.html">Project Info</a>)</h4>
+<div class="outline-text-4" id="text-orgf6e7461">
+<ul class="org-ul">
+<li>You will implement the DNN analysis technique using Python.
+<ul class="org-ul">
+<li>You will be given some example code in Python.</li>
+<li>If you prefer a different language, talk to me first.</li>
+</ul></li>
+<li>In your "blog" entry above, you will write  how you apply your implementation to the example illustration you had.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+
+
+<div id="outline-container-orge937c56" class="outline-2">
+<h2 id="orge937c56">Honor Code</h2>
+<div class="outline-text-2" id="text-orge937c56">
+<p>
+As with all GMU courses, this class governed by the <a href="http://oai.gmu.edu/the-mason-honor-code/">GMU Honor Code</a>. In this course, all assignments carry with them an implicit statement that it is the sole work of the author.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org244599d" class="outline-2">
+<h2 id="org244599d">Learning Disabilities</h2>
+<div class="outline-text-2" id="text-org244599d">
+<p>
+Students with learning disabilities (or other conditions documented with GMU Office of Disability Services) who need academic accommodations should see me and contact the <a href="http://ods.gmu.edu/">Disability Resource Center</a> (DRC) at (703)993-2474. I am more than happy to assist you, but all academic accommodations must be arranged through the DRC.
+</p>
+</div>
+</div>
+
+
+<div id="outline-container-orgbaf478f" class="outline-2">
+<h2 id="orgbaf478f">Links</h2>
+<div class="outline-text-2" id="text-orgbaf478f">
+<ul class="org-ul">
+<li><a href="assignments.html">Schedule and Assignments</a></li>
+<li><a href="project.html">Project Info</a></li>
+</ul>
+</div>
+</div>
+</div>
+</body>
+</html>
