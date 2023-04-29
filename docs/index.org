@@ -32,7 +32,7 @@ You will be evaluated based on
 1. weekly reading assignments and discussions,
 2. a programming project
 
-** Reading and Discussion ([[file:assignments.org][Schedule and Assignments]])
+** Reading and Discussion ([[https://github.com/nguyenthanhvuh/class-verification/wiki/reading][Reading Assignments]])
 
 We will read papers covering various topics including the applications
 of verification, testing, analysis, constraint solving, and abstraction
@@ -86,7 +86,6 @@ Each student will understand in depth (or own) a DNN analysis technique.  This t
 - In your "blog" entry above, you will write  how you apply your implementation to the example illustration you had.
 
 
-
 * Honor Code
 
    As with all GMU courses, this class governed by the [[http://oai.gmu.edu/the-mason-honor-code/][GMU Honor Code]]. In this course, all assignments carry with them an implicit statement that it is the sole work of the author.
@@ -96,8 +95,10 @@ Each student will understand in depth (or own) a DNN analysis technique.  This t
    Students with learning disabilities (or other conditions documented with GMU Office of Disability Services) who need academic accommodations should see me and contact the [[http://ods.gmu.edu/][Disability Resource Center]] (DRC) at (703)993-2474. I am more than happy to assist you, but all academic accommodations must be arranged through the DRC.
 
 
-* Links
+* Links 
 - [[file:assignments.org][Schedule and Assignments]]
 - [[file:project.org][Project Info]]
+** Related courses
+- [[https://www.sri.inf.ethz.ch/teaching/reliableai21][Eth Zurich Reliable and Trustworthy Artificial Intelligence]]
 
    
