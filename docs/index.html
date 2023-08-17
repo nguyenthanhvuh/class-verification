@@ -1,193 +1,51 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
-<head>
-<!-- 2023-04-29 Sat 19:41 -->
-<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-<title>CS695 (Fall 2023): AI Safety and Assurance (or simply just AI Verification)</title>
-<meta name="author" content="ThanhVu H. Nguyen" />
-<meta name="generator" content="Org Mode" />
-<link rel="stylesheet" type="text/css" href="https://dynaroars.github.io/files/org.css"/>
-</head>
-<body>
-<div id="content" class="content">
-<h1 class="title">CS695 (Fall 2023): AI Safety and Assurance (or simply just AI Verification)</h1>
-<pre class="example">
-Instructor: ThanhVu (Vu) Nguyen
-Meetings: TBD
+<!DOCTYPE html>
+<html lang="en">
 
-Email: tvn@gmu.edu
-Office: 4430 Nguyen Engineering Building
-Office Hours: by appointment
-</pre>
+  <head>
+    <meta charset="utf-8">
+    <title>CS-695/SWE-699: AI Safety and Assurance</title>
+    <meta name="author" content="AI Safety">
+    <link rel="stylesheet" type="text/css" href="https://dynaroars.github.io/files/org.css">
+    <link rel="icon" href="files/safe-ai.jpg">
+  </head>
 
-<div id="outline-container-org5f517e1" class="outline-2">
-<h2 id="org5f517e1">Description</h2>
-<div class="outline-text-2" id="text-org5f517e1">
-<p>
-This special topics course is a research seminar on <b><b>AI Verification and Analysis</b></b>.
-The course will focus on active research areas in formal AI reasoning,
-but the specific topics will be largely determined by a
-combination of instructor fiat and the interests of the students.
-</p>
-</div>
-</div>
+  <body>
+    <header>
+      <h1>CS-695/SWE-699: AI Safety and Assurance</h1>
+      <table>
+        <tr>
+          <td>
+            <figure>
+              <img src="files/safe-ai.jpg" alt="AI-generated DinoROARS Mascot" title="AI-generated DynoRoars Mascot" width="100">
+            </figure>
+          </td>
+          <td>
+            
+            <ul class="styled">
+              <li data-icon="🧑‍🏫 "> <a href="https://dynaroars.github.io/nguyenthanhvuh">ThanhVu Nguyen</a></li>
+              <li data-icon="✉️ "> <a href="mailto:tvn@gmu.edu">tvn@gmu.edu</a></li>
+              <li data-icon="🏠 ">Innovation Hall 215G</li>
+              <li data-icon="📆 ">4:30 PM -- 7:30 PM Tues</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+    </header>
+    
+    
+    
+      <h2 id="news">News</h2>
 
-<div id="outline-container-org063f8da" class="outline-2">
-<h2 id="org063f8da">Prerequiste</h2>
-<div class="outline-text-2" id="text-org063f8da">
-<ul class="org-ul">
-<li>No prerequiste courses (but knowledge in linear algebra is strongly recommended)</li>
-<li>Programming knowledge (preferrably Python): capable of developing a project of roughly about 1000 LoCs</li>
-</ul>
-</div>
-</div>
-
-
-<div id="outline-container-org9c8bd76" class="outline-2">
-<h2 id="org9c8bd76">Grading</h2>
-<div class="outline-text-2" id="text-org9c8bd76">
-<p>
-You will be evaluated based on
-</p>
-<ol class="org-ol">
-<li>weekly reading assignments and discussions,</li>
-<li>a programming project</li>
-</ol>
-</div>
-
-<div id="outline-container-org7d7822b" class="outline-3">
-<h3 id="org7d7822b">Reading and Discussion (<a href="https://github.com/nguyenthanhvuh/class-verification/wiki/reading">Reading Assignments</a>)</h3>
-<div class="outline-text-3" id="text-org7d7822b">
-<p>
-We will read papers covering various topics including the applications
-of verification, testing, analysis, constraint solving, and abstraction
-techniques to Deep Neural Networks such as Feedforward Neural Networks
-(FNNs), Residual Networks (ResNet), Convolutional Neural Networks
-(CNNs), and Recurrent Neural Networks (RNNs).
-</p>
-
-<p>
-On average, we will discuss <b><b>two  papers</b></b> a week (~50 minutes to each paper). 
-You are responsible for reading the sasigned papers in advance for any given discussion.
-</p>
-
-<p>
-Each student will be assigned to <b><b>lead a paper</b></b> that talks about a technique
-</p>
-<ul class="org-ul">
-<li>You will present <b><b>in depth</b></b> the paper you read
-<ul class="org-ul">
-<li>You will need to do a Powerpoint presentation style</li>
-<li>This include providing concrete examples illustrating how the technique</li>
-</ul></li>
-<li>You will guide the discussion</li>
-<li><b><b>Tools</b></b>: Usually each research paper has a free implementation
-tool. I will take into account when evaluating if you try out the
-tool and discuss some interesting things that it can or cannot do
-(e.g., try the the tool on some small but nontrivial examples). This
-will help you understand the readings better and give you ideas on
-how to use existing tools in your own work.</li>
-</ul>
-
-<p>
-At the beginning of <b><b>each paper</b></b> discussion I will choose at random up to
-<b><b>three students</b></b> who is <b>not</b> the paper.
-</p>
-<ul class="org-ul">
-<li>Each student will give a <b><b>five-minute</b></b> presentation that at least
-<ol class="org-ol">
-<li>the problem (what is it? why is it interesting?)</li>
-<li>existing approaches (what are they? what are their limitations?)</li>
-<li>the proposed technical approach (also talk about the strengths of approach and how the approach addresses the weaknesses of  existing works)</li>
-<li>limitations of the proposed approach and lists ways in which it might be improved.</li>
-</ol></li>
-
-<li>The goals of this approach are to encourage all participants to read the material thoroughly in advance, to provide jumping-off points for detailed discussions, and to allow me to evaluate participation.</li>
-</ul>
-</div>
-</div>
-
-
-<div id="outline-container-orgcfa7b6c" class="outline-3">
-<h3 id="orgcfa7b6c">Project</h3>
-<div class="outline-text-3" id="text-orgcfa7b6c">
-<p>
-Each student will understand in depth (or own) a DNN analysis technique.  This technique is from one of the papers you lead.  Your project consists of 2 parts
-</p>
-</div>
-
-<div id="outline-container-orgd500eda" class="outline-4">
-<h4 id="orgd500eda">Example Illustration</h4>
-<div class="outline-text-4" id="text-orgd500eda">
-<ul class="org-ul">
-<li>You will write a "blog" describing full concrete example illustrating the DNN technique assigned to you. This example will be due <b><b>2 weeks</b></b> after the paper is read.</li>
-
-<li>Format
-<ul class="org-ul">
-<li>Written in <b>Markdown</b></li>
-<li>Posted on the class's wiki</li>
-<li>Consist of a full illustration on how the technique works on a given example (e.g., how Reluplex works on a simple DNN).</li>
-</ul></li>
-</ul>
-</div>
-</div>
-
-
-<div id="outline-container-org37b755a" class="outline-4">
-<h4 id="org37b755a">Programming Project (<a href="project.html">Project Info</a>)</h4>
-<div class="outline-text-4" id="text-org37b755a">
-<ul class="org-ul">
-<li>You will implement the DNN analysis technique using Python.
-<ul class="org-ul">
-<li>You will be given some example code in Python.</li>
-<li>If you prefer a different language, talk to me first.</li>
-</ul></li>
-<li>In your "blog" entry above, you will write  how you apply your implementation to the example illustration you had.</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-
-
-<div id="outline-container-org8ba58b7" class="outline-2">
-<h2 id="org8ba58b7">Honor Code</h2>
-<div class="outline-text-2" id="text-org8ba58b7">
-<p>
-As with all GMU courses, this class governed by the <a href="http://oai.gmu.edu/the-mason-honor-code/">GMU Honor Code</a>. In this course, all assignments carry with them an implicit statement that it is the sole work of the author.
-</p>
-</div>
-</div>
-
-<div id="outline-container-org1e81f1a" class="outline-2">
-<h2 id="org1e81f1a">Learning Disabilities</h2>
-<div class="outline-text-2" id="text-org1e81f1a">
-<p>
-Students with learning disabilities (or other conditions documented with GMU Office of Disability Services) who need academic accommodations should see me and contact the <a href="http://ods.gmu.edu/">Disability Resource Center</a> (DRC) at (703)993-2474. I am more than happy to assist you, but all academic accommodations must be arranged through the DRC.
-</p>
-</div>
-</div>
-
-
-<div id="outline-container-org6f64beb" class="outline-2">
-<h2 id="org6f64beb">Links</h2>
-<div class="outline-text-2" id="text-org6f64beb">
-<ul class="org-ul">
-<li><a href="assignments.html">Schedule and Assignments</a></li>
-<li><a href="project.html">Project Info</a></li>
-</ul>
-</div>
-<div id="outline-container-orge244592" class="outline-3">
-<h3 id="orge244592">Related courses</h3>
-<div class="outline-text-3" id="text-orge244592">
-<ul class="org-ul">
-<li><a href="https://www.sri.inf.ethz.ch/teaching/reliableai21">Eth Zurich Reliable and Trustworthy Artificial Intelligence</a></li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</body>
+      <h2 id="links">Links</h2>
+      <ul>
+        <li><a href="files/syllabus.pdf">Syllabus</a></li>
+        <li><a href="https://github.com/nguyenthanhvuh/class-verification/wiki/reading">Reading List</a></li>
+      </ul>
+      
+    <hr>
+    <footer>
+      <p style="text-align:right">Last updated: <b>August 2023</b></p>
+    </footer>
+  </body>
+  
 </html>

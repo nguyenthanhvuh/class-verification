@@ -1,0 +1,147 @@
+\documentclass[11pt, a4paper]{article}
+\usepackage[inner=1.5cm,outer=1.5cm,top=2.5cm,bottom=2.5cm]{geometry}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage[colorlinks,pagebackref,pdfusetitle,urlcolor=blue,citecolor=blue,linkcolor=red,bookmarksnumbered,plainpages=false]{hyperref}
+
+
+\begin{document}
+\begin{center}
+{\Large \textsc{CS-695/SWE-699: AI Safety and Assurance}}
+\end{center}
+\begin{center}
+Fall 2023
+\end{center}
+%\date{September 26, 2014}
+
+\begin{center}
+\begin{minipage}[t]{.75\textwidth}
+\begin{tabular}{llcccll}
+\toprule
+\textbf{Instructor:} & \href{https://go.gmu.edu/tvn}{ThanhVu Nguyen} & & &  & \textbf{Meetings:} & T 4:30PM -- 7:10PM \\
+\textbf{Email:} &  \href{mailto:tvn@gmu.edu}{tvn@gmu.edu} & & & & \textbf{Place:} & Innovation Hall 215G\\
+\bottomrule
+\end{tabular}
+\end{minipage}
+\end{center}
+
+
+\section*{Description}
+This special topics course is a research seminar on \textbf{\textbf{AI Verification and Analysis}}.
+The course will focus on active research areas in formal AI reasoning,
+but the specific topics will be largely determined by a
+combination of instructor fiat and the interests of the students.
+
+\section*{Prerequisite}
+\begin{itemize}
+\item No prerequisite courses (but knowledge in linear algebra is strongly recommended)
+\item Programming knowledge (preferably Python): capable of developing a project of roughly about 1000 lines of code.
+\end{itemize}
+
+
+\section*{Grading}
+\label{sec:org74f2a9b}
+You will be evaluated based on
+\begin{enumerate}
+\item weekly reading assignments and discussions,
+\item a programming project
+\end{enumerate}
+
+\subsection*{Reading and Discussion (\href{https://github.com/nguyenthanhvuh/class-verification/wiki/reading}{Reading Assignments})}
+\label{sec:org16c195f}
+
+We will read papers covering various topics including the applications
+of verification, testing, analysis, constraint solving, and abstraction
+techniques to Deep Neural Networks such as Feedforward Neural Networks
+(FNNs), Residual Networks (ResNet), Convolutional Neural Networks
+(CNNs), and Recurrent Neural Networks (RNNs).
+
+On average, we will discuss \textbf{\textbf{two  papers}} a week (about an hr for each paper). 
+You are responsible for reading the assigned papers in advance for any given discussion.
+
+Each student will be assigned to \textbf{\textbf{lead a paper}} that talks about a technique
+\begin{itemize}
+\item You will present \textbf{\textbf{in depth}} the paper you read
+\begin{itemize}
+\item You will need to do a Powerpoint presentation style
+\item This include providing concrete examples illustrating how the technique
+\end{itemize}
+\item You will guide the discussion
+\item \textbf{\textbf{Tools}}: Usually each research paper has a free implementation
+tool. I will take into account when evaluating if you try out the
+tool and discuss some interesting things that it can or cannot do
+(e.g., try the the tool on some small but nontrivial examples). This
+will help you understand the readings better and give you ideas on
+how to use existing tools in your own work.
+\end{itemize}
+
+At the beginning of \textbf{\textbf{each paper}} discussion I will choose at random up to
+\textbf{\textbf{three students}} who is \textbf{not} the paper.
+\begin{itemize}
+\item Each student will give a \textbf{five-minute} presentation that at least talk about 
+\begin{enumerate}
+\item the problem (what is it? why is it interesting?)
+\item existing approaches (what are they? what are their limitations?)
+\item the proposed technical approach (also talk about the strengths of approach and how the approach addresses the weaknesses of  existing works)
+\item limitations of the proposed approach and lists ways in which it might be improved.
+\end{enumerate}
+
+\item The goals of this approach are to encourage all participants to read the material thoroughly in advance, to provide jumping-off points for detailed discussions, and to allow me to evaluate participation.
+\end{itemize}
+
+
+\subsection*{Project}
+\label{sec:org6da900e}
+
+Each student will understand in depth (or own) a DNN analysis technique.  This technique is from one of the papers you lead.  Your project consists of 2 parts
+
+\subsubsection*{Example Illustration}
+\label{sec:orga9923fc}
+\begin{itemize}
+\item You will write a "blog" describing full concrete example illustrating the DNN technique assigned to you. This example will be due \textbf{\textbf{2 weeks}} after the paper is read.
+
+\item Format
+\begin{itemize}
+\item Written in \textbf{Markdown}
+\item Posted on the class's wiki
+\item Consist of a full illustration on how the technique works on a given example (e.g., how Reluplex works on a simple DNN).
+\end{itemize}
+\end{itemize}
+
+
+\subsubsection*{Programming Project (\href{project.org}{Project Info})}
+\label{sec:orgb697dba}
+\begin{itemize}
+\item You will implement the DNN analysis technique using Python.
+\begin{itemize}
+\item You will be given some example code in Python.
+\item If you prefer a different language, talk to me first.
+\end{itemize}
+\item In your blog entry above, you will write  how you apply your implementation to the example illustration you had.
+\end{itemize}
+
+
+\section*{Honor Code}
+\label{sec:orgf24f4c5}
+
+As with all GMU courses, this class governed by the \href{http://oai.gmu.edu/the-mason-honor-code/}{GMU Honor Code}. In this course, all assignments carry with them an implicit statement that it is the sole work of the author.
+
+\section*{Learning Disabilities}
+\label{sec:org28deb33}
+
+Students with learning disabilities (or other conditions documented with GMU Office of Disability Services) who need academic accommodations should see me and contact the \href{http://ods.gmu.edu/}{Disability Resource Center} (DRC) at (703) 993-2474. I am more than happy to assist you, but all academic accommodations must be arranged through the DRC.
+
+
+\section*{Links}
+\label{sec:org63a886d}
+\begin{itemize}
+\item \href{assignments.org}{Schedule and Assignments}
+\item \href{project.org}{Project Info}
+\end{itemize}
+
+\subsection*{Relation courses}
+\begin{itemize}
+\item \href{https://www.sri.inf.ethz.ch/teaching/reliableai21}{Eth Zurich Reliable and Trustworthy Artificial  Intelligence}
+\end{itemize}
+
+\end{document} 
