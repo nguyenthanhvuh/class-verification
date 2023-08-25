@@ -1,9 +1,8 @@
-\documentclass[11pt, a4paper]{article}
+\documentclass[11pt]{article}
 \usepackage[inner=1.5cm,outer=1.5cm,top=2.5cm,bottom=2.5cm]{geometry}
 \usepackage{graphicx}
 \usepackage{booktabs}
 \usepackage[colorlinks,pagebackref,pdfusetitle,urlcolor=blue,citecolor=blue,linkcolor=red,bookmarksnumbered,plainpages=false]{hyperref}
-
 
 \begin{document}
 \begin{center}
@@ -18,134 +17,152 @@ Fall 2023
 \begin{minipage}[t]{.75\textwidth}
 \begin{tabular}{llcccll}
   \toprule
-  \textbf{Meetings:} & T 4:30PM -- 7:10PM  & & & & \textbf{Place:} & Innovation Hall 215G\\
+  \textbf{Meetings:} & Tues 4:30PM -- 7:10PM  & & & & \textbf{Place:} & Innovation Hall 215G\\
 \textbf{Instructor:} & \href{https://go.gmu.edu/tvn}{ThanhVu Nguyen} & & &  & \textbf{Email:} &  \href{mailto:tvn@gmu.edu}{tvn@gmu.edu}\\
-\textbf{Office Hr:} & T 11:00AM -- 12:00AM -- 7:10PM  & & & & \textbf{Place:} & ENGR 4430\\
+\textbf{Office Hr:} & Tues 11:00AM -- 12:00AM & & & & \textbf{Place:} & ENGR 4430\\
+&(email to confirm)&&&&&\\
 \midrule
-\textbf{TA:} & \href{https://go.gmu.edu/tvn}{ThanhVu Nguyen} & & &  & \textbf{Email:} &  \href{mailto:tvn@gmu.edu}{tvn@gmu.edu}\\
-\textbf{Office Hr:} & T 11:00AM -- 12:00AM -- 7:10PM  & & & & \textbf{Place:} & ENGR 4430\\
+\textbf{TA:} & Dhiman Goswami & & &  & \textbf{Email:} &  \href{mailto:dgoswam@gmu.edu}{dgoswam@gmu.edu}\\
+\textbf{Office Hr:} & Fri 10:00AM -- 11:00AM  & & & & \textbf{Place:} & ENGR 4456\\
 \bottomrule
 \end{tabular}
 \end{minipage}
 \end{center}
 
 
-\section*{Description}
-This special topics course is a research seminar on \textbf{\textbf{AI Verification and Analysis}}.
+\section{Description}
+This special topic course is a research seminar on \textbf{\textbf{AI Verification and Analysis}}.
+We will learn various AI verification topics including the applications
+of verification, testing, analysis, constraint solving, and abstraction
+techniques to Deep Neural Networks such as Feedforward Neural Networks
+(FNNs), Residual Networks (ResNet), Convolutional Neural Networks
+(CNNs), and Recurrent Neural Networks (RNNs).
+
 The course will focus on active research areas in formal AI reasoning,
 but the specific topics will be largely determined by a
 combination of instructor fiat and the interests of the students.
 
-\section*{Prerequisite}
+
+
+
+\subsection*{Prerequisite}
 \begin{itemize}
 \item No prerequisite courses (but knowledge in linear algebra is strongly recommended)
 \item Programming knowledge (Python)
 \end{itemize}
 
 
-\section*{Grading}
+\section{Grading}
 You will be evaluated based on
 \begin{enumerate}
-\item weekly reading assignments and discussions, (30\%)
-\item 3-4 programming assignments,  (50\%)
-\item 1 final project  (20\%)
+\item Participation:  weekly reading assignments, participation, and summarization (40\%),
+\item Programming assignments: 3--4 PA's (40\%), 
+\item Project: 1 final project  (20\%)
 \end{enumerate}
 
-\subsection*{Reading and Discussion (\href{https://github.com/nguyenthanhvuh/class-verification/wiki/reading}{Reading Assignments})}
+\subsection*{Group and Submission} 
+For your assignments, you can work in \textbf{groups} of 2--3 students.  You can also work by yourself. One member turns in one solution for each assignment. 
+
+Students on a group are expected to participate equally in the effort
+    and to be thoroughly familiar with all aspects of the joint work.
+    All members bear full responsibility for the completion of
+    assignments. 
+    Each member receives the same grade for the assignment.  You may change group for different assignments but groups may not be dissolved in the middle of an assignment.
+\subsection{Participation}
 \label{sec:org16c195f}
 
-We will read papers covering various topics including the applications
-of verification, testing, analysis, constraint solving, and abstraction
-techniques to Deep Neural Networks such as Feedforward Neural Networks
-(FNNs), Residual Networks (ResNet), Convolutional Neural Networks
-(CNNs), and Recurrent Neural Networks (RNNs).
-
-On average, we will discuss \textbf{\textbf{two  papers}} a week (about an hr for each paper). 
+On average, we will have \textbf{\textbf{two reading assignments}} each week (about 45 mins for each reading). 
 You are responsible for reading the assigned papers in advance for any given discussion.
 
-Each student will be assigned to \textbf{\textbf{lead a paper}} that talks about a technique
+\subsubsection{Reading a paper}\label{sec:reading}
+When reading a paper, you should focus on the following questions: 
+\begin{enumerate}
+    \item the \textbf{problem} (what is the problem we are trying to solve? why is it interesting?)
+    \item the limitations of the \textbf{state of the art} (what are existing approaches? what are their limitations?)
+    \item the proposed \textbf{approach} (its novelty, strength, and how it  addresses the weaknesses of  existing work)
+    \item the \textbf{evaluation} and comparison with other approaches (what are the results of the work, how was it evaluated and compared to others?)
+    \item provide \textbf{your thoughts} on the paper (e.g., what you like, what you don't like, what you think is interesting, etc.)
+\end{enumerate}
+    
+\subsubsection{Lead Groups} Each reading will be assigned to a group.  That group will lead the class discussion on that paper. The group will be responsible for the following:
 \begin{itemize}
-\item You will present \textbf{\textbf{in depth}} the paper you read
+\item You will present \textbf{\textbf{in depth}} the paper you read to the class (about 25 mins). You can use slides or whiteboard.
 \begin{itemize}
-\item You will need to do a Powerpoint presentation style
-\item This include providing concrete examples illustrating how the technique
+    \item Your presentation should answer the questions given in Section~\ref{sec:reading}.
+    \item In addition, you will include providing concrete examples illustrating how the technique (usually given in the paper).
 \end{itemize}
-\item You will guide the discussion
+\item After your presentation, you will guide the discussion (15 mins), e.g., ask questions to the class, have the class ask questions and participate in discussion.
+
 \item \textbf{\textbf{Tools}}: Usually each research paper has a free implementation
-tool. I will take into account when evaluating if you try out the
+tool. I will give bonus points if you try out the
 tool and discuss some interesting things that it can or cannot do
 (e.g., try the the tool on some small but nontrivial examples). This
 will help you understand the readings better and give you ideas on
 how to use existing tools in your own work.
 \end{itemize}
 
-At the beginning of \textbf{\textbf{each paper}} discussion I will choose at random up to
-\textbf{\textbf{three students}} who is \textbf{not} the paper.
-\begin{itemize}
-\item Each student will give a \textbf{five-minute} presentation that at least talk about 
-\begin{enumerate}
-\item the problem (what is it? why is it interesting?)
-\item existing approaches (what are they? what are their limitations?)
-\item the proposed technical approach (also talk about the strengths of approach and how the approach addresses the weaknesses of  existing works)
-\item limitations of the proposed approach and lists ways in which it might be improved.
-\end{enumerate}
+\subsubsection{Summarization} 
 
-\item The goals of this approach are to encourage all participants to read the material thoroughly in advance, to provide jumping-off points for detailed discussions, and to allow me to evaluate participation.
-\end{itemize}
+If your group is not assigned to lead the paper, your group will write a 1-page summary of the paper. You will submit it to me and the TA on Piazza \textbf{before} the day of class that we will discuss the paper (i.e., by 4:29 PM Tuesday).  For the summary, you should answer the questions given in Section~\ref{sec:reading}.
 
+The goals of this approach are to encourage all participants to read the material thoroughly in advance, to provide jumping-off points for detailed discussions, and to allow me to evaluate participation.
 
-\subsection*{Project}
+\subsection{Programming Assignments (PA's)}
+
+This course consists of several Programming Assignments (PA's) in Python. These PAs are designed for you to gain fundamental knowledge of state of the art AI analysis. All assignments have similar grading weights.
+
+Your submissions will be evaluated for correctness,
+organization, and documentation. We will not attempt to fix broken
+submissions that fail to execute properly; only limited partial credit will be given in such situations. Assignments are due at \textbf{11:59pm} on the due date.
+
+    
+
+\subsection{Project}
 \label{sec:org6da900e}
 
-Each student will understand in depth (or own) a DNN analysis technique.  This technique is from one of the papers you lead.  Your project consists of 2 parts
+You (your group) will understand in depth (i.e., \emph{own}) an analysis technique.  This technique can be from one of the papers you read or lead.  Your project consists of two parts:
 
-\subsubsection*{Example Illustration}
+\subsubsection{Example Illustration}
 \label{sec:orga9923fc}
 \begin{itemize}
-\item You will write a "blog" describing full concrete example illustrating the DNN technique assigned to you. This example will be due \textbf{\textbf{2 weeks}} after the paper is read.
+\item You will write a ``blog'' describing full concrete example illustrating the DNN technique assigned to you. This example will be \textbf{due \textbf{2 weeks}} after the paper is discussed.
 
 \item Format
 \begin{itemize}
 \item Written in \textbf{Markdown}
-\item Posted on the class's wiki
-\item Consist of a full illustration on how the technique works on a given example (e.g., how Reluplex works on a simple DNN).
+\item Posted on the class's \textbf{Wiki}
+\item Consist of a full illustration on how the technique works on a given example (e.g., how Reluplex works on a simple DNN).  
 \end{itemize}
 \end{itemize}
 
 
-\subsubsection*{Programming Project (\href{project.org}{Project Info})}
+\subsubsection{Implementation}
 \label{sec:orgb697dba}
-\begin{itemize}
-\item You will implement the DNN analysis technique using Python.
-\begin{itemize}
-\item You will be given some example code in Python.
-\item If you prefer a different language, talk to me first.
-\end{itemize}
-\item In your blog entry above, you will write  how you apply your implementation to the example illustration you had.
-\end{itemize}
+
+You will \textbf{implement} the DNN analysis technique using Python. In your blog entry above, you will \textbf{write}  how you apply your implementation to the example illustration you had. The project is \textbf{due on the last day class} (Sat, Dec 2nd).
 
 
-\section*{Honor Code}
+\section{Honor Code}
 \label{sec:orgf24f4c5}
 
 As with all GMU courses, this class governed by the \href{http://oai.gmu.edu/the-mason-honor-code/}{GMU Honor Code}. In this course, all assignments carry with them an implicit statement that it is the sole work of the author.
 
-\section*{Learning Disabilities}
+\section{Learning Disabilities}
 \label{sec:org28deb33}
 
 Students with learning disabilities (or other conditions documented with GMU Office of Disability Services) who need academic accommodations should see me and contact the \href{http://ods.gmu.edu/}{Disability Resource Center} (DRC) at (703) 993-2474. I am more than happy to assist you, but all academic accommodations must be arranged through the DRC.
 
 
-\section*{Links}
-\label{sec:org63a886d}
-\begin{itemize}
-\item \href{assignments.org}{Schedule and Assignments}
-\item \href{project.org}{Project Info}
-\end{itemize}
+% \section{Links}
+% \label{sec:org63a886d}
+% \begin{itemize}
+% \item \href{assignments.org}{Schedule and Assignments}
+% \item \href{project.org}{Project Info}
+% \end{itemize}
 
-\subsection*{Relation courses}
-\begin{itemize}
-\item \href{https://www.sri.inf.ethz.ch/teaching/reliableai21}{Eth Zurich Reliable and Trustworthy Artificial  Intelligence}
-\end{itemize}
+% \subsection{Related courses}
+% \begin{itemize}
+% \item \href{https://www.sri.inf.ethz.ch/teaching/reliableai21}{Eth Zurich Reliable and Trustworthy Artificial  Intelligence}
+% \end{itemize}
 
 \end{document} 
