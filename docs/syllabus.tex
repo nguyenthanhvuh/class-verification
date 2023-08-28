@@ -21,9 +21,6 @@ Fall 2023
 \textbf{Instructor:} & \href{https://go.gmu.edu/tvn}{ThanhVu Nguyen} & & &  & \textbf{Email:} &  \href{mailto:tvn@gmu.edu}{tvn@gmu.edu}\\
 \textbf{Office Hr:} & Tues 11:00AM -- 12:00AM & & & & \textbf{Place:} & ENGR 4430\\
 &(email to confirm)&&&&&\\
-\midrule
-\textbf{TA:} & Dhiman Goswami & & &  & \textbf{Email:} &  \href{mailto:dgoswam@gmu.edu}{dgoswam@gmu.edu}\\
-\textbf{Office Hr:} & Fri 10:00AM -- 11:00AM  & & & & \textbf{Place:} & ENGR 4456\\
 \bottomrule
 \end{tabular}
 \end{minipage}
@@ -47,7 +44,7 @@ combination of instructor fiat and the interests of the students.
 
 \subsection*{Prerequisite}
 \begin{itemize}
-\item No prerequisite courses (but knowledge in linear algebra is strongly recommended)
+\item No prerequisite course (but basic knowledge in linear algebra and AI/ML, e.g., CS 580, is strongly recommended)
 \item Programming knowledge (Python)
 \end{itemize}
 
@@ -55,7 +52,7 @@ combination of instructor fiat and the interests of the students.
 \section{Grading}
 You will be evaluated based on
 \begin{enumerate}
-\item Participation:  weekly reading assignments, participation, and summarization (40\%),
+\item Participation:  weekly reading assignments, discussion, and participation (40\%),
 \item Programming assignments: 3--4 PA's (40\%), 
 \item Project: 1 final project  (20\%)
 \end{enumerate}
@@ -71,39 +68,47 @@ Students on a group are expected to participate equally in the effort
 \subsection{Participation}
 \label{sec:org16c195f}
 
-On average, we will have \textbf{\textbf{two reading assignments}} each week (about 45 mins for each reading). 
-You are responsible for reading the assigned papers in advance for any given discussion.
+On average, we will have \textbf{\textbf{two reading assignments}} each week (about 45 mins for each). 
+You are responsible for reading the assignments in advance for any given discussion.  Typically there are two types of reading assignments:  (i) \textbf{chapters} from the Intro of Neural Network Verification book and (ii) from \textbf{research papers}.  
 
-\subsubsection{Reading a paper}\label{sec:reading}
-When reading a paper, you should focus on the following questions: 
+\subsubsection{What to think about for a reading assignment}\label{sec:reading}
+\paragraph{Book Chapter} When reading a chapter, you should read it carefully, try the examples by hand (e.g., on a piece of paper), and think about the following:
+\begin{enumerate}
+    \item  \textbf{What is the problem?} (what is the problem the chapter is devoted to? why is it interesting?)
+    \item \textbf{What is the solution?} (what is the proposed solution? what are its strengths and weaknesses?)
+    \item  provide \textbf{your thoughts} on the reading (e.g., what you like, what you don't like, is it clear?)
+
+\end{enumerate}    
+\paragraph{Research Paper} When reading a paper, you should focus on the following: 
 \begin{enumerate}
     \item the \textbf{problem} (what is the problem we are trying to solve? why is it interesting?)
     \item the limitations of the \textbf{state of the art} (what are existing approaches? what are their limitations?)
-    \item the proposed \textbf{approach} (its novelty, strength, and how it  addresses the weaknesses of  existing work)
+    \item the proposed \textbf{approach} (its novelty, strength, and how it  addresses the weaknesses of  existing work). Typically a paper has an illustrating example, you \emph{should understand it in detail}.
     \item the \textbf{evaluation} and comparison with other approaches (what are the results of the work, how was it evaluated and compared to others?)
     \item provide \textbf{your thoughts} on the paper (e.g., what you like, what you don't like, what you think is interesting, etc.)
-\end{enumerate}
-    
-\subsubsection{Lead Groups} Each reading will be assigned to a group.  That group will lead the class discussion on that paper. The group will be responsible for the following:
-\begin{itemize}
-\item You will present \textbf{\textbf{in depth}} the paper you read to the class (about 25 mins). You can use slides or whiteboard.
-\begin{itemize}
-    \item Your presentation should answer the questions given in Section~\ref{sec:reading}.
-    \item In addition, you will include providing concrete examples illustrating how the technique (usually given in the paper).
-\end{itemize}
-\item After your presentation, you will guide the discussion (15 mins), e.g., ask questions to the class, have the class ask questions and participate in discussion.
-
-\item \textbf{\textbf{Tools}}: Usually each research paper has a free implementation
+    \item \textbf{\textbf{Tools}}: Usually each research paper has a free implementation
 tool. I will give bonus points if you try out the
 tool and discuss some interesting things that it can or cannot do
 (e.g., try the the tool on some small but nontrivial examples). This
 will help you understand the readings better and give you ideas on
 how to use existing tools in your own work.
+\end{enumerate}
+    
+\subsubsection{Lead Groups} Each reading will be assigned to a group.  That group will lead the class discussion on that paper. The group will be responsible for the following:
+\begin{itemize}
+\item You will present \textbf{\textbf{in depth}} the assigned reading to the class (~about 25 mins). You can use slides or whiteboard.
+\begin{itemize}
+    \item Your presentation should answer the questions given in Section~\ref{sec:reading}.
+    \item In addition, if the reading is a \textbf{research paper} and has concrete examples, then your presentation must include and explain those examples in detail.
+\end{itemize}
+\item During your presentation, you will guide the discussion (~15 mins), e.g., ask questions to the class, have the class ask questions and participate in discussion.
+
+
 \end{itemize}
 
 \subsubsection{Summarization} 
 
-If your group is not assigned to lead the paper, your group will write a 1-page summary of the paper. You will submit it to me and the TA on Piazza \textbf{before} the day of class that we will discuss the paper (i.e., by 4:29 PM Tuesday).  For the summary, you should answer the questions given in Section~\ref{sec:reading}.
+If your group is \emph{not assigned} to lead a reading assignment, then your group will write a 1-page summary of the assignment (so 2 pages for 2 reading assignments). You will submit it to me on Piazza \textbf{before} the day of class that we will discuss the paper (i.e., by 4:29 PM Tuesday).  For the summary, you should answer the questions given in Section~\ref{sec:reading}.
 
 The goals of this approach are to encourage all participants to read the material thoroughly in advance, to provide jumping-off points for detailed discussions, and to allow me to evaluate participation.
 
@@ -120,12 +125,12 @@ submissions that fail to execute properly; only limited partial credit will be g
 \subsection{Project}
 \label{sec:org6da900e}
 
-You (your group) will understand in depth (i.e., \emph{own}) an analysis technique.  This technique can be from one of the papers you read or lead.  Your project consists of two parts:
+You (your group) will understand in depth (i.e., \emph{own}) a DNN analysis technique from a research paper. A list of selected papers will be provided and your group will pick one of them (first come first serve).  Your project consists of two parts:
 
 \subsubsection{Example Illustration}
 \label{sec:orga9923fc}
 \begin{itemize}
-\item You will write a ``blog'' describing full concrete example illustrating the DNN technique assigned to you. This example will be \textbf{due \textbf{2 weeks}} after the paper is discussed.
+\item You will write a ``blog'' describing full concrete example illustrating the DNN technique assigned to you. This blog will be \textbf{due \textbf{2 weeks}} after your group is assigned the paper.
 
 \item Format
 \begin{itemize}
