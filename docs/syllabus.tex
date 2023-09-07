@@ -6,10 +6,10 @@
 
 \begin{document}
 \begin{center}
-{\Large \textsc{CS-695/SWE-699: AI Safety and Assurance}}
+{\Large \textsc{CS-695/SWE-699 (Fall '23): AI Safety and Assurance}}
 \end{center}
 \begin{center}
-Fall 2023
+Course Page \url{https://nguyenthanhvuh.github.io/class-verification}
 \end{center}
 %\date{September 26, 2014}
 
@@ -29,25 +29,53 @@ Fall 2023
 
 \section{Description}
 This special topic course is a research seminar on \textbf{\textbf{AI Verification and Analysis}}.
-We will learn various AI verification topics including the applications
+
+AI, in particular Deep Neural Networks (DNNs), have emerged as an effective approach for solving challenging real-world problems. Among many others, they have been used for image recognition, autonomous driving, airplane collision control,
+power grid control, fake news detection, drug synthesis and discovery, 
+and COVID-19 detection and diagnosis.
+
+However, just like traditional software, DNNs can have ``bugs'', e.g., producing unexpected results on inputs that are different from those in training data, and be attacked, e.g., small perturbations to the inputs by a malicious adversary or even sensorial imperfections result in misclassification.
+These issues, which have been observed in many DNNs and demonstrated in the real world,  naturally raise the question of how DNNs should be tested, validated, and ultimately \emph{verified} to meet the requirements of relevant robustness or safety standards.
+
+
+In this class, we will learn various  a variety of techniques and tools to verify DNNs. We will cover topics including the applications
 of verification, testing, analysis, constraint solving, and abstraction
-techniques to Deep Neural Networks such as Feedforward Neural Networks
+techniques to DNNS such as Feedforward Neural Networks
 (FNNs), Residual Networks (ResNet), Convolutional Neural Networks
 (CNNs), and Recurrent Neural Networks (RNNs).
 
-The course will focus on active research areas in formal AI reasoning,
+The course will focus on active research areas in formal AI and DNN reasoning,
 but the specific topics will be largely determined by a
 combination of instructor fiat and the interests of the students.
 
 
 
 
-\subsection*{Prerequisite}
+\subsection{Prerequisite}
 \begin{itemize}
-\item No prerequisite course (but basic knowledge in linear algebra and AI/ML, e.g., CS 580, is strongly recommended)
+\item No prerequisite course (basic knowledge in linear algebra and AI/ML, e.g., CS 580, is strongly recommended)
 \item Programming knowledge (Python)
 \end{itemize}
 
+
+
+\subsection{Learning Outcome}
+
+This class has several learning outcomes:
+\begin{itemize}
+\item \textbf{Understanding of AI Verification Techniques and Tools}: Students will gain a deep understanding of AI verification concepts, techniques, and tools. They will learn how to apply these techniques to various types of neural networks, including FNNs, REsNets, CNNs, and RNNs.  The student will also learn how to use existing tools to analyze and verify DNNs.
+
+\item \textbf{In-Depth Understanding}: For the final project, students will delve deeply into a specific DNN analysis technique. They will not only understand the theory but also be able to provide concrete examples and \emph{implement} the technique themselves, gaining a comprehensive understanding of the chosen topic.  
+
+\item \textbf{Strengthen knowledge in Linear Algebra, AI/ML, and Programming}: Students will develop or strengthen their foundational knowledge in linear algebra and AI/ML, making them well-prepared to tackle advanced topics and real-world problems in AI safety. 
+Programming assignments will require students to implement AI analysis techniques in Python. This will improve their programming skills and their ability to apply theoretical concepts to practical problems.
+
+
+\item \textbf{Critical Reading and Evaluation}: Through weekly reading assignments, students will learn to critically evaluate both book chapters and research papers related to AI verification and analysis. They will be able to identify the problem addressed, assess proposed solutions, analyze the strengths and weaknesses of different approaches, and evaluate and compare related techniques.
+
+\item \textbf{Presentation and Discussion Skills}: Students will have the opportunity to lead group discussions and presentations on assigned readings. This will enhance their presentation and communication skills, as well as their ability to facilitate meaningful discussions among peers.
+
+\end{itemize}
 
 \section{Grading}
 You will be evaluated based on
@@ -58,13 +86,16 @@ You will be evaluated based on
 \end{enumerate}
 
 \subsection*{Group and Submission} 
-For your assignments, you can work in \textbf{groups} of 2--3 students.  You can also work by yourself. One member turns in one solution for each assignment. 
+For your assignments, you can work in \textbf{groups} of 2--3 students.  You can also work by yourself. \emph{Only one member of the group needs to submit the solution for each assignment}. 
 
 Students on a group are expected to participate equally in the effort
     and to be thoroughly familiar with all aspects of the joint work.
     All members bear full responsibility for the completion of
     assignments. 
     Each member receives the same grade for the assignment.  You may change group for different assignments but groups may not be dissolved in the middle of an assignment.
+
+
+Unless specified otherwise, all assignments are submitted through \emph{Blackboard}.  All communication will be through \emph{Piazza}.
 \subsection{Participation}
 \label{sec:org16c195f}
 
