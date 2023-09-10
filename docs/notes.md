@@ -41,32 +41,32 @@
 
 #### DNN Everywhere
 
-![image](graphics/go-game.jpeg) 
-![image](graphics/autonomous-car.jpg) 
-![image](graphics/fake-news.jpg) 
-![image](graphics/covid.jpg) 
+![image](files/graphics/go-game.jpeg) 
+![image](files/graphics/autonomous-car.jpg) 
+![image](files/graphics/fake-news.jpg) 
+![image](files/graphics/covid.jpg) 
 
 #### DNN Problems
 > Bias
 
-![image](graphics/bias-gun1.jpg) 
-![image](graphics/bias-gun2.jpg) 
-![image](graphics/bias-gun3.jpg) 
+![image](files/graphics/bias-gun1.jpg) 
+![image](files/graphics/bias-gun2.jpg) 
+![image](files/graphics/bias-gun3.jpg) 
 
 > Safety
 
-![image](graphics/break-finger.jpeg) 
+![image](files/graphics/break-finger.jpeg) 
 
 
-![image](graphics/car-crashes.jpeg) 
+![image](files/graphics/car-crashes.jpeg) 
 
 > Robustness
 
 
-![image](graphics/adversarial-stoplight.jpg) 
+![image](files/graphics/adversarial-stoplight.jpg) 
 
 
-![image](graphics/adversarial-cancer.jpg) 
+![image](files/graphics/adversarial-cancer.jpg) 
 
 
 
@@ -105,7 +105,7 @@ We mainly focus on verification in this class.
 #### DNNs introduction
 
 - Example: Feedforward Neural Network
-![image](graphics/dnn1.png) 
+![image](files/graphics/dnn1.png) 
   - Fully connected
   - Inputs/Output
   - Relu
