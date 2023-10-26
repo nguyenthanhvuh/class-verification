@@ -1,6 +1,11 @@
 
 # CS695/SWE699: AI Safety and Assurance
 
+# 10/17/2023
+- Talk about PA2
+- Talk about Project
+
+
 # 8/22/2023 (first day of class)
 
 ## Syllabus
