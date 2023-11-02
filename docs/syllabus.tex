@@ -39,13 +39,12 @@ These issues, which have been observed in many DNNs and demonstrated in the real
 In this class, we will learn various techniques and tools to verify DNNs. We will cover topics including the applications
 of verification, testing, analysis, constraint solving, and abstraction
 techniques to DNNS such as Feedforward Neural Networks
-(FNNs), Residual Networks (ResNet), Convolutional Neural Networks
-(CNNs), and Recurrent Neural Networks (RNNs).
+(FNNs), Residual Networks (ResNet), and Convolutional Neural Networks
+(CNNs). We will focus on scalable and precise techniques that can deal with large, real-world DNNS.
 
 The course will focus on active research areas in formal AI and DNN reasoning,
 but the specific topics will be largely determined by a
 combination of instructor fiat and the interests of the students.
-
 
 
 
@@ -104,7 +103,7 @@ You are responsible for reading the assignments in advance for any given discuss
 \begin{enumerate}
     \item  \textbf{What is the problem?} (what is the problem the chapter is devoted to? why is it interesting?)
     \item \textbf{What is the solution?} (what is the proposed solution? what are its strengths and weaknesses?)
-    \item  provide \textbf{your thoughts} on the reading (e.g., what you like, what you don't like, is it clear?)
+    \item  Provide \textbf{your thoughts} on the reading (e.g., what you like, what you don't like, is it clear?)
 
 \end{enumerate}    
 \paragraph{Research Paper} When reading a paper, you should focus on the following: 
@@ -124,19 +123,21 @@ how to use existing tools in your own work.
     
 \subsubsection{Lead Groups} Each reading will be assigned to a group.  That group will lead the class discussion on that reading. The group will be responsible for the following for each reading:
 \begin{itemize}
-\item You will present \textbf{\textbf{in depth}} the assigned reading to the class (about 25 mins). You can use slides or whiteboard.
+\item You will present \textbf{\textbf{in depth}} the assigned reading to the class (about 30 mins). You should use slides or presentation and whiteboard for additional illustration.
 \begin{itemize}
     \item Your presentation should answer the questions given in Section~\ref{sec:reading}.
     \item In addition, if the reading has examples (e.g., book chapters have various examples and research papers often have working examples or small code illustration), then your presentation must include and explain those in detail.
 \end{itemize}
-\item You will guide the discussion (~15 mins), e.g., ask questions to the class, engage others to ask questions and participate in discussion.
+\item You will guide the discussion (about 10 mins), e.g., ask questions to the class, engage others to ask questions and participate in discussion.
 
 
 \end{itemize}
 
 \subsubsection{Reading Summaries} 
 
-If your group is \emph{not assigned} to lead a reading assignment, then your group will write a 1-page summary of the assignment (so 2 pages for 2 reading assignments). You will submit it to me on Piazza \textbf{before} the day of class that we will discuss the paper (i.e., by 4:29 PM Tuesday).  For the summary, you should answer the questions given in Section~\ref{sec:reading}.
+If your group is \emph{not assigned} to lead a reading assignment, then your group will write a 1-page summary of the assignment (so 2 pages for 2 reading assignments). 
+If your group \emph{is assigned} to lead a reading assignment, then your group will not need to write the summary of this assignment. However you will still need to write the summary of the other assignments that you were not assigned to lead.
+You will submit it to me on Piazza \textbf{before} the day of class that we will discuss the paper (i.e., by 4:29 PM Tuesday).  For the summary, you should answer the questions given in Section~\ref{sec:reading}.
 
 The goals of this approach are to encourage all participants to read the material thoroughly in advance, to provide jumping-off points for detailed discussions, and to allow me to evaluate participation.
 
@@ -153,27 +154,36 @@ submissions that fail to execute properly; only limited partial credit will be g
 \subsection{Project}
 \label{sec:org6da900e}
 
-You (your group) will understand in depth (i.e., \emph{own}) a DNN analysis technique from a research paper. A list of selected papers will be provided and your group will pick one of them (first come first serve).  Your project consists of two parts:
+You will understand in depth (i.e., \emph{own}) a DNN analysis technique from a research paper, which is also part of the regular weekly reading assignments.  Your group will be assigned one research technique, and your project consists of two parts:
 
 \subsubsection{Example Illustration}
 \label{sec:orga9923fc}
+You will write a ``blog'' describing full concrete example illustrating the DNN technique assigned to you. % This blog will be \textbf{due \textbf{2 weeks}} after your group is assigned the paper.  
+The illustration \emph{consists of a full illustration} on how the technique works on a given example (e.g., how Reluplex works on a the DNN example given in PA1).  
+You can write this in \textbf{Markdown}, so that you can include graphics and other files as needed.
+
+
+
+% \subsubsection{Implementation}
+% \label{sec:orgb697dba}
+
+% You will \textbf{implement} the DNN analysis technique using Python. In your blog entry above, you will \textbf{write}  how you apply your implementation to the example illustration you had. The project is \textbf{due on the last day class} (Sat, Dec 2nd).
+
+\subsubsection{Writing}
+You will describe the DNN analysis algorithm and experimental results.
+
+\paragraph{Algorithm description} In your blog entry above, you will first write \emph{pseudocode} describing how the technique works.  Then you will create subsection describing important components, giving small examples to illustrate the ideas, etc.  This kind of description is often used in many papers you have read throughout the course.  
+
+You are expected to do additional research on the technique you were assigned to. Reading just one paper is likely not enough for you to master that technique, e.g., it might require additional backgrounds.  For example, the PLANET technique relies on many SAT solving concepts (e.g., conflict analysis, learning clause, unit propagations) that we have seen many times from the DNN book and in class.  All of these concepts are popular and can also be found online, e.g., Wikpedia. 
+
+\paragraph{Evaluation} Here you will summarize the results of the technique. These results are from the paper you were given (i.e., you don't need to use external source for this). Here you will talk about
 \begin{itemize}
-\item You will write a ``blog'' describing full concrete example illustrating the DNN technique assigned to you. This blog will be \textbf{due \textbf{2 weeks}} after your group is assigned the paper.
-
-\item Format
-\begin{itemize}
-\item Written in \textbf{Markdown}
-\item Posted on the class's \textbf{Wiki}
-\item Consist of a full illustration on how the technique works on a given example (e.g., how Reluplex works on a simple DNN).  
-\end{itemize}
+    \item what benchmarks were used ?  e.g.,  MNIST, CIFAR-10, etc benchmarks, their sizes (number of neurons, parameters)  and the types of properties (e.g., safety for ACAS models or robustness or something else)
+    \item Briefly describe the tools/techniques that were used for comparison
+    \item Main evaluation results.  For example, for MNIST it performs X for CIFAR it performs Y.  Compared to tool Z it is faster/slower, etc.
 \end{itemize}
 
-
-\subsubsection{Implementation}
-\label{sec:orgb697dba}
-
-You will \textbf{implement} the DNN analysis technique using Python. In your blog entry above, you will \textbf{write}  how you apply your implementation to the example illustration you had. The project is \textbf{due on the last day class} (Sat, Dec 2nd).
-
+The project is \textbf{due on the last day class} (Sat, Dec 2nd).
 
 \section{Honor Code}
 \label{sec:orgf24f4c5}
