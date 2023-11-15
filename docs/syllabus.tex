@@ -1,5 +1,5 @@
 \documentclass[11pt]{article}
-\usepackage[inner=1.5cm,outer=1.5cm,top=2.5cm,bottom=2.5cm]{geometry}
+\usepackage[margin=1in]{geometry}
 \usepackage{graphicx}
 \usepackage{booktabs}
 \usepackage[colorlinks,pagebackref,pdfusetitle,urlcolor=blue,citecolor=blue,linkcolor=red,bookmarksnumbered,plainpages=false]{hyperref}
@@ -28,7 +28,7 @@ Course Page \url{https://nguyenthanhvuh.github.io/class-verification}
 
 
 \section{Description}
-This special topic course is a research seminar on \textbf{\textbf{AI Verification and Analysis}}.  AI, in particular Deep Neural Networks (DNNs), have emerged as an effective approach for solving challenging real-world problems. Among many others, they have been used for image recognition, autonomous driving, airplane collision control,
+This special topic course is a \textbf{research seminar} on \emph{AI Verification and Analysis}.  AI, in particular Deep Neural Networks (DNNs), have emerged as an effective approach for solving challenging real-world problems. Among many others, they have been used for image recognition, autonomous driving, airplane collision control,
 power grid control, fake news detection, drug synthesis and discovery, 
 and COVID-19 detection and diagnosis.
 
@@ -50,7 +50,7 @@ combination of instructor fiat and the interests of the students.
 
 \subsection{Prerequisite}
 \begin{itemize}
-\item No prerequisite course (basic knowledge in linear algebra and AI/ML, e.g., CS 580, is strongly recommended)
+\item No prerequisite courses. However, basic knowledge in linear algebra and AI/ML, e.g., CS 580, is strongly recommended
 \item Programming knowledge (Python)
 \end{itemize}
 
@@ -99,7 +99,8 @@ On average, we will have \textbf{\textbf{two reading assignments}} each week (ab
 You are responsible for reading the assignments in advance for any given discussion.  Typically there are two types of reading assignments:  (i) \textbf{chapters} from a neural networks textbook and (ii) from \textbf{research papers}.  
 
 \subsubsection{What to think about for a reading assignment}\label{sec:reading}
-\paragraph{Book Chapter} When reading from a book, you should read the assigned chapters carefully, try the examples by hand (e.g., on a piece of paper), and think about the following:
+
+\paragraph{Book Chapter} When reading from a book, you should read the assigned chapters carefully, try the examples by hand (e.g., on a piece of paper), and answer the following:
 \begin{enumerate}
     \item  \textbf{What is the problem?} (what is the problem the chapter is devoted to? why is it interesting?)
     \item \textbf{What is the solution?} (what is the proposed solution? what are its strengths and weaknesses?)
@@ -115,10 +116,9 @@ You are responsible for reading the assignments in advance for any given discuss
     \item provide \textbf{your thoughts} on the paper (e.g., what you like, what you don't like, what you think is interesting, etc.)
     \item \textbf{\textbf{Tools}}: Usually each research paper has a free implementation
 tool. I will give bonus points if you try out the
-tool and discuss some interesting things that it can or cannot do
-(e.g., try the the tool on some small but nontrivial examples). This
-will help you understand the readings better and give you ideas on
-how to use existing tools in your own work.
+tool, i.e., downloading and installing the tool on your computer and run it. 
+Then discuss some interesting things that it can or cannot do, e.g., try the the tool on some small but nontrivial examples. 
+This will help you understand the readings better and give you ideas on how to use existing tools in your own work.
 \end{enumerate}
     
 \subsubsection{Lead Groups} Each reading will be assigned to a group.  That group will lead the class discussion on that reading. The group will be responsible for the following for each reading:
@@ -137,13 +137,13 @@ how to use existing tools in your own work.
 
 If your group is \emph{not assigned} to lead a reading assignment, then your group will write a 1-page summary of the assignment (so 2 pages for 2 reading assignments). 
 If your group \emph{is assigned} to lead a reading assignment, then your group will not need to write the summary of this assignment. However you will still need to write the summary of the other assignments that you were not assigned to lead.
-You will submit it to me on Piazza \textbf{before} the day of class that we will discuss the paper (i.e., by 4:29 PM Tuesday).  For the summary, you should answer the questions given in Section~\ref{sec:reading}.
+You will submit it to me on Piazza \textbf{before} the day of class that we will discuss the paper (i.e., by 4:29 PM Tuesday).  \emph{For the summary, you should structure your writing by answering the questions given in Section~\ref{sec:reading}}.
 
 The goals of this approach are to encourage all participants to read the material thoroughly in advance, to provide jumping-off points for detailed discussions, and to allow me to evaluate participation.
 
 \subsection{Programming Assignments (PA's)}
 
-This course consists of several Programming Assignments (PA's) in Python. These PAs are designed for you to gain fundamental knowledge of state of the art AI analysis. All assignments have similar grading weights.
+This course consists of several Programming Assignments (PA's) in Python. These PAs are designed for you to gain fundamental knowledge of state of the art AI analysis. \emph{All assignments have similar grading weights}.
 
 Your submissions will be evaluated for correctness,
 organization, and documentation. We will not attempt to fix broken
@@ -154,7 +154,7 @@ submissions that fail to execute properly; only limited partial credit will be g
 \subsection{Project}
 \label{sec:org6da900e}
 
-Your group will be assigned an analysis technique and you will need to understand it in depth (i.e., \emph{own} it).
+Your group will be assigned an analysis technique and you will need to understand it in depth (i.e., \emph{own} it). You will demonstrate your understanding by providing a full example illustration and description of the algorithm and summarize its results.  \textbf{The NeuralSAT paper \url{https://arxiv.org/pdf/2307.10266.pdf} provides a concrete example to do this.}
 
 \subsubsection{Example Illustration}
 \label{sec:orga9923fc}
@@ -162,7 +162,7 @@ You will describe a full concrete example illustrating the DNN technique assigne
 This writing \emph{must consist of a complete step by step illustration} on how the technique works on a given example (e.g., starting with a concrete DNN and example (e.g., the DNN and property given in PA1), how Reluplex works step by step to derive its result).
 You can write this in \textbf{Markdown} and include graphics and other files as needed.
 
-\textbf{IMPORTANT}: this part \emph{is} the main focus of the project as it demonstrates your understanding of the technique. You will need to do a thorough work on this. 
+\paragraph{IMPORTANT} This part \emph{is} the main focus of the project as it demonstrates your understanding of the technique. You will need to do a thorough work on this.  \textbf{For a concrete illustration example, see \emph{Section 3.1 Illustration of the NeuralSAT paper}.}
 
 % \subsubsection{Implementation}
 % \label{sec:orgb697dba}
@@ -176,6 +176,8 @@ You will describe the DNN analysis algorithm and experimental results.
 
 You are expected to do additional research on the technique you were assigned to. Reading just one paper is likely not enough for you to master that technique, e.g., it might require additional backgrounds.  For example, the PLANET technique relies on many SAT solving concepts (e.g., conflict analysis, learning clause, unit propagations) that we have seen many times from the DNN book and in class.  All of these concepts are popular and can also be found online, e.g., Wikpedia. 
 
+\textbf{For a concrete algorithm description, see \emph{Section 4 of the NeuralSAT paper}.} Also look at Figure 4 for an example of pseudocode.
+
 \paragraph{Evaluation} Here you will summarize the results of the technique. These results are from the paper you were given (i.e., you don't need to use external source for this). Here you will talk about
 \begin{itemize}
     \item what benchmarks were used ?  e.g.,  MNIST, CIFAR-10, etc benchmarks, their sizes (number of neurons, parameters)  and the types of properties (e.g., safety for ACAS models or robustness or something else)
@@ -183,7 +185,8 @@ You are expected to do additional research on the technique you were assigned to
     \item Main evaluation results.  For example, for MNIST it performs X for CIFAR it performs Y.  Compared to tool Z it is faster/slower, etc.
 \end{itemize}
 
-The project is \textbf{due on the last day class} (Sat, Dec 2nd).
+
+\paragraph{Due} The project is \textbf{due on the last day class} (Sat, Dec 2nd).
 
 \section{Honor Code}
 \label{sec:orgf24f4c5}
